@@ -1,0 +1,744 @@
+[
+  {
+    "name": "Arches Cane Chair",
+    "slug": "arches-cane-chair",
+    "path": "/furniture/chairs/arches-cane-chair",
+    "quotePath": "/request-quote/arches-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Aspire Cane Chair",
+    "slug": "aspire-cane-chair",
+    "path": "/furniture/chairs/aspire-cane-chair",
+    "quotePath": "/request-quote/aspire-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Barcelona Cane Armchair",
+    "slug": "barcelona-cane-chair",
+    "path": "/furniture/chairs/barcelona-cane-chair",
+    "quotePath": "/request-quote/barcelona-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Byron Cane Chair",
+    "slug": "byron-cane-chair",
+    "path": "/furniture/chairs/byron-cane-chair",
+    "quotePath": "/request-quote/byron-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Canary Cane Chair",
+    "slug": "canary-cane-chair",
+    "path": "/furniture/chairs/canary-cane-chair",
+    "quotePath": "/request-quote/canary-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Caprio Cane Chair",
+    "slug": "caprio-cane-chair",
+    "path": "/furniture/chairs/caprio-cane-chair",
+    "quotePath": "/request-quote/caprio-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Emperor Rocking Cane Chair",
+    "slug": "emperor-rocking-cane-chair",
+    "path": "/furniture/chairs/emperor-rocking-cane-chair",
+    "quotePath": "/request-quote/emperor-rocking-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Malaga Teal Cushion Cane Chair",
+    "slug": "malaga-cane-chair",
+    "path": "/furniture/chairs/malaga-cane-chair",
+    "quotePath": "/request-quote/malaga-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Sunflower Cane Chair",
+    "slug": "sunflower-cane-chair",
+    "path": "/furniture/chairs/sunflower-cane-chair",
+    "quotePath": "/request-quote/sunflower-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Hawaii Cane Chair",
+    "slug": "hawaii-cane-chair",
+    "path": "/furniture/chairs/hawaii-cane-chair",
+    "quotePath": "/request-quote/hawaii-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Alpha Cane Sofa",
+    "slug": "alpha-cane-sofa",
+    "path": "/furniture/sofas/alpha-cane-sofa",
+    "quotePath": "/request-quote/alpha-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Arches Cane Sofa",
+    "slug": "arches-cane-sofa",
+    "path": "/furniture/sofas/arches-cane-sofa",
+    "quotePath": "/request-quote/arches-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Caprio Cane Sofa",
+    "slug": "caprio-cane-sofa",
+    "path": "/furniture/sofas/caprio-cane-sofa",
+    "quotePath": "/request-quote/caprio-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Claire Cane Sofa",
+    "slug": "claire-cane-sofa",
+    "path": "/furniture/sofas/claire-cane-sofa",
+    "quotePath": "/request-quote/claire-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "kingstorn Cane Sofa",
+    "slug": "kingstorn-cane-sofa",
+    "path": "/furniture/sofas/kingstorn-cane-sofa",
+    "quotePath": "/request-quote/kingstorn-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Andros Cane Sofa",
+    "slug": "andros-cane-sofa",
+    "path": "/furniture/sofas/andros-cane-sofa",
+    "quotePath": "/request-quote/andros-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Aspire Cane Sofa",
+    "slug": "aspire-cane-sofa",
+    "path": "/furniture/sofas/aspire-cane-sofa",
+    "quotePath": "/request-quote/aspire-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Canary Cane Sofa",
+    "slug": "canary-cane-sofa",
+    "path": "/furniture/sofas/canary-cane-sofa",
+    "quotePath": "/request-quote/canary-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Filitheyo Cane Sofa",
+    "slug": "filitheyo-cane-sofa",
+    "path": "/furniture/sofas/filitheyo-cane-sofa",
+    "quotePath": "/request-quote/filitheyo-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Hawaii Cane Sofa",
+    "slug": "hawaii-cane-sofa",
+    "path": "/furniture/sofas/hawaii-cane-sofa",
+    "quotePath": "/request-quote/hawaii-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Ibizza Cane Sofa",
+    "slug": "ibizza-cane-sofa",
+    "path": "/furniture/sofas/ibizza-cane-sofa",
+    "quotePath": "/request-quote/ibizza-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Leica Cane Sofa",
+    "slug": "leica-cane-sofa",
+    "path": "/furniture/sofas/leica-cane-sofa",
+    "quotePath": "/request-quote/leica-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Malaga Cane Sofa",
+    "slug": "malaga-cane-sofa",
+    "path": "/furniture/sofas/malaga-cane-sofa",
+    "quotePath": "/request-quote/malaga-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Milose Cane Sofa",
+    "slug": "milose-cane-sofa",
+    "path": "/furniture/sofas/milose-cane-sofa",
+    "quotePath": "/request-quote/milose-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Pythos Cane Sofa",
+    "slug": "pythos-cane-sofa",
+    "path": "/furniture/sofas/pythos-cane-sofa",
+    "quotePath": "/request-quote/pythos-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Tahiti - Low Seating Cane Sofa",
+    "slug": "tahiti-low-seating-cane-sofa",
+    "path": "/furniture/sofas/tahiti-low-seating-cane-sofa",
+    "quotePath": "/request-quote/tahiti-low-seating-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Andros Cane Swing",
+    "slug": "andros-cane-swing",
+    "path": "/furniture/swings/andros-cane-swing",
+    "quotePath": "/request-quote/andros-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Arches Cane Swing",
+    "slug": "arches-cane-swing",
+    "path": "/furniture/swings/arches-cane-swing",
+    "quotePath": "/request-quote/arches-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Bora Bora Double Seater Cane Swing",
+    "slug": "bora-bora-double-seater-cane-swing",
+    "path": "/furniture/swings/bora-bora-double-seater-cane-swing",
+    "quotePath": "/request-quote/bora-bora-double-seater-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Claire Cane Swing",
+    "slug": "claire-cane-swing",
+    "path": "/furniture/swings/claire-cane-swing",
+    "quotePath": "/request-quote/claire-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Filitheyo Hanging Cane Swing",
+    "slug": "filitheyo-hanging-cane-swing",
+    "path": "/furniture/swings/filitheyo-hanging-cane-swing",
+    "quotePath": "/request-quote/filitheyo-hanging-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Fiscus Cane Swing",
+    "slug": "fiscus-cane-swing",
+    "path": "/furniture/swings/fiscus-cane-swing",
+    "quotePath": "/request-quote/fiscus-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Hawaii Cane Swing",
+    "slug": "hawaii-cane-swing",
+    "path": "/furniture/swings/hawaii-cane-swing",
+    "quotePath": "/request-quote/hawaii-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Leica Cane Swing",
+    "slug": "leica-cane-swing",
+    "path": "/furniture/swings/leica-cane-swing",
+    "quotePath": "/request-quote/leica-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Marcos Cane Swing",
+    "slug": "marcos-cane-swing",
+    "path": "/furniture/swings/marcos-cane-swing",
+    "quotePath": "/request-quote/marcos-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Petra Double Seater Cane Swing",
+    "slug": "petra-double-seater-cane-swing",
+    "path": "/furniture/swings/petra-double-seater-cane-swing",
+    "quotePath": "/request-quote/petra-double-seater-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Streak Double Seater Cane Swing",
+    "slug": "streak-double-seater-cane-swing",
+    "path": "/furniture/swings/streak-double-seater-cane-swing",
+    "quotePath": "/request-quote/streak-double-seater-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Tahiti Cane Swing",
+    "slug": "tahiti-cane-swing",
+    "path": "/furniture/swings/tahiti-cane-swing",
+    "quotePath": "/request-quote/tahiti-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Bora Bora Single Seater Cane Swing",
+    "slug": "bora-bora-single-seater-cane-swing",
+    "path": "/furniture/swings/bora-bora-single-seater-cane-swing",
+    "quotePath": "/request-quote/bora-bora-single-seater-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Caprio Cane Swing",
+    "slug": "caprio-cane-swing",
+    "path": "/furniture/swings/caprio-cane-swing",
+    "quotePath": "/request-quote/caprio-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Malta Cane Swing",
+    "slug": "malta-cane-swing",
+    "path": "/furniture/swings/malta-cane-swing",
+    "quotePath": "/request-quote/malta-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Malta Grand Cane Swing",
+    "slug": "malta-grand-cane-swing",
+    "path": "/furniture/swings/malta-grand-cane-swing",
+    "quotePath": "/request-quote/malta-grand-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Malta Outdoor Cane Swing",
+    "slug": "malta-outdoor-cane-swing",
+    "path": "/furniture/swings/malta-outdoor-cane-swing",
+    "quotePath": "/request-quote/malta-outdoor-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Nebula Cane Swing",
+    "slug": "nebula-cane-swing",
+    "path": "/furniture/swings/nebula-cane-swing",
+    "quotePath": "/request-quote/nebula-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Oland Cane Swing",
+    "slug": "oland-cane-swing",
+    "path": "/furniture/swings/oland-cane-swing",
+    "quotePath": "/request-quote/oland-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Petra Woven Base Cane Swing",
+    "slug": "petra-compact-cane-swing",
+    "path": "/furniture/swings/petra-compact-cane-swing",
+    "quotePath": "/request-quote/petra-compact-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Streak Compact Cane Swing",
+    "slug": "streak-compact-cane-swing",
+    "path": "/furniture/swings/streak-compact-cane-swing",
+    "quotePath": "/request-quote/streak-compact-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Adron G Cane Swing",
+    "slug": "adron-g-cane-swing",
+    "path": "/furniture/swings/adron-g-cane-swing",
+    "quotePath": "/request-quote/adron-g-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Andros F Cane Swing",
+    "slug": "andros-f-cane-swing",
+    "path": "/furniture/swings/andros-f-cane-swing",
+    "quotePath": "/request-quote/andros-f-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Andros W Cane Swing",
+    "slug": "andros-w-cane-swing",
+    "path": "/furniture/swings/andros-w-cane-swing",
+    "quotePath": "/request-quote/andros-w-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Athens Stand Cane Swing",
+    "slug": "athens-stand-cane-swing",
+    "path": "/furniture/swings/athens-stand-cane-swing",
+    "quotePath": "/request-quote/athens-stand-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Axor With Roof Cane Swing",
+    "slug": "axor-with-roof-cane-swing",
+    "path": "/furniture/swings/axor-with-roof-cane-swing",
+    "quotePath": "/request-quote/axor-with-roof-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Filitheyo With Stand Cane Swing",
+    "slug": "filitheyo-with-stand-cane-swing",
+    "path": "/furniture/swings/filitheyo-with-stand-cane-swing",
+    "quotePath": "/request-quote/filitheyo-with-stand-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Filitheyo With Roof Cane Swing",
+    "slug": "filitheyo-with-roof-cane-swing",
+    "path": "/furniture/swings/filitheyo-with-roof-cane-swing",
+    "quotePath": "/request-quote/filitheyo-with-roof-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Malaga With Roof Cane Swing",
+    "slug": "malaga-with-roof-cane-swing",
+    "path": "/furniture/swings/malaga-with-roof-cane-swing",
+    "quotePath": "/request-quote/malaga-with-roof-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Tahiti Stand Cane Swing",
+    "slug": "tahiti-stand-cane-swing",
+    "path": "/furniture/swings/tahiti-stand-cane-swing",
+    "quotePath": "/request-quote/tahiti-stand-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Oldan Cane Swing",
+    "slug": "oldan-cane-swing",
+    "path": "/furniture/swings/oldan-cane-swing",
+    "quotePath": "/request-quote/oldan-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Alpha Cane Table",
+    "slug": "alpha-cane-table",
+    "path": "/furniture/tables/alpha-cane-table",
+    "quotePath": "/request-quote/alpha-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Andros Cane Table",
+    "slug": "andros-cane-table",
+    "path": "/furniture/tables/andros-cane-table",
+    "quotePath": "/request-quote/andros-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Arches Cane Table",
+    "slug": "arches-cane-table",
+    "path": "/furniture/tables/arches-cane-table",
+    "quotePath": "/request-quote/arches-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Claire Cane Table",
+    "slug": "claire-cane-table",
+    "path": "/furniture/tables/claire-cane-table",
+    "quotePath": "/request-quote/claire-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Filitheyo Cane Table",
+    "slug": "filitheyo-cane-table",
+    "path": "/furniture/tables/filitheyo-cane-table",
+    "quotePath": "/request-quote/filitheyo-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Mileos Natural Finish Cane Table",
+    "slug": "mileos-cane-table",
+    "path": "/furniture/tables/mileos-cane-table",
+    "quotePath": "/request-quote/mileos-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "SunFlower Olive Cane Table",
+    "slug": "sunflower-olive-cane-table",
+    "path": "/furniture/tables/sunflower-olive-cane-table",
+    "quotePath": "/request-quote/sunflower-olive-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "SunFlower Yellow Cane Table",
+    "slug": "sunflower-yellow-cane-table",
+    "path": "/furniture/tables/sunflower-yellow-cane-table",
+    "quotePath": "/request-quote/sunflower-yellow-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Tahiti Cane Table",
+    "slug": "tahiti-cane-table",
+    "path": "/furniture/tables/tahiti-cane-table",
+    "quotePath": "/request-quote/tahiti-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Aspire Cane Table",
+    "slug": "aspire-cane-table",
+    "path": "/furniture/tables/aspire-cane-table",
+    "quotePath": "/request-quote/aspire-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Byrons Cane Table",
+    "slug": "byrons-cane-table",
+    "path": "/furniture/tables/byrons-cane-table",
+    "quotePath": "/request-quote/byrons-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Canary Cane Table",
+    "slug": "canary-cane-table",
+    "path": "/furniture/tables/canary-cane-table",
+    "quotePath": "/request-quote/canary-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Caprio Cane Table",
+    "slug": "caprio-cane-table",
+    "path": "/furniture/tables/caprio-cane-table",
+    "quotePath": "/request-quote/caprio-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Hawaii Cane Table",
+    "slug": "hawaii-cane-table",
+    "path": "/furniture/tables/hawaii-cane-table",
+    "quotePath": "/request-quote/hawaii-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Ibizaa Cane Table",
+    "slug": "ibizaa-cane-table",
+    "path": "/furniture/tables/ibizaa-cane-table",
+    "quotePath": "/request-quote/ibizaa-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Luxor Cane Table",
+    "slug": "luxor-cane-table",
+    "path": "/furniture/tables/luxor-cane-table",
+    "quotePath": "/request-quote/luxor-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Malaga Cane Table",
+    "slug": "malaga-cane-table",
+    "path": "/furniture/tables/malaga-cane-table",
+    "quotePath": "/request-quote/malaga-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Malaga  Reactngle Cane Table",
+    "slug": "malaga-reactngle-cane-table",
+    "path": "/furniture/tables/malaga-reactngle-cane-table",
+    "quotePath": "/request-quote/malaga-reactngle-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Malaga Round Cane Table",
+    "slug": "malaga-round-cane-table",
+    "path": "/furniture/tables/malaga-round-cane-table",
+    "quotePath": "/request-quote/malaga-round-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Minorca Cane Table",
+    "slug": "minorca-cane-table",
+    "path": "/furniture/tables/minorca-cane-table",
+    "quotePath": "/request-quote/minorca-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Nebula Cane Table",
+    "slug": "nebula-cane-table",
+    "path": "/furniture/tables/nebula-cane-table",
+    "quotePath": "/request-quote/nebula-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Pythos Cane Table",
+    "slug": "pythos-cane-table",
+    "path": "/furniture/tables/pythos-cane-table",
+    "quotePath": "/request-quote/pythos-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Santorini Cane Table",
+    "slug": "santorini-cane-table",
+    "path": "/furniture/tables/santorini-cane-table",
+    "quotePath": "/request-quote/santorini-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Streak Cane Table",
+    "slug": "streak-cane-table",
+    "path": "/furniture/tables/streak-cane-table",
+    "quotePath": "/request-quote/streak-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Zero Cane Table",
+    "slug": "zero-cane-table",
+    "path": "/furniture/tables/zero-cane-table",
+    "quotePath": "/request-quote/zero-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Pythos Cane Chair",
+    "slug": "pythos-cane-chair",
+    "path": "/furniture/chairs/pythos-cane-chair",
+    "quotePath": "/request-quote/pythos-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Santorini Cane Chair",
+    "slug": "santorini-cane-chair",
+    "path": "/furniture/chairs/santorini-cane-chair",
+    "quotePath": "/request-quote/santorini-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Zero Cane Chair",
+    "slug": "zero-cane-chair",
+    "path": "/furniture/chairs/zero-cane-chair",
+    "quotePath": "/request-quote/zero-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Andros Cane Chair",
+    "slug": "andros-cane-chair",
+    "path": "/furniture/chairs/andros-cane-chair",
+    "quotePath": "/request-quote/andros-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Ibizza Cane Chair",
+    "slug": "ibizza-cane-chair",
+    "path": "/furniture/chairs/ibizza-cane-chair",
+    "quotePath": "/request-quote/ibizza-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Claire Cane Chair",
+    "slug": "claire-cane-chair",
+    "path": "/furniture/chairs/claire-cane-chair",
+    "quotePath": "/request-quote/claire-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Alpha Rocking Cane Chair",
+    "slug": "alpha-rocking-cane-chair",
+    "path": "/furniture/chairs/alpha-rocking-cane-chair",
+    "quotePath": "/request-quote/alpha-rocking-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Alpha Cane Chair",
+    "slug": "alpha-cane-chair",
+    "path": "/furniture/chairs/alpha-cane-chair",
+    "quotePath": "/request-quote/alpha-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Steack Cane Chair",
+    "slug": "steack-cane-chair",
+    "path": "/furniture/chairs/steack-cane-chair",
+    "quotePath": "/request-quote/steack-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Tahiti Cane Chair",
+    "slug": "tahiti-cane-chair",
+    "path": "/furniture/chairs/tahiti-cane-chair",
+    "quotePath": "/request-quote/tahiti-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Condo Cane Chair",
+    "slug": "condo-cane-chair",
+    "path": "/furniture/chairs/condo-cane-chair",
+    "quotePath": "/request-quote/condo-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "luyor With Footrest Cane Chair",
+    "slug": "luyor-with-footrest-cane-chair",
+    "path": "/furniture/chairs/luyor-with-footrest-cane-chair",
+    "quotePath": "/request-quote/luyor-with-footrest-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Filitheyo Cane Chair",
+    "slug": "filitheyo-cane-chair",
+    "path": "/furniture/chairs/filitheyo-cane-chair",
+    "quotePath": "/request-quote/filitheyo-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Nebula Revolving Cane Chair",
+    "slug": "nebula-revolving-cane-chair",
+    "path": "/furniture/chairs/nebula-revolving-cane-chair",
+    "quotePath": "/request-quote/nebula-revolving-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Minorca Cane Chair",
+    "slug": "minorca-cane-chair",
+    "path": "/furniture/chairs/minorca-cane-chair",
+    "quotePath": "/request-quote/minorca-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Mileos Green Finish Cane Chair",
+    "slug": "mileos-cane-chair",
+    "path": "/furniture/chairs/mileos-cane-chair",
+    "quotePath": "/request-quote/mileos-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Barcelona Armless Cane Chair",
+    "slug": "barcelona-armless-cane-chair",
+    "path": "/furniture/chairs/barcelona-armless-cane-chair",
+    "quotePath": "/request-quote/barcelona-armless-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Malaga Blue Cushion Cane Chair",
+    "slug": "malaga-blue-cushion-cane-chair",
+    "path": "/furniture/chairs/malaga-blue-cushion-cane-chair",
+    "quotePath": "/request-quote/malaga-blue-cushion-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Mileos Natural Finish Cane Chair",
+    "slug": "mileos-natural-finish-cane-chair",
+    "path": "/furniture/chairs/mileos-natural-finish-cane-chair",
+    "quotePath": "/request-quote/mileos-natural-finish-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Petra Open Frame Cane Swing",
+    "slug": "petra-open-frame-cane-swing",
+    "path": "/furniture/swings/petra-open-frame-cane-swing",
+    "quotePath": "/request-quote/petra-open-frame-cane-swing",
+    "category": "swings"
+  },
+  {
+    "name": "Mileos Green Finish Cane Table",
+    "slug": "mileos-green-finish-cane-table",
+    "path": "/furniture/tables/mileos-green-finish-cane-table",
+    "quotePath": "/request-quote/mileos-green-finish-cane-table",
+    "category": "tables"
+  },
+  {
+    "name": "Hawaii Collection Cane Chair",
+    "slug": "hawaii-collection-cane-chair",
+    "path": "/furniture/chairs/hawaii-collection-cane-chair",
+    "quotePath": "/request-quote/hawaii-collection-cane-chair",
+    "category": "chairs"
+  },
+  {
+    "name": "Filitheyo Collection Cane Sofa",
+    "slug": "filitheyo-collection-cane-sofa",
+    "path": "/furniture/sofas/filitheyo-collection-cane-sofa",
+    "quotePath": "/request-quote/filitheyo-collection-cane-sofa",
+    "category": "sofas"
+  },
+  {
+    "name": "Claire Collection Cane Table",
+    "slug": "claire-collection-cane-table",
+    "path": "/furniture/tables/claire-collection-cane-table",
+    "quotePath": "/request-quote/claire-collection-cane-table",
+    "category": "tables"
+  }
+]

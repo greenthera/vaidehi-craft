@@ -1,0 +1,877 @@
+[
+  {
+    "source": "/chair-1/arches",
+    "destination": "/furniture/chairs/arches-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/arches/request-quote",
+    "destination": "/request-quote/arches-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/aspire",
+    "destination": "/furniture/chairs/aspire-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/aspire/request-quote",
+    "destination": "/request-quote/aspire-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/barcelona",
+    "destination": "/furniture/chairs/barcelona-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/barcelona/request-quote",
+    "destination": "/request-quote/barcelona-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/byron",
+    "destination": "/furniture/chairs/byron-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/byron/request-quote",
+    "destination": "/request-quote/byron-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/canary",
+    "destination": "/furniture/chairs/canary-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/canary/request-quote",
+    "destination": "/request-quote/canary-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/caprio",
+    "destination": "/furniture/chairs/caprio-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/caprio/request-quote",
+    "destination": "/request-quote/caprio-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/emperor-roking",
+    "destination": "/furniture/chairs/emperor-rocking-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/emperor-roking/request-quote",
+    "destination": "/request-quote/emperor-rocking-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/malaga",
+    "destination": "/furniture/chairs/malaga-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/malaga/request-quote",
+    "destination": "/request-quote/malaga-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/sunflower",
+    "destination": "/furniture/chairs/sunflower-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-1/sunflower/request-quote",
+    "destination": "/request-quote/sunflower-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-2/malaga",
+    "destination": "/furniture/chairs/malaga-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-2/malaga/request-quote",
+    "destination": "/request-quote/malaga-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-3/hawaii",
+    "destination": "/furniture/chairs/hawaii-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chair-3/hawaii/request-quote",
+    "destination": "/request-quote/hawaii-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/chairs",
+    "destination": "/furniture/chairs",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/alpha",
+    "destination": "/furniture/sofas/alpha-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/alpha/request-quote",
+    "destination": "/request-quote/alpha-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/arches",
+    "destination": "/furniture/sofas/arches-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/arches/request-quote",
+    "destination": "/request-quote/arches-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/caprio",
+    "destination": "/furniture/sofas/caprio-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/caprio/request-quote",
+    "destination": "/request-quote/caprio-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/clair",
+    "destination": "/furniture/sofas/claire-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/clair/request-quote",
+    "destination": "/request-quote/claire-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/kingstorn",
+    "destination": "/furniture/sofas/kingstorn-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-1/kingstorn/request-quote",
+    "destination": "/request-quote/kingstorn-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/andros",
+    "destination": "/furniture/sofas/andros-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/andros/request-quote",
+    "destination": "/request-quote/andros-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/aspire",
+    "destination": "/furniture/sofas/aspire-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/aspire/request-quote",
+    "destination": "/request-quote/aspire-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/canary",
+    "destination": "/furniture/sofas/canary-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/canary/request-quote",
+    "destination": "/request-quote/canary-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/filitheyo",
+    "destination": "/furniture/sofas/filitheyo-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/filitheyo/request-quote",
+    "destination": "/request-quote/filitheyo-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/hawaii",
+    "destination": "/furniture/sofas/hawaii-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/hawaii/request-quote",
+    "destination": "/request-quote/hawaii-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/ibizza",
+    "destination": "/furniture/sofas/ibizza-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/ibizza/request-quote",
+    "destination": "/request-quote/ibizza-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/leica",
+    "destination": "/furniture/sofas/leica-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/leica/request-quote",
+    "destination": "/request-quote/leica-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/malaga",
+    "destination": "/furniture/sofas/malaga-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/malaga/request-quote",
+    "destination": "/request-quote/malaga-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/milose",
+    "destination": "/furniture/sofas/milose-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/milose/request-quote",
+    "destination": "/request-quote/milose-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/pythos",
+    "destination": "/furniture/sofas/pythos-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/pythos/request-quote",
+    "destination": "/request-quote/pythos-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/tahiti-low-seating",
+    "destination": "/furniture/sofas/tahiti-low-seating-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-2/tahiti-low-seating/request-quote",
+    "destination": "/request-quote/tahiti-low-seating-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-3/filitheyo",
+    "destination": "/furniture/sofas/filitheyo-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofa-3/filitheyo/request-quote",
+    "destination": "/request-quote/filitheyo-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/sofas",
+    "destination": "/furniture/sofas",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/andros",
+    "destination": "/furniture/swings/andros-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/andros/request-quote",
+    "destination": "/request-quote/andros-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/arches",
+    "destination": "/furniture/swings/arches-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/arches/request-quote",
+    "destination": "/request-quote/arches-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/bora-bora",
+    "destination": "/furniture/swings/bora-bora-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/bora-bora/request-quote",
+    "destination": "/request-quote/bora-bora-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/claire",
+    "destination": "/furniture/swings/claire-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/claire/request-quote",
+    "destination": "/request-quote/claire-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/filitheyo",
+    "destination": "/furniture/swings/filitheyo-hanging-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/filitheyo/request-quote",
+    "destination": "/request-quote/filitheyo-hanging-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/fiscus",
+    "destination": "/furniture/swings/fiscus-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/fiscus/request-quote",
+    "destination": "/request-quote/fiscus-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/hawaii",
+    "destination": "/furniture/swings/hawaii-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/hawaii/request-quote",
+    "destination": "/request-quote/hawaii-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/leica",
+    "destination": "/furniture/swings/leica-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/leica/request-quote",
+    "destination": "/request-quote/leica-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/marcos",
+    "destination": "/furniture/swings/marcos-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/marcos/request-quote",
+    "destination": "/request-quote/marcos-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/petra",
+    "destination": "/furniture/swings/petra-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/petra/request-quote",
+    "destination": "/request-quote/petra-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/streak",
+    "destination": "/furniture/swings/streak-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/streak/request-quote",
+    "destination": "/request-quote/streak-double-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/tahiti",
+    "destination": "/furniture/swings/tahiti-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-1/tahiti/request-quote",
+    "destination": "/request-quote/tahiti-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/bora-bora",
+    "destination": "/furniture/swings/bora-bora-single-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/bora-bora/request-quote",
+    "destination": "/request-quote/bora-bora-single-seater-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/caprio",
+    "destination": "/furniture/swings/caprio-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/caprio/request-quote",
+    "destination": "/request-quote/caprio-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta",
+    "destination": "/furniture/swings/malta-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta/request-quote",
+    "destination": "/request-quote/malta-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta-grand",
+    "destination": "/furniture/swings/malta-grand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta-grand/request-quote",
+    "destination": "/request-quote/malta-grand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta-outdoor",
+    "destination": "/furniture/swings/malta-outdoor-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/malta-outdoor/request-quote",
+    "destination": "/request-quote/malta-outdoor-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/nebula",
+    "destination": "/furniture/swings/nebula-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/nebula/request-quote",
+    "destination": "/request-quote/nebula-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/oland",
+    "destination": "/furniture/swings/oland-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/oland/request-quote",
+    "destination": "/request-quote/oland-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/petra",
+    "destination": "/furniture/swings/petra-compact-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/petra/request-quote",
+    "destination": "/request-quote/petra-compact-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/streak",
+    "destination": "/furniture/swings/streak-compact-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-2/streak/request-quote",
+    "destination": "/request-quote/streak-compact-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/adron-g",
+    "destination": "/furniture/swings/adron-g-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/adron-g/request-quote",
+    "destination": "/request-quote/adron-g-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/andros-f",
+    "destination": "/furniture/swings/andros-f-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/andros-f/request-quote",
+    "destination": "/request-quote/andros-f-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/andros-w",
+    "destination": "/furniture/swings/andros-w-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/andros-w/request-quote",
+    "destination": "/request-quote/andros-w-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/athens-stand",
+    "destination": "/furniture/swings/athens-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/athens-stand/request-quote",
+    "destination": "/request-quote/athens-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/axor-with-roof",
+    "destination": "/furniture/swings/axor-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/axor-with-roof/request-quote",
+    "destination": "/request-quote/axor-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/filitheyo",
+    "destination": "/furniture/swings/filitheyo-with-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/filitheyo/request-quote",
+    "destination": "/request-quote/filitheyo-with-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/filitheyo-whit-roof",
+    "destination": "/furniture/swings/filitheyo-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/filitheyo-whit-roof/request-quote",
+    "destination": "/request-quote/filitheyo-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/malaga-with-roof",
+    "destination": "/furniture/swings/malaga-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/malaga-with-roof/request-quote",
+    "destination": "/request-quote/malaga-with-roof-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/tahiti-stand",
+    "destination": "/furniture/swings/tahiti-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-3/tahiti-stand/request-quote",
+    "destination": "/request-quote/tahiti-stand-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-4/oldan",
+    "destination": "/furniture/swings/oldan-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swing-4/oldan/request-quote",
+    "destination": "/request-quote/oldan-cane-swing",
+    "permanent": true
+  },
+  {
+    "source": "/swings",
+    "destination": "/furniture/swings",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/alpha",
+    "destination": "/furniture/tables/alpha-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/alpha/request-quote",
+    "destination": "/request-quote/alpha-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/andros",
+    "destination": "/furniture/tables/andros-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/andros/request-quote",
+    "destination": "/request-quote/andros-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/arches",
+    "destination": "/furniture/tables/arches-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/arches/request-quote",
+    "destination": "/request-quote/arches-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/claire",
+    "destination": "/furniture/tables/claire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/claire/request-quote",
+    "destination": "/request-quote/claire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/filitheyo",
+    "destination": "/furniture/tables/filitheyo-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/filitheyo/request-quote",
+    "destination": "/request-quote/filitheyo-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/mileos",
+    "destination": "/furniture/tables/mileos-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/mileos/request-quote",
+    "destination": "/request-quote/mileos-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/sunflower-olive",
+    "destination": "/furniture/tables/sunflower-olive-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/sunflower-olive/request-quote",
+    "destination": "/request-quote/sunflower-olive-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/sunflower-yellow",
+    "destination": "/furniture/tables/sunflower-yellow-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/sunflower-yellow/request-quote",
+    "destination": "/request-quote/sunflower-yellow-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/tahiti",
+    "destination": "/furniture/tables/tahiti-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-1/tahiti/request-quote",
+    "destination": "/request-quote/tahiti-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/aspire",
+    "destination": "/furniture/tables/aspire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/aspire/request-quote",
+    "destination": "/request-quote/aspire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/byrons",
+    "destination": "/furniture/tables/byrons-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/byrons/request-quote",
+    "destination": "/request-quote/byrons-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/canary",
+    "destination": "/furniture/tables/canary-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/canary/request-quote",
+    "destination": "/request-quote/canary-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/caprio",
+    "destination": "/furniture/tables/caprio-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/caprio/request-quote",
+    "destination": "/request-quote/caprio-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/hawaii",
+    "destination": "/furniture/tables/hawaii-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/hawaii/request-quote",
+    "destination": "/request-quote/hawaii-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/ibizaa",
+    "destination": "/furniture/tables/ibizaa-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/ibizaa/request-quote",
+    "destination": "/request-quote/ibizaa-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/luxor",
+    "destination": "/furniture/tables/luxor-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/luxor/request-quote",
+    "destination": "/request-quote/luxor-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga",
+    "destination": "/furniture/tables/malaga-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga/request-quote",
+    "destination": "/request-quote/malaga-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga-reactngle",
+    "destination": "/furniture/tables/malaga-reactngle-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga-reactngle/request-quote",
+    "destination": "/request-quote/malaga-reactngle-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga-round",
+    "destination": "/furniture/tables/malaga-round-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/malaga-round/request-quote",
+    "destination": "/request-quote/malaga-round-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/minorca",
+    "destination": "/furniture/tables/minorca-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/minorca/request-quote",
+    "destination": "/request-quote/minorca-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/nebula",
+    "destination": "/furniture/tables/nebula-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/nebula/request-quote",
+    "destination": "/request-quote/nebula-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/pythos",
+    "destination": "/furniture/tables/pythos-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/pythos/request-quote",
+    "destination": "/request-quote/pythos-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/santorini",
+    "destination": "/furniture/tables/santorini-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/santorini/request-quote",
+    "destination": "/request-quote/santorini-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/streak",
+    "destination": "/furniture/tables/streak-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/streak/request-quote",
+    "destination": "/request-quote/streak-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/zero",
+    "destination": "/furniture/tables/zero-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-2/zero/request-quote",
+    "destination": "/request-quote/zero-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-3/claire",
+    "destination": "/furniture/tables/claire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/table-3/claire/request-quote",
+    "destination": "/request-quote/claire-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/tables",
+    "destination": "/furniture/tables",
+    "permanent": true
+  },
+  {
+    "source": "/contact-us",
+    "destination": "/contact",
+    "permanent": true
+  }
+]

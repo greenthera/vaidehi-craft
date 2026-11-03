@@ -1,69 +1,66 @@
 import Image from "next/image";
+import Link from "next/link";
+import { SiteFooter } from "@/components/site-footer";
+import { StoreVideo } from "@/components/store-video";
+import { CollectionGallery } from "@/components/collection-gallery";
+import hero from "../../public/images/cane-hanging-chair-curtain-interior.avif";
+import spaces from "../../public/images/curated-cane-living-space.avif";
+import cane from "../../public/images/handwoven-cane-joinery-detail.avif";
+import founder from "../../public/images/siddharrtha-shahh-vaidehi-craft-founder.avif";
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+  return <>
+
+
+    <main id="main-content">
+      <section aria-labelledby="home-title" className="relative min-h-[min(780px,100svh)] bg-[#c1a081] max-[750px]:min-h-[85svh]">
+        <Image src={hero} alt="Cane hanging chair in a sunlit space draped with flowing white curtains" fill priority sizes="100vw" className="object-cover object-[0%_82%]" />
+        <h1 id="home-title" className="absolute inset-x-0 bottom-10 px-5 text-center type-hero text-white max-[750px]:bottom-8">Where every piece is masterpiece.</h1>
+      </section>
+      <div aria-hidden="true" className="h-[5.45214vw] max-[750px]:h-6 bg-[#ede7df]" />
+      <CollectionGallery />
+      <div aria-hidden="true" className="h-[clamp(24px,5.09506vw,96px)] bg-[#ede7df]" />
+
+      <section aria-labelledby="spaces-title" className="relative min-h-[600px] text-white min-[1000px]:min-h-[45.52557vw]">
+        <Image src={spaces} alt="A curated living space with cane furniture, woven wall art and warm lighting" fill sizes="100vw" className="object-cover object-[0%_5%]" />
+        <p className="relative ml-auto mr-[5%] w-[min(290px,62%)] pt-8 type-spaces-copy [text-shadow:0_1px_4px_#0009] md:mr-[12%] md:pt-[3vw] min-[1200px]:mr-[23%] min-[1200px]:w-[18%]">We don&apos;t just create furniture; we craft environment. From home to offices and commercial spaces, our expertise lies in enhancing entire spaces with thoughtfully curated designs that seamlessly blend functionality and artistry, bringing your vision to life.</p>
+        <h2 id="spaces-title" className="absolute bottom-[9%] left-[5%] max-w-[90%] type-spaces-title [text-shadow:0_1px_4px_#0009] md:left-[11.25%]">Beyond Furniture:<br />Transforming Spaces.</h2>
+      </section>
+      <div className="flex min-h-24 items-center justify-center bg-white py-5">
+        <Link href="/furniture/sofas" className="flex min-h-11 min-w-[142px] items-center justify-center border border-black px-5 text-sm transition-colors hover:bg-black hover:text-white">EXPLORE</Link>
+      </div>
+
+      <section aria-labelledby="store-title" className="grid bg-white min-[900px]:min-h-[55.66723vw] min-[900px]:grid-cols-2">
+        <div className="flex min-w-0 flex-col justify-center gap-7 px-6 py-12 type-store-copy text-[#b4581a] sm:px-[10%] min-[900px]:py-[8vw]">
+          <h2 id="store-title" className="text-right font-bold [font-family:var(--font-reference-statement)]">Canearth15 Pop-Up Store</h2>
+          <p>Step into timeless elegance and craftsmanship with Canearth15 by Vaidehi Craft. This exclusive pop-up store unveils a curated collection of exquisite cane furniture that celebrates traditional craftsmanship blended with modern aesthetics.</p>
+          <p>Designed with a boho-chic vibe, the store offers an immersive experience, showcasing furniture in a setting that highlights its beauty and functionality. From intricate cane weaves to innovative designs, every piece is a testament to Vaidehi Craft&apos;s dedication to quality, sustainability and elegance.</p>
+          <p className="type-store-last">Explore a space where tradition meets innovation, and discover how the warmth and versatility of cane furniture can transform a space into a haven of comfort and style. At Canearth15, we invite you to experience the story, artistry and heart behind every creation.</p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="min-h-[520px] min-[900px]:min-h-0"><StoreVideo /></div>
+      </section>
+      <div aria-hidden="true" className="h-[clamp(24px,3.08979vw,60px)] bg-white" />
+
+      <section aria-labelledby="cane-title" className="relative flex min-h-[700px] flex-col justify-between gap-12 px-[5%] py-10 text-white min-[1100px]:min-h-[52.58654vw] min-[1100px]:flex-row min-[1100px]:items-end">
+        <Image src={cane} alt="Close-up of hand-wrapped cane joinery and the natural woven material" fill sizes="100vw" className="object-cover object-[0%_26%]" />
+        <div className="relative ml-auto max-w-sm space-y-5 type-cane-copy [text-shadow:0_1px_4px_#0009] min-[1100px]:order-2 min-[1100px]:w-[23%] min-[1100px]:self-start">
+          <p>Cane is the poetry of luxury, a material that bends gracefully into forms bamboo could only dream of. At Vaidehi Craft, we take this exceptional natural wonder and sculpt it into art—functional, elegant, and timeless.</p>
+          <p>This isn’t just furniture; it’s an ode to artistry, an experience of exclusivity. Step beyond the ordinary and into the extraordinary.</p>
+          <p>Because Cane is Not Bamboo—it’s the essence of bespoke living.</p>
         </div>
-      </main>
-    </div>
-  );
+        <h2 id="cane-title" className="relative type-cane-title [text-shadow:0_1px_4px_#0006]">CANE<br />IS NOT BAMBOO</h2>
+      </section>
+
+      <section id="our-story" aria-labelledby="founder-title" className="grid items-center gap-10 bg-white px-6 py-14 min-[900px]:grid-cols-2 min-[900px]:gap-[6%] min-[900px]:px-[12%] min-[900px]:py-[6vw]">
+        <div className="min-w-0 space-y-6 type-founder text-[#a64444] min-[900px]:text-right">
+          <div><h2 id="founder-title" className="font-bold">Siddharrtha Shahh</h2><p>Cane Maven</p></div>
+          <p>Siddharrtha Shah, founder of Vaidehi Craft, has redefined cane furniture by blending traditional craftsmanship with modern aesthetics since 1998. With a passion for artistry and sustainability, he champions eco-conscious practices, using sustainable materials and supporting local artisans.</p>
+          <p>Under his leadership, the brand has grown from a local enterprise to a global symbol of excellence, known for its innovative and elegant designs. Siddharrtha&apos;s commitment to preserving heritage, uplifting artisan communities, and promoting social responsibility has made him a respected figure in art and craftsmanship.</p>
+          <p>His journey exemplifies resilience, determination, and a visionary approach, transforming Vaidehi Craft into a benchmark for quality, innovation, and sustainability.</p>
+        </div>
+        <Image src={founder} alt="Founder of Vaidehi Craft, Siddharrtha Shahh" sizes="(max-width: 900px) 90vw, 38vw" className="mx-auto h-auto w-full max-w-[540px]" />
+      </section>
+    </main>
+    <SiteFooter />
+  </>;
 }

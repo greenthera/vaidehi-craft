@@ -1,0 +1,98 @@
+{
+  "variants": [
+    {
+      "base": "barcelona-cane-chair",
+      "baseName": "Barcelona Cane Armchair",
+      "baseLabel": "Barcelona Armchair",
+      "slug": "barcelona-armless-cane-chair",
+      "name": "Barcelona Armless Cane Chair",
+      "label": "Barcelona Armless",
+      "image": "cane-chairs-collection-05.webp",
+      "finish": false,
+      "sharedDetails": false
+    },
+    {
+      "base": "malaga-cane-chair",
+      "baseName": "Malaga Teal Cushion Cane Chair",
+      "baseLabel": "Malaga \u00b7 Teal Cushion",
+      "slug": "malaga-blue-cushion-cane-chair",
+      "name": "Malaga Blue Cushion Cane Chair",
+      "label": "Malaga \u00b7 Blue Cushion",
+      "image": "malaga-cane-chair-06.webp",
+      "finish": true,
+      "sharedDetails": true,
+      "source": "/chair-2/malaga"
+    },
+    {
+      "base": "mileos-cane-chair",
+      "baseName": "Mileos Green Finish Cane Chair",
+      "baseLabel": "Mileos \u00b7 Green",
+      "slug": "mileos-natural-finish-cane-chair",
+      "name": "Mileos Natural Finish Cane Chair",
+      "label": "Mileos \u00b7 Natural",
+      "image": "cane-chairs-collection-31.webp",
+      "finish": true,
+      "sharedDetails": true
+    },
+    {
+      "base": "petra-compact-cane-swing",
+      "baseName": "Petra Woven Base Cane Swing",
+      "baseLabel": "Petra \u00b7 Woven Base",
+      "slug": "petra-open-frame-cane-swing",
+      "name": "Petra Open Frame Cane Swing",
+      "label": "Petra \u00b7 Open Frame",
+      "image": "cane-swings-collection-23.webp",
+      "finish": false,
+      "sharedDetails": false
+    },
+    {
+      "base": "mileos-cane-table",
+      "baseName": "Mileos Natural Finish Cane Table",
+      "baseLabel": "Mileos \u00b7 Natural",
+      "slug": "mileos-green-finish-cane-table",
+      "name": "Mileos Green Finish Cane Table",
+      "label": "Mileos \u00b7 Green",
+      "image": "cane-tables-collection-06.webp",
+      "finish": true,
+      "sharedDetails": true
+    },
+    {
+      "base": "hawaii-cane-chair",
+      "baseName": "Hawaii Cane Chair",
+      "baseLabel": "Hawaii",
+      "slug": "hawaii-collection-cane-chair",
+      "name": "Hawaii Collection Cane Chair",
+      "label": "Hawaii Collection",
+      "image": "hawaii-cane-chair-01.webp",
+      "finish": true,
+      "sharedDetails": true,
+      "presentation": true
+    },
+    {
+      "base": "filitheyo-cane-sofa",
+      "baseName": "Filitheyo Cane Sofa",
+      "baseLabel": "Filitheyo",
+      "slug": "filitheyo-collection-cane-sofa",
+      "name": "Filitheyo Collection Cane Sofa",
+      "label": "Filitheyo Collection",
+      "image": "cane-sofas-collection-09.webp",
+      "finish": true,
+      "sharedDetails": true,
+      "presentation": true
+    },
+    {
+      "base": "claire-cane-table",
+      "baseName": "Claire Cane Table",
+      "baseLabel": "Claire",
+      "slug": "claire-collection-cane-table",
+      "name": "Claire Collection Cane Table",
+      "label": "Claire Collection",
+      "image": "claire-cane-table-02.webp",
+      "finish": true,
+      "sharedDetails": true,
+      "presentation": true
+    }
+  ],
+  "repeatedCardsRemoved": [],
+  "policy": "All repeated-name cards are preserved with explicit names and unique URLs. Distinct constructions self-canonicalize; finish/presentation variants use the primary model canonical. No cards are removed."
+}

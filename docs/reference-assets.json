@@ -1,0 +1,2682 @@
+{
+  "sourceOrigin": "https://www.vaidehicraft.com",
+  "imageCount": 382,
+  "pageCount": 89,
+  "assets": [
+    {
+      "source": "https://static.wixstatic.com/media/93a538_00a859a83de1429484c480dbd2fb7866~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_00a859a83de1429484c480dbd2fb7866~mv2.jpg",
+      "local": "/images/products/arches-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 104622
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_01057c14bf0247d3b914aa6fab262256~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_01057c14bf0247d3b914aa6fab262256~mv2.jpg",
+      "local": "/images/products/byron-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 113336
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0144b24460ed4dde82070137912002aa~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0144b24460ed4dde82070137912002aa~mv2.jpg",
+      "local": "/images/products/arches-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83746
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_016f6ec086a74b94be9fe0d6a9f06282~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_016f6ec086a74b94be9fe0d6a9f06282~mv2.jpg",
+      "local": "/images/products/filitheyo-hanging-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130258
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_023bda3b8a26463ea714c74a795a67ce~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_023bda3b8a26463ea714c74a795a67ce~mv2.jpg",
+      "local": "/images/products/sunflower-olive-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 95712
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0411948bd518440f83642e5d06b6ea62~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0411948bd518440f83642e5d06b6ea62~mv2.jpg",
+      "local": "/images/products/cane-swings-collection-23.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 95640
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_04b8b07a36e148388620d2b449319161~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_04b8b07a36e148388620d2b449319161~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-09.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 90982
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0677f4a0e3db49ccb6cc8b1d78b9f33a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0677f4a0e3db49ccb6cc8b1d78b9f33a~mv2.jpg",
+      "local": "/images/products/aspire-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 96774
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_06d2a40a0ba64c9fab57461ac85d2697~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_06d2a40a0ba64c9fab57461ac85d2697~mv2.jpg",
+      "local": "/images/products/fiscus-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100122
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0881142afe63498790728b38468b5b69~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0881142afe63498790728b38468b5b69~mv2.jpg",
+      "local": "/images/products/alpha-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81466
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_099d9a9c59a24c95bbe8759960b4ad3a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_099d9a9c59a24c95bbe8759960b4ad3a~mv2.jpg",
+      "local": "/images/products/alpha-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100808
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0a9c339127964fd0928792b0a474778e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0a9c339127964fd0928792b0a474778e~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-10.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 121912
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0c1f2986c8724d288b1e9fde422eaf54~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0c1f2986c8724d288b1e9fde422eaf54~mv2.jpg",
+      "local": "/images/products/canary-cane-table-02.webp",
+      "width": 1078,
+      "height": 1600,
+      "bytes": 51846
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0c5a28eb70b6407a9c46743ca12ac00d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0c5a28eb70b6407a9c46743ca12ac00d~mv2.jpg",
+      "local": "/images/products/ibizza-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 97646
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0cd63ec530004a399285a0feb9f27c9a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0cd63ec530004a399285a0feb9f27c9a~mv2.jpg",
+      "local": "/images/products/zero-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 90582
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0cfc61fdb64c49e9861868258852d31f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0cfc61fdb64c49e9861868258852d31f~mv2.jpg",
+      "local": "/images/products/arches-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 74434
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0d8224a00add45bfb05a8ff6ee7813e7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0d8224a00add45bfb05a8ff6ee7813e7~mv2.jpg",
+      "local": "/images/products/caprio-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101720
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0f0bfdc7838747388843375228b409f5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0f0bfdc7838747388843375228b409f5~mv2.jpg",
+      "local": "/images/products/malaga-with-roof-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 85618
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_0fcf6c9ec9b34a18a478e58a811edd9a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_0fcf6c9ec9b34a18a478e58a811edd9a~mv2.jpg",
+      "local": "/images/products/canary-cane-sofa-03.webp",
+      "width": 1067,
+      "height": 1600,
+      "bytes": 129750
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_10364617f90e4e68843c9cec0bdb6486~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_10364617f90e4e68843c9cec0bdb6486~mv2.jpg",
+      "local": "/images/products/filitheyo-hanging-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110068
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1078835bf1854f668e7b95a11eea5113~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1078835bf1854f668e7b95a11eea5113~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83972
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_11845f0d73db4a1b8132a772a94e82ad~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_11845f0d73db4a1b8132a772a94e82ad~mv2.jpg",
+      "local": "/images/products/arches-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 61496
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_118e4304b8cf42c0bc0464f08c4299f0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_118e4304b8cf42c0bc0464f08c4299f0~mv2.jpg",
+      "local": "/images/products/andros-w-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 53370
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_123d0f90ad434ed7a3defd526fb5a625~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_123d0f90ad434ed7a3defd526fb5a625~mv2.jpg",
+      "local": "/images/products/canary-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 119748
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_130454f5d9064aa7bcb84cc59f8c4a04~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_130454f5d9064aa7bcb84cc59f8c4a04~mv2.jpg",
+      "local": "/images/products/barcelona-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 88254
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_135ecbb030df47bba10d25104096e580~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_135ecbb030df47bba10d25104096e580~mv2.jpg",
+      "local": "/images/products/leica-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130908
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_13a102a3bc344aa8ad208a4dee4307ee~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_13a102a3bc344aa8ad208a4dee4307ee~mv2.jpg",
+      "local": "/images/products/petra-compact-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 116760
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_141944f82c1c49c397499e2ce363078f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_141944f82c1c49c397499e2ce363078f~mv2.jpg",
+      "local": "/images/products/andros-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 108404
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_152f2086019a430fa01db2c9ddaf52cb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_152f2086019a430fa01db2c9ddaf52cb~mv2.jpg",
+      "local": "/images/products/arches-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 95200
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1582f09f3ac643e79d6bf4d7a12455e0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1582f09f3ac643e79d6bf4d7a12455e0~mv2.jpg",
+      "local": "/images/products/claire-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 67658
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_159f00081c464293b73c4ab126a586c1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_159f00081c464293b73c4ab126a586c1~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-13.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94928
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_161250219edc4a9cb70f019e1ecd6fb7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_161250219edc4a9cb70f019e1ecd6fb7~mv2.jpg",
+      "local": "/images/products/adron-g-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72608
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_16a3521ba7664781bf2bb9b22fdfc34a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_16a3521ba7664781bf2bb9b22fdfc34a~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-30.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 139116
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_186d6d91fc4c43fcbdc00e08a45e69fd~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_186d6d91fc4c43fcbdc00e08a45e69fd~mv2.jpg",
+      "local": "/images/products/andros-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 117562
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_186e59776f414a81bf3a1fae649c79a2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_186e59776f414a81bf3a1fae649c79a2~mv2.jpg",
+      "local": "/images/products/tahiti-stand-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 67458
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_19b5ab68c3d441d38802adb5c7cfe479~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_19b5ab68c3d441d38802adb5c7cfe479~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-18.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 132266
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_19ba5933f63b42a695ba1b27b23bd572~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_19ba5933f63b42a695ba1b27b23bd572~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-11.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 119522
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1a513389879d4054ac8a25bc2dcacab9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1a513389879d4054ac8a25bc2dcacab9~mv2.jpg",
+      "local": "/images/products/sunflower-olive-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 114640
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1cfe8b03f6c6493dbaaa159b792f6fde~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1cfe8b03f6c6493dbaaa159b792f6fde~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 106744
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1e474bb48b92415f951a4a3aafd8f70e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1e474bb48b92415f951a4a3aafd8f70e~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 133776
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1f75e8ade4bd4c509e0b01ef9ab32683~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1f75e8ade4bd4c509e0b01ef9ab32683~mv2.jpg",
+      "local": "/images/products/filitheyo-with-stand-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 137468
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_1f7c619408014b53a495e684ca9d14a9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_1f7c619408014b53a495e684ca9d14a9~mv2.jpg",
+      "local": "/images/products/hawaii-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72438
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_20419309968449bcb97069f845ca7d67~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_20419309968449bcb97069f845ca7d67~mv2.jpg",
+      "local": "/images/products/oldan-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 200212
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_206c2a8cbabe4576aa73ba229d977424~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_206c2a8cbabe4576aa73ba229d977424~mv2.jpg",
+      "local": "/images/products/malaga-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 133088
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2075d71bd7964613a7a4e52f46ad6ec6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2075d71bd7964613a7a4e52f46ad6ec6~mv2.jpg",
+      "local": "/images/products/oland-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 102796
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_211c8f96507c41f7a30b720170360cf5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_211c8f96507c41f7a30b720170360cf5~mv2.jpg",
+      "local": "/images/products/pythos-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 187458
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_22ac6e369338437e8e3abda70b5f0059~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_22ac6e369338437e8e3abda70b5f0059~mv2.jpg",
+      "local": "/images/products/luxor-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86536
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_22e66e0477764045b4c0f03c90391ecf~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_22e66e0477764045b4c0f03c90391ecf~mv2.jpg",
+      "local": "/images/products/leica-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 140496
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_23b3ec1cae7a4a0c9a5bb61803ea191a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_23b3ec1cae7a4a0c9a5bb61803ea191a~mv2.jpg",
+      "local": "/images/products/pythos-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 137892
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_24248f5a85174be4b5545eab4e1049df~mv2.png/v1/fit/w_1600,h_1600,q_90/93a538_24248f5a85174be4b5545eab4e1049df~mv2.png",
+      "local": "/images/products/cane-chairs-collection-34.webp",
+      "width": 500,
+      "height": 500,
+      "bytes": 11276
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_248b6e376eee453ba02a055435b71901~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_248b6e376eee453ba02a055435b71901~mv2.jpg",
+      "local": "/images/products/streak-compact-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 84384
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_24aac1fcc86348609cfbad8963321fa8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_24aac1fcc86348609cfbad8963321fa8~mv2.jpg",
+      "local": "/images/products/byrons-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 144788
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_24f3a2a9ac734df8abb6a38034d8b9c7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_24f3a2a9ac734df8abb6a38034d8b9c7~mv2.jpg",
+      "local": "/images/products/claire-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100766
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2547f260c158406caeb543f65340862d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2547f260c158406caeb543f65340862d~mv2.jpg",
+      "local": "/images/products/malta-grand-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 143072
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2599577f74584986a61aa700b74e6271~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2599577f74584986a61aa700b74e6271~mv2.jpg",
+      "local": "/images/products/caprio-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 182754
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_25b7e161aed24187b33abbf3a0556d7d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_25b7e161aed24187b33abbf3a0556d7d~mv2.jpg",
+      "local": "/images/products/emperor-rocking-cane-chair-03.webp",
+      "width": 1053,
+      "height": 1600,
+      "bytes": 61032
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_273eba30c79a4d019436674ea0a5b311~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_273eba30c79a4d019436674ea0a5b311~mv2.jpg",
+      "local": "/images/products/bora-bora-double-seater-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 207058
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_27800f80428f4fa9a8d4407499f9a115~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_27800f80428f4fa9a8d4407499f9a115~mv2.jpg",
+      "local": "/images/products/canary-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81922
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_278b45251c694b7fb0a8d4cb466374d1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_278b45251c694b7fb0a8d4cb466374d1~mv2.jpg",
+      "local": "/images/products/santorini-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 44908
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2843abdcab9a415cbb2057d36bef79d3~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2843abdcab9a415cbb2057d36bef79d3~mv2.jpg",
+      "local": "/images/products/cane-swings-collection-02.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 241966
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_288fe77f4ddc4934bdc26447f845dcf4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_288fe77f4ddc4934bdc26447f845dcf4~mv2.jpg",
+      "local": "/images/products/hawaii-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92918
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_28ce1c9794ca41ab91762465d25fea63~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_28ce1c9794ca41ab91762465d25fea63~mv2.jpg",
+      "local": "/images/products/santorini-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 45128
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_29c57f8b506d44acae2b975d60463766~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_29c57f8b506d44acae2b975d60463766~mv2.jpg",
+      "local": "/images/products/axor-with-roof-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 58528
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2a7a337c6b4b48daabd5c191ad4a761d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2a7a337c6b4b48daabd5c191ad4a761d~mv2.jpg",
+      "local": "/images/products/tahiti-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 62096
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2a8501bc7b5a47e8977800e599121e5e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2a8501bc7b5a47e8977800e599121e5e~mv2.jpg",
+      "local": "/images/products/hawaii-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 49402
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2b12e6ea09734d8f9d2068ac6bdbe1ed~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2b12e6ea09734d8f9d2068ac6bdbe1ed~mv2.jpg",
+      "local": "/images/products/filitheyo-with-roof-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94650
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2c0caffec4c0412b9a0c5cd8c22b1b6c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2c0caffec4c0412b9a0c5cd8c22b1b6c~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-14.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 116494
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2c621137e89b4a6e9667f392581a5629~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2c621137e89b4a6e9667f392581a5629~mv2.jpg",
+      "local": "/images/products/ibizaa-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 95006
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2d80cc28ebe74842932a226016fd543af000.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2d80cc28ebe74842932a226016fd543af000.jpg",
+      "local": "/images/products/cane-chairs-collection-13.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 39638
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_2dcba9b3f36447d6b60d4fadc98b4c23~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_2dcba9b3f36447d6b60d4fadc98b4c23~mv2.jpg",
+      "local": "/images/products/aspire-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 71376
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3005a924df5f4048b9be8daefd49a9b0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3005a924df5f4048b9be8daefd49a9b0~mv2.jpg",
+      "local": "/images/products/tahiti-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 149202
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_31666e74045e4b14bc1ce0c97879e036~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_31666e74045e4b14bc1ce0c97879e036~mv2.jpg",
+      "local": "/images/products/filitheyo-with-roof-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 90914
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_317d15db510b40baa60b406ea004de95~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_317d15db510b40baa60b406ea004de95~mv2.jpg",
+      "local": "/images/products/sunflower-yellow-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 84412
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3184cd347c9347cb889200c71558a391~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3184cd347c9347cb889200c71558a391~mv2.jpg",
+      "local": "/images/products/adron-g-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 105386
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_31bc5292a37d4aa086e1199d5cc887da~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_31bc5292a37d4aa086e1199d5cc887da~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-20.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 111330
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3332ddd6ee794b419695f5d0c269cf53~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3332ddd6ee794b419695f5d0c269cf53~mv2.jpg",
+      "local": "/images/products/pythos-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 177064
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_347cf610bcfa4288bef405b023e24d53~mv2.png/v1/fit/w_1600,h_1600,q_90/93a538_347cf610bcfa4288bef405b023e24d53~mv2.png",
+      "local": "/images/products/axor-with-roof-cane-swing-01.webp",
+      "width": 1105,
+      "height": 1600,
+      "bytes": 61588
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_369bcaf7599a456f9625ef0a6dd6f68e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_369bcaf7599a456f9625ef0a6dd6f68e~mv2.jpg",
+      "local": "/images/products/pythos-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130450
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_36b9d91237694d33ae275873125825ef~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_36b9d91237694d33ae275873125825ef~mv2.jpg",
+      "local": "/images/products/alpha-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 134158
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_36f090c183194a5192178e99fb1a806f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_36f090c183194a5192178e99fb1a806f~mv2.jpg",
+      "local": "/images/products/malta-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 105576
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_37d04285070c4d9abab523aefbd2b125~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_37d04285070c4d9abab523aefbd2b125~mv2.jpg",
+      "local": "/images/products/hawaii-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 46460
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_38124ac04b5d49d290e232c1da43d1d2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_38124ac04b5d49d290e232c1da43d1d2~mv2.jpg",
+      "local": "/images/products/cane-tables-collection-12.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 189812
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_387aad51639f44c1a25d3f330858ea1f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_387aad51639f44c1a25d3f330858ea1f~mv2.jpg",
+      "local": "/images/products/hawaii-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 147924
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_387b087b712a4e4abc87c486ae9b97ac~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_387b087b712a4e4abc87c486ae9b97ac~mv2.jpg",
+      "local": "/images/products/malaga-reactngle-cane-table-01.webp",
+      "width": 1045,
+      "height": 1600,
+      "bytes": 37612
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_38885c1041ff4a6287cf0f1ddb7d183a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_38885c1041ff4a6287cf0f1ddb7d183a~mv2.jpg",
+      "local": "/images/products/andros-w-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 52236
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_389b8cd341114f1d920ab343e6080d14~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_389b8cd341114f1d920ab343e6080d14~mv2.jpg",
+      "local": "/images/products/malaga-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 47972
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_38d944cad198464c94a587f1955a047a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_38d944cad198464c94a587f1955a047a~mv2.jpg",
+      "local": "/images/products/streak-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 102634
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3946c632e07040bbb7dbb660a7e0ee69~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3946c632e07040bbb7dbb660a7e0ee69~mv2.jpg",
+      "local": "/images/products/andros-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 56800
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3a0bcab5fcd14816a35d82ce7c20b8d9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3a0bcab5fcd14816a35d82ce7c20b8d9~mv2.jpg",
+      "local": "/images/products/fiscus-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 127220
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3ac7bec2e4f842aeb5e32175dbc49fda~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3ac7bec2e4f842aeb5e32175dbc49fda~mv2.jpg",
+      "local": "/images/products/nebula-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 216348
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3c906b8e978141988217a5d974163d71~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3c906b8e978141988217a5d974163d71~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-31.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92566
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3cfc54e0e4c04abc8fbca82fb15e8082~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3cfc54e0e4c04abc8fbca82fb15e8082~mv2.jpg",
+      "local": "/images/products/tahiti-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 127064
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3d8df6d61b0a42cd96d9d6fefc9c6956~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3d8df6d61b0a42cd96d9d6fefc9c6956~mv2.jpg",
+      "local": "/images/products/mileos-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 107376
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3dbc9a0bf55b403984e78d09e7adb408~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3dbc9a0bf55b403984e78d09e7adb408~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-07.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72476
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3e54dc12a4704e4b9c5d72176b055597~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3e54dc12a4704e4b9c5d72176b055597~mv2.jpg",
+      "local": "/images/products/streak-double-seater-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 127456
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3ef9376dc7f34770aa8b523195c9dfc7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3ef9376dc7f34770aa8b523195c9dfc7~mv2.jpg",
+      "local": "/images/products/bora-bora-double-seater-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 220888
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3fa883e79fa3465bb0471d7053c0856a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3fa883e79fa3465bb0471d7053c0856a~mv2.jpg",
+      "local": "/images/products/athens-stand-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 59366
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_3ff8d7c815cf4e4ab388c0886d22b02d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_3ff8d7c815cf4e4ab388c0886d22b02d~mv2.jpg",
+      "local": "/images/products/emperor-rocking-cane-chair-01.webp",
+      "width": 1053,
+      "height": 1600,
+      "bytes": 106264
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4059046507f54c4bbdf88fc5f8d4bee6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4059046507f54c4bbdf88fc5f8d4bee6~mv2.jpg",
+      "local": "/images/products/sunflower-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83034
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_40a611ce6d0540459adb2c779127bc4e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_40a611ce6d0540459adb2c779127bc4e~mv2.jpg",
+      "local": "/images/products/bora-bora-single-seater-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 113816
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_40dc1adfd9e4457d83ef9af32e226b1e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_40dc1adfd9e4457d83ef9af32e226b1e~mv2.jpg",
+      "local": "/images/products/petra-double-seater-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 109022
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_41946d5da9f94a38826ba56ae74234a9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_41946d5da9f94a38826ba56ae74234a9~mv2.jpg",
+      "local": "/images/products/aspire-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83480
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_423109f8dfbd42a5b2855dffa96e79cc~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_423109f8dfbd42a5b2855dffa96e79cc~mv2.jpg",
+      "local": "/images/products/arches-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86608
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_43502a60868b4846a5bb7ecf257eab22~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_43502a60868b4846a5bb7ecf257eab22~mv2.jpg",
+      "local": "/images/products/andros-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 131320
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4391692678304fdfb7151c06505b90d1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4391692678304fdfb7151c06505b90d1~mv2.jpg",
+      "local": "/images/products/andros-f-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 45928
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_44b869d85360450a846e620da07d0f67~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_44b869d85360450a846e620da07d0f67~mv2.jpg",
+      "local": "/images/products/kingstorn-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89622
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_450d256c1298479e8566e748d88a4b3c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_450d256c1298479e8566e748d88a4b3c~mv2.jpg",
+      "local": "/images/products/tahiti-low-seating-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92688
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_473db82736944fdb98be24bdfce1c505~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_473db82736944fdb98be24bdfce1c505~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 67796
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_47efa52f6b2c4d449280890e026e2cec~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_47efa52f6b2c4d449280890e026e2cec~mv2.jpg",
+      "local": "/images/products/bora-bora-single-seater-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110194
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4817cca0cae7418195d5a3456a62954c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4817cca0cae7418195d5a3456a62954c~mv2.jpg",
+      "local": "/images/products/byron-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 43164
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_486f6462fdd24c9587c3895c19a0f8fb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_486f6462fdd24c9587c3895c19a0f8fb~mv2.jpg",
+      "local": "/images/products/arches-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 56396
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_488284fab0704d769dc86427539cd4f5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_488284fab0704d769dc86427539cd4f5~mv2.jpg",
+      "local": "/images/products/canary-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86466
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4a6ba9dee723483b8d77645ede1bac1c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4a6ba9dee723483b8d77645ede1bac1c~mv2.jpg",
+      "local": "/images/products/malaga-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 43100
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4c2749d12ed749519af6929364efa37c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4c2749d12ed749519af6929364efa37c~mv2.jpg",
+      "local": "/images/products/fiscus-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 107598
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_4c5a64656b9246a0a324fde7cca802eb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_4c5a64656b9246a0a324fde7cca802eb~mv2.jpg",
+      "local": "/images/products/aspire-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 88310
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_50d756d467c04b778a59ebdd8b55a011~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_50d756d467c04b778a59ebdd8b55a011~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 82802
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_521937dbae24441fa7e757ee0284cd78~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_521937dbae24441fa7e757ee0284cd78~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-11.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 115868
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5222d9ecd36f4ccb9fbd977ad10a6e49~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5222d9ecd36f4ccb9fbd977ad10a6e49~mv2.jpg",
+      "local": "/images/products/claire-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110080
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_532d7a02c06d40ad9a5ca0a7dc88b3cb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_532d7a02c06d40ad9a5ca0a7dc88b3cb~mv2.jpg",
+      "local": "/images/products/ibizaa-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 188322
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_535074f4a24c46f794acb157fa80eb24~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_535074f4a24c46f794acb157fa80eb24~mv2.jpg",
+      "local": "/images/products/malaga-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 79380
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_547d9ecb480e4133adad42ffc8693540~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_547d9ecb480e4133adad42ffc8693540~mv2.jpg",
+      "local": "/images/products/malaga-with-roof-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 47070
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_566f011eb35646c489bdda5622075df1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_566f011eb35646c489bdda5622075df1~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 91528
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_56a7d5ce72374aa793d537aad20561ae~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_56a7d5ce72374aa793d537aad20561ae~mv2.jpg",
+      "local": "/images/products/malta-outdoor-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 77284
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_56fb75de83cf4ca19d1f9fa02ccc6709~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_56fb75de83cf4ca19d1f9fa02ccc6709~mv2.jpg",
+      "local": "/images/products/mileos-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 41424
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_58cfd78798bf4b82bbe3c902461891f7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_58cfd78798bf4b82bbe3c902461891f7~mv2.jpg",
+      "local": "/images/products/kingstorn-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101392
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_590e6a61c6f04c4c9acca18b38541fbe~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_590e6a61c6f04c4c9acca18b38541fbe~mv2.jpg",
+      "local": "/images/products/andros-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130416
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_59630258f0984f56a8e6b7618e28f70c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_59630258f0984f56a8e6b7618e28f70c~mv2.jpg",
+      "local": "/images/products/caprio-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 118722
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5a128e9face14840967e1c2189975e80~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5a128e9face14840967e1c2189975e80~mv2.jpg",
+      "local": "/images/products/andros-w-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 58574
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5b19c1f5add342d1b6bbecfb65d54e3f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5b19c1f5add342d1b6bbecfb65d54e3f~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-19.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101422
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5b83d56c8cc3423994831408717a2440~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5b83d56c8cc3423994831408717a2440~mv2.jpg",
+      "local": "/images/products/streak-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 51040
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5bc950afe4fe496482bac1225f6a94b0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5bc950afe4fe496482bac1225f6a94b0~mv2.jpg",
+      "local": "/images/products/andros-f-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 39126
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5cdd3963327848a8b37127a89f0b23ad~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5cdd3963327848a8b37127a89f0b23ad~mv2.jpg",
+      "local": "/images/products/axor-with-roof-cane-swing-02.webp",
+      "width": 1060,
+      "height": 1600,
+      "bytes": 54102
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5d93c3518d0a483dae3510052ccdd73b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5d93c3518d0a483dae3510052ccdd73b~mv2.jpg",
+      "local": "/images/products/nebula-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 35562
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5dc9c347195644b3b42ae584ca32cdb2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5dc9c347195644b3b42ae584ca32cdb2~mv2.jpg",
+      "local": "/images/products/caprio-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100934
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5e55736c76d245b9bbc978123f7705ea~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5e55736c76d245b9bbc978123f7705ea~mv2.jpg",
+      "local": "/images/products/tahiti-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 65416
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_5efa2680a42f48078f9afa37cfbe2066~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_5efa2680a42f48078f9afa37cfbe2066~mv2.jpg",
+      "local": "/images/products/leica-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92538
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_603ab0c1763244e4afcfc201db81a330~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_603ab0c1763244e4afcfc201db81a330~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-16.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 82944
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_60e593c0f00f4a578e03a9ef7e2ea65b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_60e593c0f00f4a578e03a9ef7e2ea65b~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-23.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 91304
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_612e00f0939b4dfd95bb49ba7f7c474f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_612e00f0939b4dfd95bb49ba7f7c474f~mv2.jpg",
+      "local": "/images/products/malaga-round-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 40216
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_621a30db75be4e4182cd2c815355c083~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_621a30db75be4e4182cd2c815355c083~mv2.jpg",
+      "local": "/images/products/malaga-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 123724
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_622757faf6274abfb9e352c9cbf39e74~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_622757faf6274abfb9e352c9cbf39e74~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-26.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 140532
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_62ac188811654689ba0311c737eb7a65~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_62ac188811654689ba0311c737eb7a65~mv2.jpg",
+      "local": "/images/products/oland-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92560
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6328b24ed684471f99a3d561431b3337~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6328b24ed684471f99a3d561431b3337~mv2.jpg",
+      "local": "/images/products/adron-g-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 48252
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_646a6dcc91754fc1ab3a38f7f28276f5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_646a6dcc91754fc1ab3a38f7f28276f5~mv2.jpg",
+      "local": "/images/products/aspire-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89090
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_647ea3aac3a54c588c296ff28bfc1e6b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_647ea3aac3a54c588c296ff28bfc1e6b~mv2.jpg",
+      "local": "/images/products/malaga-reactngle-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 74150
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_64900a7ad15a40e49fa35c76d2384d83~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_64900a7ad15a40e49fa35c76d2384d83~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-19.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 144344
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6501a9b7a2b74e53b667fbb0d7a71e81~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6501a9b7a2b74e53b667fbb0d7a71e81~mv2.jpg",
+      "local": "/images/products/barcelona-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 51984
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_65b8eddb80884066aac9009f5160a66a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_65b8eddb80884066aac9009f5160a66a~mv2.jpg",
+      "local": "/images/products/leica-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 153728
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_66447a5677924490800678e3c8188ff9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_66447a5677924490800678e3c8188ff9~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-15.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 134776
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_66ed39932850415399a6964418b7232c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_66ed39932850415399a6964418b7232c~mv2.jpg",
+      "local": "/images/products/marcos-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 119484
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_673f19ce64774cbdb6b0b1808f342044~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_673f19ce64774cbdb6b0b1808f342044~mv2.jpg",
+      "local": "/images/products/caprio-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 58026
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_686b2e5f3def404498553cc263c6543d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_686b2e5f3def404498553cc263c6543d~mv2.jpg",
+      "local": "/images/products/andros-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101862
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_689253bbfb974dd4a27e82a5adb052b7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_689253bbfb974dd4a27e82a5adb052b7~mv2.jpg",
+      "local": "/images/products/andros-w-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 42916
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_692da09576b9452a81a35bed78302e6d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_692da09576b9452a81a35bed78302e6d~mv2.jpg",
+      "local": "/images/products/claire-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 156190
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6a68644673b24576b8e647ee55f85e04~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6a68644673b24576b8e647ee55f85e04~mv2.jpg",
+      "local": "/images/products/arches-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 80440
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6ad2a63f1cc84b5984c1c79e80f57922~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6ad2a63f1cc84b5984c1c79e80f57922~mv2.jpg",
+      "local": "/images/products/andros-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72690
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6ae07ec6296046bbad036c6b48608725~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6ae07ec6296046bbad036c6b48608725~mv2.jpg",
+      "local": "/images/products/sunflower-olive-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 56432
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6b0fe8d070264ad89650ec69735579f7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6b0fe8d070264ad89650ec69735579f7~mv2.jpg",
+      "local": "/images/products/malaga-round-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81184
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6b25c88379e94a2a821c75402f54baed~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6b25c88379e94a2a821c75402f54baed~mv2.jpg",
+      "local": "/images/products/streak-compact-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 98932
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6b7ee3bd7ace46c990f31526cf901069~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6b7ee3bd7ace46c990f31526cf901069~mv2.jpg",
+      "local": "/images/products/bora-bora-double-seater-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 181108
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6b8319b1433e42c588d7d32247d74963~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6b8319b1433e42c588d7d32247d74963~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-17.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 105132
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6bf02448bcc045e0859ace72f3b8f39a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6bf02448bcc045e0859ace72f3b8f39a~mv2.jpg",
+      "local": "/images/products/hawaii-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 97334
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6c381f45dd3941c2bb25eef4fb25937e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6c381f45dd3941c2bb25eef4fb25937e~mv2.jpg",
+      "local": "/images/products/luxor-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 155180
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_6d22e6d6fe0a40b48282c1ae45b7e9f8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_6d22e6d6fe0a40b48282c1ae45b7e9f8~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-28.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 79268
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7059154f64044d58a1a278805fbcec67~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7059154f64044d58a1a278805fbcec67~mv2.jpg",
+      "local": "/images/products/byrons-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 36178
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_710a338504564d65b5504e8272fafd00~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_710a338504564d65b5504e8272fafd00~mv2.jpg",
+      "local": "/images/products/arches-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 80676
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7160b76b04ba4f42bd209c478294838b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7160b76b04ba4f42bd209c478294838b~mv2.jpg",
+      "local": "/images/products/andros-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 134586
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_72507df463574d5ba7ec74617e533fae~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_72507df463574d5ba7ec74617e533fae~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-sofa-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 90968
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_72951378062f4801903c77ae980de3e7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_72951378062f4801903c77ae980de3e7~mv2.jpg",
+      "local": "/images/products/alpha-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 76416
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_72d3bdff811a479195b1ac0e1cfc7219~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_72d3bdff811a479195b1ac0e1cfc7219~mv2.jpg",
+      "local": "/images/products/filitheyo-with-roof-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 152266
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_730489c995f94bcdbe9ffd043612ad60~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_730489c995f94bcdbe9ffd043612ad60~mv2.jpg",
+      "local": "/images/products/pythos-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 114604
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_730badb8f7c645e78cb583de202853bb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_730badb8f7c645e78cb583de202853bb~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 127812
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7323013fdf314993a152727d65c4edde~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7323013fdf314993a152727d65c4edde~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-15.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 109306
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_73d7e3a516864da9a4c9612bc0ee149f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_73d7e3a516864da9a4c9612bc0ee149f~mv2.jpg",
+      "local": "/images/products/nebula-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 91796
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_74a4f51918964818a06150486314937e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_74a4f51918964818a06150486314937e~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-17.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 121392
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_752e20924fcd4cd08dcac8369b09b6f2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_752e20924fcd4cd08dcac8369b09b6f2~mv2.jpg",
+      "local": "/images/products/tahiti-stand-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 52506
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7550601e01504248ad76551bb67940b4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7550601e01504248ad76551bb67940b4~mv2.jpg",
+      "local": "/images/products/andros-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 125352
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_757c1734caba48b6a526b8a076ee3427~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_757c1734caba48b6a526b8a076ee3427~mv2.jpg",
+      "local": "/images/products/aspire-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 76890
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_75d47f90a5e549ac975aed701a441250~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_75d47f90a5e549ac975aed701a441250~mv2.jpg",
+      "local": "/images/products/streak-compact-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 91422
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_761615ddc39a4a268b2b84ff63fd69f5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_761615ddc39a4a268b2b84ff63fd69f5~mv2.jpg",
+      "local": "/images/products/arches-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83618
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_762b78a9240f4b19984c12324edd9007~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_762b78a9240f4b19984c12324edd9007~mv2.jpg",
+      "local": "/images/products/caprio-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110370
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_76d3300e8aed4a06858c35a3d7c8b6a6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_76d3300e8aed4a06858c35a3d7c8b6a6~mv2.jpg",
+      "local": "/images/products/caprio-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 120398
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7840d867ffdf47cf8108a7d7de0465bf~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7840d867ffdf47cf8108a7d7de0465bf~mv2.jpg",
+      "local": "/images/products/fiscus-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100900
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_78628ab790f2454b9efe61c66bfd7be6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_78628ab790f2454b9efe61c66bfd7be6~mv2.jpg",
+      "local": "/images/products/malta-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94650
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_794d63872e2b41fb9a7e05352a7a9ecb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_794d63872e2b41fb9a7e05352a7a9ecb~mv2.jpg",
+      "local": "/images/products/filitheyo-hanging-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 108696
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7952fc686a874dde8f2a22a05d1bb307~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7952fc686a874dde8f2a22a05d1bb307~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-25.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 71110
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_79c89b79f16c4b7f935bc9fc5bd640d7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_79c89b79f16c4b7f935bc9fc5bd640d7~mv2.jpg",
+      "local": "/images/products/zero-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 82542
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7a03a08ad5a34a9a857b72d5a83fd547~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7a03a08ad5a34a9a857b72d5a83fd547~mv2.jpg",
+      "local": "/images/products/ibizza-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130098
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7a420911238249919886c1a673813c50~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7a420911238249919886c1a673813c50~mv2.jpg",
+      "local": "/images/products/leica-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 108976
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7a7d1abafc64488a9dec898f8351fc80~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7a7d1abafc64488a9dec898f8351fc80~mv2.jpg",
+      "local": "/images/products/arches-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83334
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7ab2509b200c40c9842cc07d95becbdd~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7ab2509b200c40c9842cc07d95becbdd~mv2.jpg",
+      "local": "/images/products/leica-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 126092
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7adff30010a14f32be6b91954b054efe~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7adff30010a14f32be6b91954b054efe~mv2.jpg",
+      "local": "/images/products/zero-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 125428
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7ba3af1e49bc4042b4a72c84fd1bbfa0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7ba3af1e49bc4042b4a72c84fd1bbfa0~mv2.jpg",
+      "local": "/images/products/malta-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 93162
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7bb6f014803b46319361ee0f7ae6b245~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7bb6f014803b46319361ee0f7ae6b245~mv2.jpg",
+      "local": "/images/products/tahiti-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 189612
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_7edff2785778470d9b736974266497eb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_7edff2785778470d9b736974266497eb~mv2.jpg",
+      "local": "/images/products/filitheyo-with-stand-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 73478
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_819adbca76c6401c96e6175c1a05441d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_819adbca76c6401c96e6175c1a05441d~mv2.jpg",
+      "local": "/images/products/claire-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 77444
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_826153760d94439bb44848b19e585729~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_826153760d94439bb44848b19e585729~mv2.jpg",
+      "local": "/images/products/ibizza-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 123634
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_82652a6a4fa64d86b6cfd599089b411a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_82652a6a4fa64d86b6cfd599089b411a~mv2.jpg",
+      "local": "/images/products/kingstorn-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 104896
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8351178d70fc479cb564aab8df09e26c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8351178d70fc479cb564aab8df09e26c~mv2.jpg",
+      "local": "/images/products/caprio-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 74858
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_838330d172224c249591e0e59bae1ef1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_838330d172224c249591e0e59bae1ef1~mv2.jpg",
+      "local": "/images/products/athens-stand-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 58138
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_83aad5eb40594cc48ae74d145692f31e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_83aad5eb40594cc48ae74d145692f31e~mv2.jpg",
+      "local": "/images/products/malaga-with-roof-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 141078
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_83ff9d1ea0c9480783ba0a2ff4263962~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_83ff9d1ea0c9480783ba0a2ff4263962~mv2.jpg",
+      "local": "/images/products/zero-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 178438
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8418f30b7fa74915a837afcc70151519~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8418f30b7fa74915a837afcc70151519~mv2.jpg",
+      "local": "/images/products/caprio-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86302
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_842194a11cb845dbbdd5dbdbe47a95b8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_842194a11cb845dbbdd5dbdbe47a95b8~mv2.jpg",
+      "local": "/images/products/aspire-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 137194
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_842b324064dc4fdda793a8398de74496~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_842b324064dc4fdda793a8398de74496~mv2.jpg",
+      "local": "/images/products/marcos-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 120196
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_84849f4512114307ac2d60d717f20bb3~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_84849f4512114307ac2d60d717f20bb3~mv2.jpg",
+      "local": "/images/products/hawaii-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 134588
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_84ef74cebdf24e5ab4bca2fcbc23bf22~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_84ef74cebdf24e5ab4bca2fcbc23bf22~mv2.jpg",
+      "local": "/images/products/byron-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 129618
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_851e75b13843482dbcc5431709b8f39e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_851e75b13843482dbcc5431709b8f39e~mv2.jpg",
+      "local": "/images/products/hawaii-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 207912
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_854295ec2706404ebca026f75421a91b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_854295ec2706404ebca026f75421a91b~mv2.jpg",
+      "local": "/images/products/ibizaa-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100176
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8565231c1c5d444c830d432f557fe7ec~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8565231c1c5d444c830d432f557fe7ec~mv2.jpg",
+      "local": "/images/products/aspire-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 298146
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_86ed76142f054d4fa19c0877184ac371~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_86ed76142f054d4fa19c0877184ac371~mv2.jpg",
+      "local": "/images/products/claire-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 139602
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_86f5b383fab54447a092d456358b06f8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_86f5b383fab54447a092d456358b06f8~mv2.jpg",
+      "local": "/images/products/andros-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 195646
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_87c10e83d2ac41d5b701c4ac8dee6db3~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_87c10e83d2ac41d5b701c4ac8dee6db3~mv2.jpg",
+      "local": "/images/products/nebula-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 111958
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_87dd929e3c29439a98aec7ef068aa154~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_87dd929e3c29439a98aec7ef068aa154~mv2.jpg",
+      "local": "/images/products/hawaii-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100836
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_880046bc12254435939a97c570b3c9c6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_880046bc12254435939a97c570b3c9c6~mv2.jpg",
+      "local": "/images/products/caprio-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 178190
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_887a5bac3581475384dfd68d3adf26e8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_887a5bac3581475384dfd68d3adf26e8~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-22.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92348
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8897d207db954e6da7bad4f0733683a7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8897d207db954e6da7bad4f0733683a7~mv2.jpg",
+      "local": "/images/products/andros-f-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 37324
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8a05310547f94de88fc6f31b9a530da2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8a05310547f94de88fc6f31b9a530da2~mv2.jpg",
+      "local": "/images/products/pythos-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 115484
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8cbfc7f458df438583950afc19178ccb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8cbfc7f458df438583950afc19178ccb~mv2.jpg",
+      "local": "/images/products/streak-double-seater-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 98284
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8db1d9d52c7a4fb6b66774509e638599~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8db1d9d52c7a4fb6b66774509e638599~mv2.jpg",
+      "local": "/images/products/andros-f-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 51218
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8ec3b6574dd74b51b556ebf4ab9b8cf4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8ec3b6574dd74b51b556ebf4ab9b8cf4~mv2.jpg",
+      "local": "/images/products/luxor-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89194
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8f31c588403a4c74b874fb72dec9723b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8f31c588403a4c74b874fb72dec9723b~mv2.jpg",
+      "local": "/images/products/oland-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 131610
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8f6b9056155e43ae92e1719ccb06c318~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8f6b9056155e43ae92e1719ccb06c318~mv2.jpg",
+      "local": "/images/products/filitheyo-with-stand-cane-swing-03.webp",
+      "width": 1030,
+      "height": 1600,
+      "bytes": 64864
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_8f784902556047f0b55c29b48d746d01~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_8f784902556047f0b55c29b48d746d01~mv2.jpg",
+      "local": "/images/products/kingstorn-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 50816
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9162a7d664d34cfc92bb0d6dc785e689~mv2.png/v1/fit/w_1600,h_1600,q_90/93a538_9162a7d664d34cfc92bb0d6dc785e689~mv2.png",
+      "local": "/images/products/cane-chairs-collection-33.webp",
+      "width": 500,
+      "height": 500,
+      "bytes": 6576
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9232be2bec7145c9abd6b204b0057d30~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9232be2bec7145c9abd6b204b0057d30~mv2.jpg",
+      "local": "/images/products/sunflower-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 128564
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_923a9b0bdc424143a2161b124ea3c1f2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_923a9b0bdc424143a2161b124ea3c1f2~mv2.jpg",
+      "local": "/images/products/cane-tables-collection-06.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 59828
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9300a80786af4662bb5f553e01d88999~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9300a80786af4662bb5f553e01d88999~mv2.jpg",
+      "local": "/images/products/claire-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 98662
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_934d83a5749b4eb2965e420ec9d93c00~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_934d83a5749b4eb2965e420ec9d93c00~mv2.jpg",
+      "local": "/images/products/arches-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 87690
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9397ca6030fc4ce0a760b6e69a1cfe71f000.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9397ca6030fc4ce0a760b6e69a1cfe71f000.jpg",
+      "local": "/images/products/cane-tables-collection-01.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 31134
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_93eed8cdf8594fae87bfcd97f9fd0bf7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_93eed8cdf8594fae87bfcd97f9fd0bf7~mv2.jpg",
+      "local": "/images/products/canary-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 66760
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_93f92fac990c4059b7191774138b98e8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_93f92fac990c4059b7191774138b98e8~mv2.jpg",
+      "local": "/images/products/sunflower-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 75868
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_944a60bf45ad4682b65eb6ad0c27d3b7~mv2.png/v1/fit/w_1600,h_1600,q_90/93a538_944a60bf45ad4682b65eb6ad0c27d3b7~mv2.png",
+      "local": "/images/products/cane-chairs-collection-32.webp",
+      "width": 500,
+      "height": 500,
+      "bytes": 10744
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_945a58fea4c54136a24593f39ff20890~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_945a58fea4c54136a24593f39ff20890~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 73782
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_94ec75af56bf46f7b554fccda252bfb1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_94ec75af56bf46f7b554fccda252bfb1~mv2.jpg",
+      "local": "/images/products/arches-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 114602
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_94f432b28b6844d4b34e40c9886deca4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_94f432b28b6844d4b34e40c9886deca4~mv2.jpg",
+      "local": "/images/products/filitheyo-with-stand-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 68722
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_96590bb214e54359a5c12052146a2562~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_96590bb214e54359a5c12052146a2562~mv2.jpg",
+      "local": "/images/products/aspire-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 84140
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_96d1956e5f0249d4bf64abe4a429ee70~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_96d1956e5f0249d4bf64abe4a429ee70~mv2.jpg",
+      "local": "/images/products/tahiti-low-seating-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 77208
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9804568abb794e45b385fe5445e69c9e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9804568abb794e45b385fe5445e69c9e~mv2.jpg",
+      "local": "/images/products/minorca-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 105680
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9868ec504f6d458588897e67898d90c9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9868ec504f6d458588897e67898d90c9~mv2.jpg",
+      "local": "/images/products/axor-with-roof-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 51434
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_999c9539d25f4efb8c683e9282d3abaf~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_999c9539d25f4efb8c683e9282d3abaf~mv2.jpg",
+      "local": "/images/products/cane-tables-collection-28.webp",
+      "width": 1078,
+      "height": 1600,
+      "bytes": 96596
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9b57b76439e04325b768277f63dbc402~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9b57b76439e04325b768277f63dbc402~mv2.jpg",
+      "local": "/images/products/adron-g-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 69964
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9cad10ccbfcb4454b2e2740119a3e50e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9cad10ccbfcb4454b2e2740119a3e50e~mv2.jpg",
+      "local": "/images/products/adron-g-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 82652
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9d1f48a87f1d4b76a8603e2fb5d82c15~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9d1f48a87f1d4b76a8603e2fb5d82c15~mv2.jpg",
+      "local": "/images/products/claire-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 65212
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9dea576205044bf79f8c43cb8e743e9e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9dea576205044bf79f8c43cb8e743e9e~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-18.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 116890
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9df2f685150149c2b689bb1b35e66c97~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9df2f685150149c2b689bb1b35e66c97~mv2.jpg",
+      "local": "/images/products/sunflower-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 68536
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9e5c7b5200cd40a09095a1ba8a2d1604~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9e5c7b5200cd40a09095a1ba8a2d1604~mv2.jpg",
+      "local": "/images/products/barcelona-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 223846
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9e6a7b9beeab4debaee53dc3c54d234d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9e6a7b9beeab4debaee53dc3c54d234d~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-10.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 181880
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_9ff0d4b623024c41a1e12288018834a3~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_9ff0d4b623024c41a1e12288018834a3~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-27.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94692
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a094ac0b2e284fcf99ddd81e503d6281~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a094ac0b2e284fcf99ddd81e503d6281~mv2.jpg",
+      "local": "/images/products/malaga-reactngle-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 37940
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a0dec47353cd471a9a0b650cfa63734b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a0dec47353cd471a9a0b650cfa63734b~mv2.jpg",
+      "local": "/images/products/filitheyo-with-roof-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89172
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a0f12fa3858542aea9a578f6d588cb79~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a0f12fa3858542aea9a578f6d588cb79~mv2.jpg",
+      "local": "/images/products/malta-outdoor-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86278
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a1c61373d4d44d9b9d5458db5dfa44e0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a1c61373d4d44d9b9d5458db5dfa44e0~mv2.jpg",
+      "local": "/images/products/ibizaa-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 112622
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a21181d510914816b6a6c0f3f7f8eb51~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a21181d510914816b6a6c0f3f7f8eb51~mv2.jpg",
+      "local": "/images/products/canary-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81782
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a22c03831f9e44479f654808ad6efd68~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a22c03831f9e44479f654808ad6efd68~mv2.jpg",
+      "local": "/images/products/leica-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89026
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a36638d29f6847dc9c55dfc77b35fdcc~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a36638d29f6847dc9c55dfc77b35fdcc~mv2.jpg",
+      "local": "/images/products/malaga-reactngle-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 46168
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a3c0f84fe42c444b92ede9514cfbad20~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a3c0f84fe42c444b92ede9514cfbad20~mv2.jpg",
+      "local": "/images/products/hawaii-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 70886
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a3c3e8234f9a492cbadfaf68661b5fd1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a3c3e8234f9a492cbadfaf68661b5fd1~mv2.jpg",
+      "local": "/images/products/malaga-round-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 78622
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a4148c7572fd45c3b56b72639cc9cbad~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a4148c7572fd45c3b56b72639cc9cbad~mv2.jpg",
+      "local": "/images/products/arches-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 92670
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a85f0670c3994e4c8009ea2b9995cc1c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a85f0670c3994e4c8009ea2b9995cc1c~mv2.jpg",
+      "local": "/images/products/barcelona-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 97630
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_a9dcac8c032e42b58205f07f2842ce0c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_a9dcac8c032e42b58205f07f2842ce0c~mv2.jpg",
+      "local": "/images/products/petra-double-seater-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 140416
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_aa0f1ac9d6c344d89283987ea081e6a1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_aa0f1ac9d6c344d89283987ea081e6a1~mv2.jpg",
+      "local": "/images/products/petra-compact-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 112616
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ac73532dc77748c69ad2685dc0a976a4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ac73532dc77748c69ad2685dc0a976a4~mv2.jpg",
+      "local": "/images/products/malaga-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 139724
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_aca9adc4e6094d4aa7d82bfa43283f00~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_aca9adc4e6094d4aa7d82bfa43283f00~mv2.jpg",
+      "local": "/images/products/marcos-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 154218
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_acbf9917cfea4e10b2101eee2d4f45be~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_acbf9917cfea4e10b2101eee2d4f45be~mv2.jpg",
+      "local": "/images/products/aspire-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 91730
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_acce674520f64e9787b400a30eacd337~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_acce674520f64e9787b400a30eacd337~mv2.jpg",
+      "local": "/images/products/canary-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72346
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ae4ba409bd8348ee9600a4dac4c5b2cc~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ae4ba409bd8348ee9600a4dac4c5b2cc~mv2.jpg",
+      "local": "/images/products/canary-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 97336
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ae5626a944ea41e2a5460b23eff3676d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ae5626a944ea41e2a5460b23eff3676d~mv2.jpg",
+      "local": "/images/products/alpha-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 62960
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_af4611e8eebe40e89396bf7669fe3be0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_af4611e8eebe40e89396bf7669fe3be0~mv2.jpg",
+      "local": "/images/products/malaga-with-roof-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 105172
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b07224ad3028455b97734d0e371cd4ea~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b07224ad3028455b97734d0e371cd4ea~mv2.jpg",
+      "local": "/images/products/filitheyo-with-stand-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 85862
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b124e65f8d2a49cfb80eb69508e27301~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b124e65f8d2a49cfb80eb69508e27301~mv2.jpg",
+      "local": "/images/products/malaga-round-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 40514
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b1bff22b88c74593a705d70262c7f6e1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b1bff22b88c74593a705d70262c7f6e1~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 68980
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b3715a8fd4d64046abefe8e3b0d87c23~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b3715a8fd4d64046abefe8e3b0d87c23~mv2.jpg",
+      "local": "/images/products/malta-grand-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 116074
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b3b4fc6bcd9546638197ed88c4ee003a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b3b4fc6bcd9546638197ed88c4ee003a~mv2.jpg",
+      "local": "/images/products/tahiti-low-seating-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 148548
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b4bc1920e5a74793b58a78fd40e1157f~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b4bc1920e5a74793b58a78fd40e1157f~mv2.jpg",
+      "local": "/images/products/emperor-rocking-cane-chair-02.webp",
+      "width": 1053,
+      "height": 1600,
+      "bytes": 108972
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b55b93aeb4ce4c768f199ec060567d21~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b55b93aeb4ce4c768f199ec060567d21~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-09.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 123274
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b5ed5837c4734d488aedfeea586d3a3a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b5ed5837c4734d488aedfeea586d3a3a~mv2.jpg",
+      "local": "/images/products/cane-swings-collection-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 185124
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b790ed90d601455da446b79bf24f51eb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b790ed90d601455da446b79bf24f51eb~mv2.jpg",
+      "local": "/images/products/andros-w-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 38538
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b81ad7376c8f44949f1ea2ec4ead1381~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b81ad7376c8f44949f1ea2ec4ead1381~mv2.jpg",
+      "local": "/images/products/caprio-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 131092
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_b8d6b913a98641a38aace66ddf3024ee~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_b8d6b913a98641a38aace66ddf3024ee~mv2.jpg",
+      "local": "/images/products/petra-double-seater-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 153688
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ba1203e32a7949918cf3c8f8f03ed494~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ba1203e32a7949918cf3c8f8f03ed494~mv2.jpg",
+      "local": "/images/products/byrons-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 35316
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_baa76a20b26a44c2978145b7f48b3c24~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_baa76a20b26a44c2978145b7f48b3c24~mv2.jpg",
+      "local": "/images/products/sunflower-yellow-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 46150
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bb1cd9b49eb1407da091d4cd6f38f328~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bb1cd9b49eb1407da091d4cd6f38f328~mv2.jpg",
+      "local": "/images/products/cane-tables-collection-10.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 52588
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bb4f8064981f428eb89549a23e7d5209~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bb4f8064981f428eb89549a23e7d5209~mv2.jpg",
+      "local": "/images/products/sunflower-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 82126
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bcda5b92e3c54eb8bce3428b7053fc48~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bcda5b92e3c54eb8bce3428b7053fc48~mv2.jpg",
+      "local": "/images/products/byrons-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 48178
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bce892e499ae41e4a1f3a4b1ffcd5242~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bce892e499ae41e4a1f3a4b1ffcd5242~mv2.jpg",
+      "local": "/images/products/malta-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 148210
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bdcad4a32c3641818619f59bb3ccc355~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bdcad4a32c3641818619f59bb3ccc355~mv2.jpg",
+      "local": "/images/products/emperor-rocking-cane-chair-04.webp",
+      "width": 1053,
+      "height": 1600,
+      "bytes": 97226
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bdd662f83f3048cf9ff180d5b3c38baf~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bdd662f83f3048cf9ff180d5b3c38baf~mv2.jpg",
+      "local": "/images/products/athens-stand-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 132530
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_be100bd3062a490ca3d55abfad099a26~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_be100bd3062a490ca3d55abfad099a26~mv2.jpg",
+      "local": "/images/products/milose-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 70622
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_be69903fe8704f33b8c6bb77769ef1f7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_be69903fe8704f33b8c6bb77769ef1f7~mv2.jpg",
+      "local": "/images/products/axor-with-roof-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 67806
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bf99db6ed0dd4b9d80adb72ff3e86c00~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bf99db6ed0dd4b9d80adb72ff3e86c00~mv2.jpg",
+      "local": "/images/products/byron-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 128526
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_bfde97408efe46bca91fb7c617e7779d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_bfde97408efe46bca91fb7c617e7779d~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-07.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 155858
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c04147c90419417984cac9e03dd501aa~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c04147c90419417984cac9e03dd501aa~mv2.jpg",
+      "local": "/images/products/emperor-rocking-cane-chair-05.webp",
+      "width": 1053,
+      "height": 1600,
+      "bytes": 160170
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c0cf086c0ac14ffd95467e9747f143d1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c0cf086c0ac14ffd95467e9747f143d1~mv2.jpg",
+      "local": "/images/products/streak-compact-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 85090
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c1f20cb765e14bb79d2a5362bf313a23~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c1f20cb765e14bb79d2a5362bf313a23~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-08.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81352
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c1ff4acf167c417db65338a6c3e08b4b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c1ff4acf167c417db65338a6c3e08b4b~mv2.jpg",
+      "local": "/images/products/malaga-with-roof-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81326
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c446d38e58e345f398c617a750946329~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c446d38e58e345f398c617a750946329~mv2.jpg",
+      "local": "/images/products/nebula-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94178
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c731ceee129c46dabdff71b9d6ef8da0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c731ceee129c46dabdff71b9d6ef8da0~mv2.jpg",
+      "local": "/images/products/canary-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 49382
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c79ebff68d96428fa847b382228dafee~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c79ebff68d96428fa847b382228dafee~mv2.jpg",
+      "local": "/images/products/nebula-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 80790
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c7bfb05425a2446ea2feb1478c02813a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c7bfb05425a2446ea2feb1478c02813a~mv2.jpg",
+      "local": "/images/products/streak-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 47866
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c7e5739fb67d4c1c8692eddb1c748821~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c7e5739fb67d4c1c8692eddb1c748821~mv2.jpg",
+      "local": "/images/products/tahiti-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 85692
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c823d7a94d1842f389d155563559999a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c823d7a94d1842f389d155563559999a~mv2.jpg",
+      "local": "/images/products/tahiti-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 132508
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c9ac2fa86a854b29b8cb20880b8cd0a7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c9ac2fa86a854b29b8cb20880b8cd0a7~mv2.jpg",
+      "local": "/images/products/arches-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 121750
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c9ba4227176749f0bb78fc46f31a55c2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c9ba4227176749f0bb78fc46f31a55c2~mv2.jpg",
+      "local": "/images/products/sunflower-yellow-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 78010
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_c9eac4f8534649ad97bb2b606bd5b7df~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_c9eac4f8534649ad97bb2b606bd5b7df~mv2.jpg",
+      "local": "/images/products/caprio-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 88818
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ca5faf55803f441caaaa533ff14bec98~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ca5faf55803f441caaaa533ff14bec98~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-16.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 73798
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ce578bf5f17f44e1b648acd73d19e14c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ce578bf5f17f44e1b648acd73d19e14c~mv2.jpg",
+      "local": "/images/products/tahiti-stand-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 58482
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ce79ab64d8b34caf971d0579a34d238b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ce79ab64d8b34caf971d0579a34d238b~mv2.jpg",
+      "local": "/images/products/ibizza-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 181320
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ce94d435b5ef435da0f8b555ac6ce14e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ce94d435b5ef435da0f8b555ac6ce14e~mv2.jpg",
+      "local": "/images/products/bora-bora-single-seater-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 137034
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_cfb1ef85035c4c50a291b52af62f77ff~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_cfb1ef85035c4c50a291b52af62f77ff~mv2.jpg",
+      "local": "/images/products/malaga-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 96052
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d07a1c72ca9f496fb16112adc38b988c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d07a1c72ca9f496fb16112adc38b988c~mv2.jpg",
+      "local": "/images/products/pythos-cane-sofa-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 136132
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d17299812a3a4b54b2ade4fb6b819fe9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d17299812a3a4b54b2ade4fb6b819fe9~mv2.jpg",
+      "local": "/images/products/tahiti-low-seating-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 103190
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d185ac5781514fd39932f419145fd0ae~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d185ac5781514fd39932f419145fd0ae~mv2.jpg",
+      "local": "/images/products/pythos-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 99148
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d2a4e8f54cf248f6ae5784b06438e7aa~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d2a4e8f54cf248f6ae5784b06438e7aa~mv2.jpg",
+      "local": "/images/products/caprio-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 159106
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d2cff837456b4aacbff19ef382347e1e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d2cff837456b4aacbff19ef382347e1e~mv2.jpg",
+      "local": "/images/products/caprio-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 55384
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d334576a90fb4b9f9315e20e73492817~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d334576a90fb4b9f9315e20e73492817~mv2.jpg",
+      "local": "/images/products/minorca-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 44944
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d3daf6a68cfb4b61b7418782df39655e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d3daf6a68cfb4b61b7418782df39655e~mv2.jpg",
+      "local": "/images/products/barcelona-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89928
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d4d464b1cfdc43899732b5b8cde6c9a7~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d4d464b1cfdc43899732b5b8cde6c9a7~mv2.jpg",
+      "local": "/images/products/bora-bora-double-seater-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 316604
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d7014a1d34d640fb8aaf1282b689b809~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d7014a1d34d640fb8aaf1282b689b809~mv2.jpg",
+      "local": "/images/products/claire-cane-swing-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 206862
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d7267ec4a81f4a669998fddb7417bb6d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d7267ec4a81f4a669998fddb7417bb6d~mv2.jpg",
+      "local": "/images/products/alpha-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 61866
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d892b7b9bf6242cda186e9287d362c27~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d892b7b9bf6242cda186e9287d362c27~mv2.jpg",
+      "local": "/images/products/claire-cane-swing-02.webp",
+      "width": 1079,
+      "height": 1600,
+      "bytes": 102418
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d9179de3ca394b0cb58303d252a23c53~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d9179de3ca394b0cb58303d252a23c53~mv2.jpg",
+      "local": "/images/products/bora-bora-single-seater-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 192460
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d926f5bdaae2455082f09e119a41fa4e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d926f5bdaae2455082f09e119a41fa4e~mv2.jpg",
+      "local": "/images/products/aspire-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 72170
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d96d814852da408389fb34e483149077~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d96d814852da408389fb34e483149077~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 89186
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d9baf97162bd46c5a3f5051ac9314ecb~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d9baf97162bd46c5a3f5051ac9314ecb~mv2.jpg",
+      "local": "/images/products/malta-outdoor-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101210
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_d9ea05dd62bf46d5a688935576cd9cee~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_d9ea05dd62bf46d5a688935576cd9cee~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-24.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 129146
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_da87d545dde14701a5e4b7c5cc6ba129~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_da87d545dde14701a5e4b7c5cc6ba129~mv2.jpg",
+      "local": "/images/products/milose-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 216156
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_daf3ed859f19434f8303c2ea5b17560d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_daf3ed859f19434f8303c2ea5b17560d~mv2.jpg",
+      "local": "/images/products/mileos-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 44742
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_daf4e85344bb4573859ca8b07c5d2891~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_daf4e85344bb4573859ca8b07c5d2891~mv2.jpg",
+      "local": "/images/products/claire-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 103260
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_db21376d81df40a2a298bf676909bff8~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_db21376d81df40a2a298bf676909bff8~mv2.jpg",
+      "local": "/images/products/aspire-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 88814
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_dc97458bab2542fc907c1c54fbee5a28~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_dc97458bab2542fc907c1c54fbee5a28~mv2.jpg",
+      "local": "/images/products/petra-compact-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 136038
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_de074da902a5440faf17eeca1be64e26~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_de074da902a5440faf17eeca1be64e26~mv2.jpg",
+      "local": "/images/products/leica-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 192828
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_dea20e58e3934abba8e3bacdde485ce2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_dea20e58e3934abba8e3bacdde485ce2~mv2.jpg",
+      "local": "/images/products/arches-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 76890
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_dee9c3be5250491e88beed679aa55be9~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_dee9c3be5250491e88beed679aa55be9~mv2.jpg",
+      "local": "/images/products/claire-cane-swing-04.webp",
+      "width": 1031,
+      "height": 1600,
+      "bytes": 134688
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_df61ecae95c947f78fce4138e58b5687~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_df61ecae95c947f78fce4138e58b5687~mv2.jpg",
+      "local": "/images/products/aspire-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 121082
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_dfeb4b4c977648768bb6ea51b9154009~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_dfeb4b4c977648768bb6ea51b9154009~mv2.jpg",
+      "local": "/images/products/andros-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 184154
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e126be14d5b24b28a9218cd851b84753~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e126be14d5b24b28a9218cd851b84753~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-29.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 95900
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e262ba7c15464ed1860f836c7741c4df~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e262ba7c15464ed1860f836c7741c4df~mv2.jpg",
+      "local": "/images/products/petra-compact-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 78070
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e3f6b70b5fd8479384770426530e6ded~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e3f6b70b5fd8479384770426530e6ded~mv2.jpg",
+      "local": "/images/products/andros-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 63012
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e40699ddac73488ba0727d4ce0179bb5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e40699ddac73488ba0727d4ce0179bb5~mv2.jpg",
+      "local": "/images/products/milose-cane-sofa-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 124802
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e49baec2c4fe4a9eb75dedf2d0513a78~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e49baec2c4fe4a9eb75dedf2d0513a78~mv2.jpg",
+      "local": "/images/products/minorca-cane-table-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 65030
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e4b814ec97164d5599dc65fe4cb9cb5a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e4b814ec97164d5599dc65fe4cb9cb5a~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 60188
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e51762649be24e1baf6e3d144e6d6cde~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e51762649be24e1baf6e3d144e6d6cde~mv2.jpg",
+      "local": "/images/products/santorini-cane-table-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 43230
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e8ea4b408d614546aa079770c90e99c6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e8ea4b408d614546aa079770c90e99c6~mv2.jpg",
+      "local": "/images/products/caprio-cane-chair-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81608
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e91de89103c04c799ca2407cb3a8da29~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e91de89103c04c799ca2407cb3a8da29~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 73536
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e9398da3b1a448b2a200100159839689~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e9398da3b1a448b2a200100159839689~mv2.jpg",
+      "local": "/images/products/hawaii-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83522
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_e93cc09a478f4144ab7baf44cd9fae85~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_e93cc09a478f4144ab7baf44cd9fae85~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-06.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 85784
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ea545def6316451bb43d7e3ef6ae3590~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ea545def6316451bb43d7e3ef6ae3590~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 101190
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ea84e9f7723247538a7270074eb0c022~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ea84e9f7723247538a7270074eb0c022~mv2.jpg",
+      "local": "/images/products/hawaii-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 148198
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ec8f328cac9e499f90657945271e5e7a~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ec8f328cac9e499f90657945271e5e7a~mv2.jpg",
+      "local": "/images/products/malta-grand-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 100222
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_eccf3957bc2049f4a5a4d52cb20a6a32~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_eccf3957bc2049f4a5a4d52cb20a6a32~mv2.jpg",
+      "local": "/images/products/caprio-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 78658
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ede91068973344738365b7fc058eb57c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ede91068973344738365b7fc058eb57c~mv2.jpg",
+      "local": "/images/products/malaga-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 98286
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_efe56aee2fad4f6b9cff596b1d67e493~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_efe56aee2fad4f6b9cff596b1d67e493~mv2.jpg",
+      "local": "/images/products/andros-f-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 52480
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f0803b2fd22a4da183c3de47e59c84e4~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f0803b2fd22a4da183c3de47e59c84e4~mv2.jpg",
+      "local": "/images/products/caprio-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110786
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f09eabeb9c0f40a78d06c05ab264cdab~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f09eabeb9c0f40a78d06c05ab264cdab~mv2.jpg",
+      "local": "/images/products/athens-stand-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 67928
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f0bcbb1ddf6a4140845cf3c0840d8d93~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f0bcbb1ddf6a4140845cf3c0840d8d93~mv2.jpg",
+      "local": "/images/products/malta-outdoor-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 57248
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f1b64c87fbf2470b9b493921ddeef758~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f1b64c87fbf2470b9b493921ddeef758~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-sofa-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 157464
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f21898da0f0a49ada5cea5f118cbf5cd~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f21898da0f0a49ada5cea5f118cbf5cd~mv2.jpg",
+      "local": "/images/products/claire-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 180346
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f21f74ce8b2044fc809383b9d9c216e0~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f21f74ce8b2044fc809383b9d9c216e0~mv2.jpg",
+      "local": "/images/products/marcos-cane-swing-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 149088
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f243f8a3e2e94cbdba0cb922b3050769~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f243f8a3e2e94cbdba0cb922b3050769~mv2.jpg",
+      "local": "/images/products/oland-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 119914
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f2f11a8f489243609f8d24679c223033~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f2f11a8f489243609f8d24679c223033~mv2.jpg",
+      "local": "/images/products/athens-stand-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 49390
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f3b19b5505d64b9fa0bd54aae78e5138~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f3b19b5505d64b9fa0bd54aae78e5138~mv2.jpg",
+      "local": "/images/products/canary-cane-chair-05.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 83660
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f3bc359ec9494548909d2e17197a737e~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f3bc359ec9494548909d2e17197a737e~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-06.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 123918
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f3bd1bc9bc844aaf8a0da40fb2ce63a5~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f3bd1bc9bc844aaf8a0da40fb2ce63a5~mv2.jpg",
+      "local": "/images/products/nebula-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 131466
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f43f26da918742beaa9cb52b34edda41f000.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f43f26da918742beaa9cb52b34edda41f000.jpg",
+      "local": "/images/products/cane-sofas-collection-01.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 56398
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f4bb33791c1e4d81a19b23f2d1f1e184~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f4bb33791c1e4d81a19b23f2d1f1e184~mv2.jpg",
+      "local": "/images/products/filitheyo-hanging-cane-swing-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 94594
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f65e4c3c471345b4bab7d165312d4221~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f65e4c3c471345b4bab7d165312d4221~mv2.jpg",
+      "local": "/images/products/filitheyo-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 112850
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f6dcdecf3ae3457ebc361d320160f25c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f6dcdecf3ae3457ebc361d320160f25c~mv2.jpg",
+      "local": "/images/products/luxor-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 73308
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f7643baa66344556b39a3028d6d4b046~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f7643baa66344556b39a3028d6d4b046~mv2.jpg",
+      "local": "/images/products/alpha-cane-table-02.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 62634
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f940190636b64135872a5998da5ddd51~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f940190636b64135872a5998da5ddd51~mv2.jpg",
+      "local": "/images/products/tahiti-stand-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 130996
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f98d10312a9f4e98a1cee098045ee1a2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f98d10312a9f4e98a1cee098045ee1a2~mv2.jpg",
+      "local": "/images/products/malaga-cane-chair-01.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 99914
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_f9d8c81832e84306977915c13a10548c~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_f9d8c81832e84306977915c13a10548c~mv2.jpg",
+      "local": "/images/products/cane-sofas-collection-12.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 126832
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fa79b986b5f0470aa2587c23fa70fe27~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fa79b986b5f0470aa2587c23fa70fe27~mv2.jpg",
+      "local": "/images/products/petra-double-seater-cane-swing-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 110232
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fab1db38d0e0459c96fbec54a0572f9b~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fab1db38d0e0459c96fbec54a0572f9b~mv2.jpg",
+      "local": "/images/products/byron-cane-chair-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 81698
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fb02586e63864a8b85d59f735cb8d98d~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fb02586e63864a8b85d59f735cb8d98d~mv2.jpg",
+      "local": "/images/products/alpha-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 114096
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fbf452b9e596435e927c9dfc8acac5a1~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fbf452b9e596435e927c9dfc8acac5a1~mv2.jpg",
+      "local": "/images/products/santorini-cane-table-04.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 70330
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fbfbff2080b54330855682f6a30e4f00~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fbfbff2080b54330855682f6a30e4f00~mv2.jpg",
+      "local": "/images/products/canary-cane-table-03.webp",
+      "width": 1078,
+      "height": 1600,
+      "bytes": 99280
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fca5e2c6a55d4457bb7d4b890ec7d321~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fca5e2c6a55d4457bb7d4b890ec7d321~mv2.jpg",
+      "local": "/images/products/malta-grand-cane-swing-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 86168
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fcc18cf0e105493e89c8ed500aa160fd~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fcc18cf0e105493e89c8ed500aa160fd~mv2.jpg",
+      "local": "/images/products/cane-chairs-collection-21.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 66080
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fd62aebed253418393ff52ba5d80fdbff000.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fd62aebed253418393ff52ba5d80fdbff000.jpg",
+      "local": "/images/products/cane-swings-collection-01.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 35198
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_fdff13b3778f4f23b93a3dcc6ec603e6~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_fdff13b3778f4f23b93a3dcc6ec603e6~mv2.jpg",
+      "local": "/images/products/hawaii-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 155680
+    },
+    {
+      "source": "https://static.wixstatic.com/media/93a538_ff3fa32b0bbd4ca2b4ed7fbaade45cb2~mv2.jpg/v1/fit/w_1600,h_1600,q_90/93a538_ff3fa32b0bbd4ca2b4ed7fbaade45cb2~mv2.jpg",
+      "local": "/images/products/milose-cane-sofa-03.webp",
+      "width": 1066,
+      "height": 1600,
+      "bytes": 114126
+    }
+  ],
+  "errors": []
+}

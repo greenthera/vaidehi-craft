@@ -1,0 +1,100 @@
+[
+  {
+    "original": "src/assest/Vaidehi Craft logo green.avif",
+    "current": "public/images/vaidehi-craft-green-logo.avif",
+    "sha256": "678b15dc5e87edcf25a90e398a4b36ff1618ae2f5aac9899194ff5605b27bf92",
+    "bytes": 8096,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/author.avif",
+    "current": "public/images/siddharrtha-shahh-vaidehi-craft-founder.avif",
+    "sha256": "201dca328219c9464e5d795c24636b9849f39c8c91d75cfbe87405f24e6babb5",
+    "bytes": 48797,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/chair-video.mp4",
+    "current": "public/media/cane-chairs-collection.mp4",
+    "sha256": "1a6143d7380ed6ad1698bf184de2d4f47852e5481b8266feb27b231571e2e2b0",
+    "bytes": 2397025,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/sofa-video.mp4",
+    "current": "public/media/cane-sofas-collection.mp4",
+    "sha256": "b4ef7b5609c6f6bfec4106fe89ec05c01c0219c10cdbdffb481be9a325ae0a91",
+    "bytes": 6513214,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/swing-video.mp4",
+    "current": "public/media/cane-swings-collection.mp4",
+    "sha256": "0730844fe86a3ff1b19d352e93c2a88657f82aeee51f2b2a3c07e6d130b0cfc7",
+    "bytes": 6439812,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/table-video.mp4",
+    "current": "public/media/cane-tables-collection.mp4",
+    "sha256": "349a7d444b67e1202b536ca4356d736ce72c7ff403d0f9d200c6def1445228e4",
+    "bytes": 4956408,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-1.avif",
+    "current": "public/images/handwoven-cane-joinery-detail.avif",
+    "sha256": "d3edae6734c85bcdfc000f6b364b9c2afae3153bc7f5736c50e6cfd3f4614eda",
+    "bytes": 174683,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-2.avif",
+    "current": "public/images/blue-cushion-cane-sofa-set.avif",
+    "sha256": "7a5474fdba9f20860cc4efd67e81436e10f3c0112d8fd0a72dddc0e7c1d4bf32",
+    "bytes": 118724,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-3.avif",
+    "current": "public/images/freestanding-cane-swing.avif",
+    "sha256": "95f8c9b7a50df8e7d56a037016fac99a022379739aca98dbb48017a0c76c051a",
+    "bytes": 78676,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-4.avif",
+    "current": "public/images/curated-cane-living-space.avif",
+    "sha256": "6bddd5b5e91f39f10a139abe597aff879881c99b4973174efb6e97d44ba0d210",
+    "bytes": 328252,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-5.avif",
+    "current": "public/images/cane-hanging-chair-curtain-interior.avif",
+    "sha256": "ff4e848dbd3215deb780ecc831a0b47f04013cb7809722a2f47074da0be13e6a",
+    "bytes": 321152,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft-video.mp4",
+    "current": "public/media/canearth15-store-tour.mp4",
+    "sha256": "5ae9da686b33fa0ee3d00aac714c45fbe23b92d75cae637a9b1ff1c24d806396",
+    "bytes": 9549084,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/vaidehicraft.avif",
+    "current": "public/images/cane-rocking-chair-living-room.avif",
+    "sha256": "b31917cb2173cb2fe046b5f47a55c09c75a918eff5eb92cf413e4fcaa8a63a3a",
+    "bytes": 93424,
+    "action": "deduplicated identical copy"
+  },
+  {
+    "original": "src/assest/videoframe_0.png",
+    "current": "public/images/canearth15-original-video-poster.png",
+    "sha256": "72a434747c9736d10420aad203e5a0ede03393bdbf7055f9dc02e7d46795d757",
+    "bytes": 850402,
+    "action": "moved original"
+  }
+]

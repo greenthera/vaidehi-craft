@@ -1,26 +1,208 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Century Gothic";
+  src: url("/fonts/century-gothic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
-
+@font-face {
+  font-family: "Century Gothic";
+  src: url("/fonts/century-gothic-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Reference Heading";
+  src: url("/fonts/century-gothic-bold.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Reference Statement";
+  src: url("/fonts/century-gothic-statement.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Reference Store";
+  src: url("/fonts/century-gothic-store.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+:root {
+  --background: #fff;
+  --foreground: #000;
+  --font-reference-heading: "Reference Heading", Arial, sans-serif;
+  --font-reference-statement: "Reference Statement", Arial, sans-serif;
+  --font-reference-store: "Reference Store", Arial, sans-serif;
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Century Gothic", Arial, Helvetica, sans-serif;
+}
+html { scrollbar-gutter: stable; scroll-behavior: smooth; }
+body { background: var(--background); color: var(--foreground); font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid #39641d; outline-offset: 5px; }
+html:has(dialog[open]) { overflow: hidden; }
+::selection { color: white; background: #39641d; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Reference type scales: viewport units deliberately retain the original scaling. */
+@font-face { font-family: "Reference Catalog"; src: url("/fonts/catalog-century-gothic-bold.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Madefor Text"; src: url("/fonts/madefor-text.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Madefor Display"; src: url("/fonts/madefor-display.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@utility type-hero {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 4.67142vw);
+  font-weight: 400;
+  line-height: 1.3;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility type-spaces-title {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 4.21474vw);
+  font-weight: 400;
+  line-height: 1.2;
+  @media (max-width: 750px) { font-size: max(0.5px, 6.31168vw); }
 }
+@utility type-spaces-copy {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: max(0.5px, 0.77627vw);
+  font-weight: 400;
+  line-height: 1.2;
+  @media (max-width: 750px) { font-size: max(0.5px, 1.95995vw); }
+}
+@utility type-store-copy {
+  font-family: "Reference Store", Arial, sans-serif;
+  font-size: max(0.5px, 0.71259vw);
+  font-weight: 400;
+  line-height: 1.6;
+  @media (max-width: 750px) { font-size: max(0.5px, 1.34048vw); }
+}
+@utility type-store-last {
+  font-family: "Reference Store", Arial, sans-serif;
+  font-size: max(0.5px, 0.71259vw);
+  font-weight: 400;
+  line-height: 1.6;
+  @media (max-width: 750px) { font-size: max(0.5px, 1.38437vw); }
+}
+@utility type-cane-title {
+  font-family: "Reference Statement", Arial, sans-serif;
+  font-size: max(0.5px, 7.14822vw);
+  font-weight: 400;
+  line-height: 1.4;
+  @media (max-width: 1000px) { font-size: max(0.5px, 8.46513vw); }
+  @media (max-width: 750px) { font-size: max(0.5px, 10.51261vw); font-weight: 700; }
+}
+@utility type-cane-copy {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: max(0.5px, 0.96471vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 1000px) { font-size: max(0.5px, 1.60427vw); }
+  @media (max-width: 750px) { font-size: max(0.5px, 1.90461vw); font-weight: 700; }
+}
+@utility type-founder {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: max(0.5px, 0.66593vw);
+  font-weight: 400;
+  line-height: 1.6;
+  @media (max-width: 1000px) { font-size: max(0.5px, 0.95013vw); }
+  @media (max-width: 750px) { font-size: max(0.5px, 1.15945vw); }
+}
+@utility type-card-title {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 1.48437vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 3.33333vw); }
+}
+@utility type-feature-title {
+  font-family: "Reference Statement", Arial, sans-serif;
+  font-size: max(0.5px, 1.71875vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 4.35897vw); }
+}
+@utility type-card-button {
+  font-family: "Reference Store", Arial, sans-serif;
+  font-size: max(0.5px, 0.78125vw);
+  font-weight: 700;
+  line-height: 1.6;
+  @media (max-width: 1000px) { font-size: max(0.5px, 0.85938vw); }
+  @media (max-width: 750px) { font-size: max(0.5px, 2.5vw); }
+}
+@utility type-feature-button {
+  font-family: "Reference Store", Arial, sans-serif;
+  font-size: max(0.5px, 1.09375vw);
+  font-weight: 700;
+  line-height: 1.6;
+  @media (max-width: 750px) { font-size: max(0.5px, 3.04687vw); }
+}
+@utility type-product-title {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 2.57812vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 5.12821vw); }
+}
+@utility type-product-copy {
+  font-family: "Reference Store", Arial, sans-serif;
+  font-size: max(0.5px, 0.9375vw);
+  font-weight: 400;
+  line-height: 1.6;
+  @media (max-width: 750px) { font-size: max(0.5px, 2.05128vw); }
+}
+@utility type-quote-caption {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 1.95313vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 8.97436vw); }
+}
+@utility type-contact-details {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: max(0.5px, 1.125vw);
+  font-weight: 400;
+  line-height: 1.6;
+  @media (max-width: 750px) { font-size: max(0.5px, 1.3405vw); }
+}
+@utility type-footer {
+  font-family: "Reference Heading", Arial, sans-serif;
+  font-size: max(0.5px, 1.17188vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 2.05128vw); }
+}
+@utility type-collection-label {
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-size: max(0.5px, 2.3125vw);
+  font-weight: 400;
+  line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 5.69581vw); }
+}
+@utility type-collection-title {
+  font-family: "Madefor Display", Arial, sans-serif;
+  font-size: 38px; font-weight: 700; line-height: 1.3;
+  @media (max-width: 750px) { font-size: max(0.5px, 6.26211vw); }
+}
+@utility type-form-title {
+  font-family: "Madefor Display", Arial, sans-serif;
+  font-size: 24px; font-weight: 700; line-height: 1.3;
+  @media (max-width: 750px) { font-size: 35px; line-height: 43px; }
+}
+@utility type-form-copy { font-family: "Madefor Text", Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 1.4; }
+@utility type-form-value { font-family: "Madefor Text", Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
+@utility type-product-button { font-family: "Reference Store", Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; @media (max-width: 750px) { font-size: 10px; } }
+@utility type-card-catalog { font-family: "Reference Catalog", Arial, sans-serif; }
+@utility type-card-store { font-family: "Reference Store", Arial, sans-serif; font-weight: 700; }
+@utility type-card-statement { font-family: "Reference Statement", Arial, sans-serif; }
+@utility type-card-heading { font-family: "Reference Heading", Arial, sans-serif; }
+@utility type-sofa-secondary { font-size: max(0.5px, 1.40625vw); @media (max-width: 750px) { font-size: max(0.5px, 3.33333vw); } }
+@utility type-oldan-copy { font-size: max(0.5px, 0.85938vw); @media (max-width: 750px) { font-size: max(0.5px, 2.05128vw); } }

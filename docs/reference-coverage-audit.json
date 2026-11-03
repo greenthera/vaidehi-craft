@@ -1,0 +1,33 @@
+{
+  "checkedOn": "2026-11-03",
+  "method": "Fresh public collection HTML; compare every repeated card image occurrence with local cards.",
+  "categories": {
+    "chairs": {
+      "referenceCards": 30,
+      "localCards": 30,
+      "missing": [],
+      "extra": []
+    },
+    "sofas": {
+      "referenceCards": 17,
+      "localCards": 17,
+      "missing": [],
+      "extra": []
+    },
+    "swings": {
+      "referenceCards": 32,
+      "localCards": 32,
+      "missing": [],
+      "extra": []
+    },
+    "tables": {
+      "referenceCards": 27,
+      "localCards": 27,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "missing": [],
+  "extra": [],
+  "result": "passed"
+}

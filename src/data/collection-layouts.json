@@ -1,0 +1,635 @@
+{
+  "chairs": {
+    "poster": "/images/products/cane-chairs-collection-13.webp",
+    "sections": [
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "arches-cane-chair",
+            "image": "/images/products/arches-cane-chair-01.webp",
+            "label": "Arches"
+          },
+          {
+            "slug": "aspire-cane-chair",
+            "image": "/images/products/cane-chairs-collection-02.webp",
+            "label": "Aspire"
+          },
+          {
+            "slug": "malaga-cane-chair",
+            "image": "/images/products/malaga-cane-chair-01.webp",
+            "label": "Malaga \u00b7 Teal Cushion"
+          },
+          {
+            "slug": "barcelona-cane-chair",
+            "image": "/images/products/barcelona-cane-chair-01.webp",
+            "label": "Barcelona Armchair"
+          },
+          {
+            "slug": "barcelona-armless-cane-chair",
+            "image": "/images/products/cane-chairs-collection-05.webp",
+            "label": "Barcelona Armless"
+          },
+          {
+            "slug": "emperor-rocking-cane-chair",
+            "image": "/images/products/emperor-rocking-cane-chair-01.webp",
+            "label": "Emperor Rocking"
+          },
+          {
+            "slug": "sunflower-cane-chair",
+            "image": "/images/products/sunflower-cane-chair-01.webp",
+            "label": "Sunflower"
+          },
+          {
+            "slug": "canary-cane-chair",
+            "image": "/images/products/canary-cane-chair-01.webp",
+            "label": "Canary"
+          },
+          {
+            "slug": "byron-cane-chair",
+            "image": "/images/products/byron-cane-chair-01.webp",
+            "label": "Byron"
+          },
+          {
+            "slug": "caprio-cane-chair",
+            "image": "/images/products/caprio-cane-chair-01.webp",
+            "label": "Caprio"
+          }
+        ]
+      },
+      {
+        "type": "feature",
+        "image": "/images/products/cane-chairs-collection-11.webp",
+        "cards": [
+          {
+            "slug": "hawaii-cane-chair",
+            "image": "/images/products/hawaii-cane-chair-01.webp",
+            "label": "Hawaii"
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "malaga-blue-cushion-cane-chair",
+            "image": "/images/products/malaga-cane-chair-06.webp",
+            "label": "Malaga \u00b7 Blue Cushion"
+          },
+          {
+            "slug": "pythos-cane-chair",
+            "image": "/images/products/cane-chairs-collection-15.webp",
+            "label": "Pythos"
+          },
+          {
+            "slug": "santorini-cane-chair",
+            "image": "/images/products/cane-chairs-collection-16.webp",
+            "label": "Santorini"
+          },
+          {
+            "slug": "zero-cane-chair",
+            "image": "/images/products/cane-chairs-collection-17.webp",
+            "label": "Zero"
+          },
+          {
+            "slug": "andros-cane-chair",
+            "image": "/images/products/cane-chairs-collection-18.webp",
+            "label": "Andros"
+          },
+          {
+            "slug": "ibizza-cane-chair",
+            "image": "/images/products/cane-chairs-collection-19.webp",
+            "label": "Ibizza"
+          },
+          {
+            "slug": "claire-cane-chair",
+            "image": "/images/products/cane-chairs-collection-20.webp",
+            "label": "Claire"
+          },
+          {
+            "slug": "alpha-rocking-cane-chair",
+            "image": "/images/products/cane-chairs-collection-21.webp",
+            "label": "Alpha Rocking"
+          },
+          {
+            "slug": "alpha-cane-chair",
+            "image": "/images/products/cane-chairs-collection-22.webp",
+            "label": "Alpha"
+          },
+          {
+            "slug": "steack-cane-chair",
+            "image": "/images/products/cane-chairs-collection-23.webp",
+            "label": "Steack"
+          },
+          {
+            "slug": "tahiti-cane-chair",
+            "image": "/images/products/cane-chairs-collection-24.webp",
+            "label": "Tahiti"
+          },
+          {
+            "slug": "hawaii-collection-cane-chair",
+            "image": "/images/products/hawaii-cane-chair-01.webp",
+            "label": "Hawaii Collection"
+          },
+          {
+            "slug": "condo-cane-chair",
+            "image": "/images/products/cane-chairs-collection-25.webp",
+            "label": "Condo"
+          },
+          {
+            "slug": "luyor-with-footrest-cane-chair",
+            "image": "/images/products/cane-chairs-collection-26.webp",
+            "label": "luyor With Footrest"
+          },
+          {
+            "slug": "filitheyo-cane-chair",
+            "image": "/images/products/cane-chairs-collection-27.webp",
+            "label": "Filitheyo"
+          },
+          {
+            "slug": "nebula-revolving-cane-chair",
+            "image": "/images/products/cane-chairs-collection-28.webp",
+            "label": "Nebula Revolving"
+          },
+          {
+            "slug": "minorca-cane-chair",
+            "image": "/images/products/cane-chairs-collection-29.webp",
+            "label": "Minorca"
+          },
+          {
+            "slug": "mileos-cane-chair",
+            "image": "/images/products/cane-chairs-collection-30.webp",
+            "label": "Mileos \u00b7 Green"
+          },
+          {
+            "slug": "mileos-natural-finish-cane-chair",
+            "image": "/images/products/cane-chairs-collection-31.webp",
+            "label": "Mileos \u00b7 Natural"
+          }
+        ]
+      }
+    ]
+  },
+  "sofas": {
+    "poster": "/images/products/cane-sofas-collection-01.webp",
+    "sections": [
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "claire-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-02.webp",
+            "label": "Claire"
+          },
+          {
+            "slug": "alpha-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-03.webp",
+            "label": "Alpha"
+          },
+          {
+            "slug": "arches-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-04.webp",
+            "label": "Arches"
+          },
+          {
+            "slug": "kingstorn-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-05.webp",
+            "label": "kingstorn"
+          },
+          {
+            "slug": "caprio-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-06.webp",
+            "label": "Caprio"
+          }
+        ]
+      },
+      {
+        "type": "feature",
+        "image": "/images/products/cane-sofas-collection-07.webp",
+        "cards": [
+          {
+            "slug": "filitheyo-cane-sofa",
+            "image": "/images/products/filitheyo-cane-sofa-05.webp",
+            "label": "Filitheyo"
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "filitheyo-collection-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-09.webp",
+            "label": "Filitheyo Collection"
+          },
+          {
+            "slug": "hawaii-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-10.webp",
+            "label": "Hawaii"
+          },
+          {
+            "slug": "andros-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-11.webp",
+            "label": "Andros"
+          },
+          {
+            "slug": "milose-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-12.webp",
+            "label": "Milose"
+          },
+          {
+            "slug": "canary-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-13.webp",
+            "label": "Canary"
+          },
+          {
+            "slug": "tahiti-low-seating-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-14.webp",
+            "label": "Tahiti - Low Seating"
+          },
+          {
+            "slug": "leica-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-15.webp",
+            "label": "Leica"
+          },
+          {
+            "slug": "aspire-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-16.webp",
+            "label": "Aspire"
+          },
+          {
+            "slug": "ibizza-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-17.webp",
+            "label": "Ibizza"
+          },
+          {
+            "slug": "malaga-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-18.webp",
+            "label": "Malaga"
+          },
+          {
+            "slug": "pythos-cane-sofa",
+            "image": "/images/products/cane-sofas-collection-19.webp",
+            "label": "Pythos"
+          }
+        ]
+      }
+    ]
+  },
+  "swings": {
+    "poster": "/images/products/cane-swings-collection-01.webp",
+    "sections": [
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "fiscus-cane-swing",
+            "image": "/images/products/fiscus-cane-swing-01.webp",
+            "label": "Fiscus"
+          },
+          {
+            "slug": "leica-cane-swing",
+            "image": "/images/products/leica-cane-swing-01.webp",
+            "label": "Leica"
+          },
+          {
+            "slug": "streak-double-seater-cane-swing",
+            "image": "/images/products/streak-double-seater-cane-swing-01.webp",
+            "label": "Streak"
+          },
+          {
+            "slug": "arches-cane-swing",
+            "image": "/images/products/arches-cane-swing-01.webp",
+            "label": "Arches"
+          },
+          {
+            "slug": "tahiti-cane-swing",
+            "image": "/images/products/tahiti-cane-swing-01.webp",
+            "label": "Tahiti"
+          },
+          {
+            "slug": "andros-cane-swing",
+            "image": "/images/products/andros-cane-swing-01.webp",
+            "label": "Andros"
+          },
+          {
+            "slug": "claire-cane-swing",
+            "image": "/images/products/claire-cane-swing-01.webp",
+            "label": "Claire"
+          },
+          {
+            "slug": "hawaii-cane-swing",
+            "image": "/images/products/hawaii-cane-swing-01.webp",
+            "label": "Hawaii"
+          },
+          {
+            "slug": "bora-bora-double-seater-cane-swing",
+            "image": "/images/products/bora-bora-double-seater-cane-swing-01.webp",
+            "label": "Bora Bora"
+          },
+          {
+            "slug": "filitheyo-hanging-cane-swing",
+            "image": "/images/products/filitheyo-hanging-cane-swing-01.webp",
+            "label": "Filitheyo"
+          },
+          {
+            "slug": "petra-double-seater-cane-swing",
+            "image": "/images/products/petra-double-seater-cane-swing-01.webp",
+            "label": "Petra"
+          },
+          {
+            "slug": "marcos-cane-swing",
+            "image": "/images/products/marcos-cane-swing-01.webp",
+            "label": "Marcos"
+          }
+        ]
+      },
+      {
+        "type": "feature",
+        "image": "/images/products/cane-swings-collection-03.webp",
+        "cards": [
+          {
+            "slug": "oldan-cane-swing",
+            "image": "/images/products/oland-cane-swing-01.webp",
+            "label": "Oldan"
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "caprio-cane-swing",
+            "image": "/images/products/caprio-cane-swing-01.webp",
+            "label": "Caprio"
+          },
+          {
+            "slug": "malta-cane-swing",
+            "image": "/images/products/malta-cane-swing-01.webp",
+            "label": "Malta"
+          },
+          {
+            "slug": "malta-grand-cane-swing",
+            "image": "/images/products/malta-grand-cane-swing-01.webp",
+            "label": "Malta Grand"
+          },
+          {
+            "slug": "malta-outdoor-cane-swing",
+            "image": "/images/products/malta-outdoor-cane-swing-01.webp",
+            "label": "Malta Outdoor"
+          },
+          {
+            "slug": "nebula-cane-swing",
+            "image": "/images/products/nebula-cane-swing-01.webp",
+            "label": "Nebula"
+          },
+          {
+            "slug": "oland-cane-swing",
+            "image": "/images/products/oland-cane-swing-01.webp",
+            "label": "Oland"
+          },
+          {
+            "slug": "petra-compact-cane-swing",
+            "image": "/images/products/petra-compact-cane-swing-01.webp",
+            "label": "Petra \u00b7 Woven Base"
+          },
+          {
+            "slug": "petra-open-frame-cane-swing",
+            "image": "/images/products/cane-swings-collection-23.webp",
+            "label": "Petra \u00b7 Open Frame"
+          },
+          {
+            "slug": "streak-compact-cane-swing",
+            "image": "/images/products/streak-compact-cane-swing-01.webp",
+            "label": "Streak"
+          },
+          {
+            "slug": "bora-bora-single-seater-cane-swing",
+            "image": "/images/products/bora-bora-single-seater-cane-swing-01.webp",
+            "label": "Bora Bora"
+          }
+        ]
+      },
+      {
+        "type": "feature",
+        "image": "/images/products/cane-swings-collection-02.webp",
+        "cards": []
+      },
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "axor-with-roof-cane-swing",
+            "image": "/images/products/axor-with-roof-cane-swing-01.webp",
+            "label": "Axor With Roof"
+          },
+          {
+            "slug": "malaga-with-roof-cane-swing",
+            "image": "/images/products/malaga-with-roof-cane-swing-01.webp",
+            "label": "Malaga With Roof"
+          },
+          {
+            "slug": "filitheyo-with-roof-cane-swing",
+            "image": "/images/products/filitheyo-with-roof-cane-swing-01.webp",
+            "label": "Filitheyo With Roof"
+          },
+          {
+            "slug": "filitheyo-with-stand-cane-swing",
+            "image": "/images/products/filitheyo-with-stand-cane-swing-01.webp",
+            "label": "Filitheyo"
+          },
+          {
+            "slug": "andros-f-cane-swing",
+            "image": "/images/products/andros-f-cane-swing-01.webp",
+            "label": "Andros F"
+          },
+          {
+            "slug": "andros-w-cane-swing",
+            "image": "/images/products/andros-w-cane-swing-01.webp",
+            "label": "Andros W"
+          },
+          {
+            "slug": "adron-g-cane-swing",
+            "image": "/images/products/adron-g-cane-swing-01.webp",
+            "label": "Adron G"
+          },
+          {
+            "slug": "athens-stand-cane-swing",
+            "image": "/images/products/athens-stand-cane-swing-01.webp",
+            "label": "Athens Stand"
+          },
+          {
+            "slug": "tahiti-stand-cane-swing",
+            "image": "/images/products/tahiti-stand-cane-swing-01.webp",
+            "label": "Tahiti Stand"
+          }
+        ]
+      }
+    ]
+  },
+  "tables": {
+    "poster": "/images/products/cane-tables-collection-01.webp",
+    "sections": [
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "andros-cane-table",
+            "image": "/images/products/andros-cane-table-01.webp",
+            "label": "Andros"
+          },
+          {
+            "slug": "alpha-cane-table",
+            "image": "/images/products/alpha-cane-table-01.webp",
+            "label": "Alpha"
+          },
+          {
+            "slug": "tahiti-cane-table",
+            "image": "/images/products/tahiti-cane-table-01.webp",
+            "label": "Tahiti"
+          },
+          {
+            "slug": "mileos-cane-table",
+            "image": "/images/products/mileos-cane-table-01.webp",
+            "label": "Mileos \u00b7 Natural"
+          },
+          {
+            "slug": "mileos-green-finish-cane-table",
+            "image": "/images/products/cane-tables-collection-06.webp",
+            "label": "Mileos \u00b7 Green"
+          },
+          {
+            "slug": "claire-collection-cane-table",
+            "image": "/images/products/claire-cane-table-02.webp",
+            "label": "Claire Collection"
+          },
+          {
+            "slug": "filitheyo-cane-table",
+            "image": "/images/products/filitheyo-cane-table-01.webp",
+            "label": "Filitheyo"
+          },
+          {
+            "slug": "sunflower-yellow-cane-table",
+            "image": "/images/products/sunflower-yellow-cane-table-01.webp",
+            "label": "SunFlower Yellow"
+          },
+          {
+            "slug": "sunflower-olive-cane-table",
+            "image": "/images/products/cane-tables-collection-10.webp",
+            "label": "SunFlower Olive"
+          },
+          {
+            "slug": "arches-cane-table",
+            "image": "/images/products/arches-cane-table-01.webp",
+            "label": "Arches"
+          }
+        ]
+      },
+      {
+        "type": "feature",
+        "image": "/images/products/cane-tables-collection-12.webp",
+        "cards": [
+          {
+            "slug": "claire-cane-table",
+            "image": "/images/products/claire-cane-table-01.webp",
+            "label": "Claire"
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "image": null,
+        "cards": [
+          {
+            "slug": "malaga-round-cane-table",
+            "image": "/images/products/malaga-round-cane-table-03.webp",
+            "label": "Malaga Round"
+          },
+          {
+            "slug": "malaga-reactngle-cane-table",
+            "image": "/images/products/malaga-reactngle-cane-table-01.webp",
+            "label": "Malaga  Reactngle"
+          },
+          {
+            "slug": "zero-cane-table",
+            "image": "/images/products/zero-cane-table-04.webp",
+            "label": "Zero"
+          },
+          {
+            "slug": "minorca-cane-table",
+            "image": "/images/products/minorca-cane-table-01.webp",
+            "label": "Minorca"
+          },
+          {
+            "slug": "santorini-cane-table",
+            "image": "/images/products/santorini-cane-table-03.webp",
+            "label": "Santorini"
+          },
+          {
+            "slug": "malaga-cane-table",
+            "image": "/images/products/malaga-cane-table-01.webp",
+            "label": "Malaga"
+          },
+          {
+            "slug": "pythos-cane-table",
+            "image": "/images/products/pythos-cane-table-01.webp",
+            "label": "Pythos"
+          },
+          {
+            "slug": "nebula-cane-table",
+            "image": "/images/products/nebula-cane-table-01.webp",
+            "label": "Nebula"
+          },
+          {
+            "slug": "byrons-cane-table",
+            "image": "/images/products/byrons-cane-table-01.webp",
+            "label": "Byrons"
+          },
+          {
+            "slug": "streak-cane-table",
+            "image": "/images/products/streak-cane-table-01.webp",
+            "label": "Streak"
+          },
+          {
+            "slug": "luxor-cane-table",
+            "image": "/images/products/luxor-cane-table-01.webp",
+            "label": "Luxor"
+          },
+          {
+            "slug": "ibizaa-cane-table",
+            "image": "/images/products/ibizaa-cane-table-01.webp",
+            "label": "Ibizaa"
+          },
+          {
+            "slug": "hawaii-cane-table",
+            "image": "/images/products/hawaii-cane-table-01.webp",
+            "label": "Hawaii"
+          },
+          {
+            "slug": "caprio-cane-table",
+            "image": "/images/products/caprio-cane-table-01.webp",
+            "label": "Caprio"
+          },
+          {
+            "slug": "canary-cane-table",
+            "image": "/images/products/cane-tables-collection-28.webp",
+            "label": "Canary"
+          },
+          {
+            "slug": "aspire-cane-table",
+            "image": "/images/products/aspire-cane-table-01.webp",
+            "label": "Aspire"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { startTransition, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import logo from "../../public/images/vaidehi-craft-green-logo.avif";
+import { navigation } from "@/lib/navigation";
+import products from "@/data/product-index.json";
+
+function subscribeScroll(callback: () => void) {
+  let previous = scrollSnapshot();
+  const onScroll = () => {
+    const current = scrollSnapshot();
+    if (current !== previous) { previous = current; callback(); }
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
+}
+const scrollSnapshot = () => window.scrollY > 32;
+const serverScrollSnapshot = () => false;
+const searchEntries = [...navigation.map((item) => ({ name: item.label, path: item.href })), ...products.map((product) => ({ name: product.name, path: product.path }))];
+
+export function SiteHeader() {
+  const pathname = usePathname();
+  const router = useRouter();
+  const navigationVersion = useRef(0);
+  const scrolled = useSyncExternalStore(subscribeScroll, scrollSnapshot, serverScrollSnapshot);
+  const menu = useRef<HTMLDialogElement>(null);
+  const search = useRef<HTMLDialogElement>(null);
+  const panel = useRef<HTMLDivElement>(null);
+  const animations = useRef<Animation[]>([]);
+  const transition = useRef(0);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const term = query.trim().toLowerCase();
+  const results = useMemo(() => searchEntries.filter((item) => item.name.toLowerCase().includes(term)).slice(0, 12), [term]);
+
+  useEffect(() => () => { transition.current += 1; navigationVersion.current += 1; animations.current.forEach((animation) => animation.cancel()); }, []);
+
+  function openMenu() {
+    if (!menu.current || !panel.current) return;
+    transition.current += 1;
+    animations.current.forEach((animation) => animation.cancel());
+    if (!menu.current.open) menu.current.showModal();
+    setMenuOpen(true);
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    animations.current = [
+      menu.current.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 280, easing: "ease-out" }),
+      panel.current.animate([{ transform: "translateX(100%)" }, { transform: "translateX(0)" }], { duration: 420, easing: "cubic-bezier(0.22, 1, 0.36, 1)" }),
+    ];
+  }
+
+  async function closeMenu() {
+    if (!menu.current?.open || !panel.current) return;
+    const version = ++transition.current;
+    const position = window.getComputedStyle(panel.current).transform;
+    const opacity = window.getComputedStyle(menu.current).opacity;
+    animations.current.forEach((animation) => animation.cancel());
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      animations.current = [
+        menu.current.animate([{ opacity }, { opacity: 0 }], { duration: 260, easing: "ease-in", fill: "forwards" }),
+        panel.current.animate([{ transform: position }, { transform: "translateX(100%)" }], { duration: 260, easing: "cubic-bezier(0.4, 0, 1, 1)", fill: "forwards" }),
+      ];
+      await Promise.allSettled(animations.current.map((animation) => animation.finished));
+    }
+    if (version !== transition.current) return;
+    menu.current?.close();
+    animations.current.forEach((animation) => animation.cancel());
+    setMenuOpen(false);
+  }
+
+  async function navigateFromMenu(href: string) {
+    const version = ++navigationVersion.current;
+    router.prefetch(href);
+    await closeMenu();
+    if (version !== navigationVersion.current) return;
+    if (href === pathname) {
+      window.scrollTo({ top: 0, left: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+      return;
+    }
+    startTransition(() => router.push(href, { scroll: true }));
+  }
+
+  return <>
+    <header className={`fixed inset-x-0 top-0 z-50 flex h-20 items-center justify-between px-5 transition-[background-color,box-shadow] duration-300 sm:h-24 sm:px-[7.5%] ${scrolled || pathname !== "/" ? "bg-[#f7f4ee] shadow-sm" : "bg-transparent"}`}>
+      <Link href="/" aria-label="Vaidehi Craft home" className="w-32 shrink-0 sm:w-44"><Image src={logo} alt="Vaidehi Craft" priority sizes="(max-width: 640px) 128px, 176px" className="h-auto w-full" /></Link>
+      <div className="flex items-center gap-3 sm:gap-6">
+        <button type="button" aria-label="Search furniture" aria-haspopup="dialog" aria-controls="site-search" onClick={() => { setQuery(""); search.current?.showModal(); }} className="flex size-11 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-white/40"><Image src="/images/search.svg" alt="" width={26} height={26} /></button>
+        <button type="button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="site-menu" aria-expanded={menuOpen} onClick={openMenu} className="flex h-11 min-w-24 cursor-pointer items-center justify-center rounded-full border border-[#244536]/60 px-6 text-xs font-bold tracking-[0.18em] text-[#244536] transition-colors hover:bg-[#244536] hover:text-white">MENU</button>
+      </div>
+    </header>
+
+    <dialog ref={menu} id="site-menu" aria-label="Site navigation" onCancel={(event) => { event.preventDefault(); void closeMenu(); }} onClick={(event) => { if (event.target === event.currentTarget) void closeMenu(); }} className="fixed inset-0 m-0 h-dvh max-h-none w-full max-w-none overflow-hidden border-0 bg-black/45 p-0 backdrop:bg-transparent">
+      <div ref={panel} className="ml-auto flex h-dvh w-full max-w-[480px] flex-col overflow-y-auto border-l border-[#c9b68f]/25 bg-[#183b2e] px-7 py-7 text-[#f3edde] shadow-2xl sm:px-12 sm:py-9">
+        <div className="flex items-center justify-between border-b border-white/15 pb-7"><Link href="/" aria-label="Vaidehi Craft home" onNavigate={(event) => { event.preventDefault(); void navigateFromMenu("/"); }}><Image src={logo} alt="Vaidehi Craft" width={140} className="h-auto w-32 brightness-0 invert" /></Link><button type="button" aria-label="Close menu" onClick={() => { void closeMenu(); }} className="flex size-11 cursor-pointer items-center justify-center rounded-full border border-white/25 transition-colors hover:bg-white/10"><Image src="/images/close.svg" alt="" width={20} height={20} className="invert" /></button></div>
+        <p className="mt-8 text-[10px] uppercase tracking-[0.26em] text-[#cfbc95]">The art of natural living</p>
+        <nav aria-label="Main navigation" className="my-7 flex flex-col">{navigation.map((item, index) => {
+          const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+          return <Link key={item.href} href={item.href} aria-current={active ? "page" : undefined} onNavigate={(event) => { event.preventDefault(); void navigateFromMenu(item.href); }} className="group flex min-h-14 items-center gap-5 border-b border-white/10 py-3 text-2xl transition-colors hover:text-[#d4bb88] aria-[current=page]:text-[#d4bb88] sm:min-h-16 sm:text-3xl"><span className="text-[10px] tracking-wider text-[#b6bfae]">{String(index + 1).padStart(2, "0")}</span><span className="transition-transform duration-300 motion-safe:group-hover:translate-x-2">{item.label === "Home" || item.label === "Contact" ? item.label : `${item.label}s`}</span></Link>;
+        })}</nav>
+        <div className="mt-auto pt-3"><Link href="/request-quote" onNavigate={(event) => { event.preventDefault(); void navigateFromMenu("/request-quote"); }} className="block rounded-lg bg-[#d4bb88] px-5 py-4 text-center text-xs font-bold uppercase tracking-[0.16em] text-[#183b2e] transition-colors hover:bg-[#e3cea7]">Request a quote</Link><div className="mt-7 flex items-center justify-between text-xs text-[#b6bfae]"><span>Handcrafted since 1998</span><Link href="/contact" onNavigate={(event) => { event.preventDefault(); void navigateFromMenu("/contact"); }} className="underline underline-offset-4">Get in touch</Link></div></div>
+      </div>
+    </dialog>
+
+    <dialog ref={search} id="site-search" aria-labelledby="search-title" onClick={(event) => { if (event.target === event.currentTarget) search.current?.close(); }} className="fixed inset-0 m-auto max-h-[85dvh] w-[min(92vw,700px)] overflow-y-auto rounded-2xl bg-[#f7f4ee] p-6 text-[#244536] shadow-2xl backdrop:bg-black/45 sm:p-10">
+      <div className="mb-6 flex items-center justify-between"><h2 id="search-title" className="text-xl">Find your piece</h2><button type="button" aria-label="Close search" onClick={() => search.current?.close()} className="cursor-pointer p-3"><Image src="/images/close.svg" alt="" width={20} height={20} /></button></div>
+      <label className="block text-xs uppercase tracking-widest">Search furniture<input autoFocus type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try a design name, chair, sofa…" className="mb-6 mt-3 block w-full border-b border-[#c9b68f] bg-transparent py-3 text-base normal-case tracking-normal" /></label>
+      <nav aria-label="Search results" className="flex flex-col">{results.map((item) => <Link key={item.path} href={item.path} onClick={() => search.current?.close()} className="border-b border-[#d8ccbc] py-3 text-sm hover:text-[#936d36]">{item.name}</Link>)}{results.length === 0 && <p role="status">No matching designs. Try another name or collection.</p>}</nav>
+    </dialog>
+  </>;
+}
