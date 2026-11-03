@@ -29,3 +29,13 @@ Collection sections retain their distinct typefaces; the later sofa grid uses 1.
 The richer sidebar, larger social icon backgrounds, and new breadcrumb/variant/helper interfaces are intentional existing project customizations. Their controls retain readable UI typography. Newly added contact/general quote content uses the reference form type scale because there is no corresponding source text block.
 
 Build/type checks confirm generation and local font paths. Visual equality, wrapping, and device rendering still need user review; they are not established by these checks.
+
+
+## Store section desktop restoration
+
+At the user's request, Canearth15 desktop typography (1100px and above) restores the earlier 20px heading and body `clamp(14px, 1vw, 18px)` with 28px line height, overriding the later exact-source viewport scale for this section. Desktop retains the two-column copy/video layout, 7-unit paragraph gaps and 8vw text padding. Below 1100px, padding/gaps are compact, the trailing white spacer is hidden and the forced desktop row minimum height is removed. Stacked video height scales from 280–440px rather than a fixed 520px. Browser verification remains disabled by user preference.
+
+
+## Latest store screenshot correction
+
+The user's 5:22:57 PM screenshot supersedes the earlier desktop restoration above. Desktop store copy again uses the exact 0.71259vw type with 1.6 line height. At 1100px and above, the first text block is 40.83249% of the left column, inset 7.32482vw from its right and 15.16713vw from the section top; the final paragraph is wider at 53.9278%, aligned to the same right edge and flowing after a minimum 15.51365vw first-block height, so longer copy cannot overlap it. Paragraphs are justified and capitalized on desktop. The video occupies the right half without controls. Compact mobile/tablet flow remains unchanged. Browser verification remains off per user instruction.
