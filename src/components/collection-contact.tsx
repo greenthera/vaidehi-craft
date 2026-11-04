@@ -12,11 +12,11 @@ export function CollectionContact() {
         <Link href="/contact" aria-label="Contact Vaidehi Craft"><Image src={logo} alt="Vaidehi Craft" sizes="(max-width: 750px) 160px, (max-width: 1440px) 13vw, 240px" className="h-auto w-40 min-[751px]:w-[clamp(150px,12.5vw,240px)]" /></Link>
       </div>
       <div className="flex min-w-0 flex-col justify-center min-[751px]:border-l-[5px] min-[751px]:border-[#f7f7f3] min-[751px]:py-7 min-[751px]:pl-[2.6vw] min-[751px]:pr-6">
-        <dl className="space-y-2 type-contact-details min-[751px]:space-y-5">
-          <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1"><dt className="font-bold">EMAIL</dt><dd className="min-w-0"><a href="mailto:connect@vaidehicraft.com" className="break-all hover:underline">connect@vaidehicraft.com</a></dd></div>
-          <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1"><dt className="font-bold">STORE</dt><dd>Surat | Pune</dd></div>
-          <div className="flex items-baseline gap-6"><dt className="font-bold">SINCE</dt><dd>1998</dd></div>
-          <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1"><dt className="font-bold">Contact No</dt><dd><a href="tel:+919824177913" className="hover:underline">+91-9824177913</a></dd></div>
+        <dl className="grid grid-cols-[max-content_minmax(0,1fr)] items-baseline gap-x-6 gap-y-2 type-contact-details min-[751px]:gap-y-5">
+          <div className="contents"><dt className="font-bold">EMAIL</dt><dd className="min-w-0"><a href="mailto:connect@vaidehicraft.com" className="break-all hover:underline">connect@vaidehicraft.com</a></dd></div>
+          <div className="contents"><dt className="font-bold">STORE</dt><dd>Surat | Pune</dd></div>
+          <div className="contents"><dt className="font-bold">SINCE</dt><dd>1998</dd></div>
+          <div className="contents"><dt className="font-bold">Contact No</dt><dd><a href="tel:+919824177913" className="hover:underline">+91-9824177913</a></dd></div>
         </dl>
         <SocialLinks className="mt-6" />
       </div>

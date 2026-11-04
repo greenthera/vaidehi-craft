@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { ScrollToTop } from "@/components/scroll-to-top";
+import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 import { siteOrigin, metadataOrigin, pageMetadata, serializeJsonLd } from "@/lib/seo";
 
 const siteUrl = siteOrigin;
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main-content" className="sr-only z-[60] bg-white p-4 focus:not-sr-only focus:fixed">Skip to content</a>
         <SiteHeader />
         {children}
+        <FloatingWhatsApp />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />
       </body>
     </html>
