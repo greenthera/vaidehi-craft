@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
 
-const configuredOrigin = process.env.NEXT_PUBLIC_SITE_URL;
-export const siteOrigin = configuredOrigin ? new URL(configuredOrigin).origin : undefined;
+export function resolveSiteOrigin(value?: string) {
+  const configured = value?.trim();
+  if (!configured) return undefined;
+  let url: URL;
+  try { url = new URL(configured); } catch { throw new Error("NEXT_PUBLIC_SITE_URL must be a complete http(s) origin."); }
+  if (!["http:", "https:"].includes(url.protocol) || url.username || url.password || url.pathname !== "/" || url.search || url.hash) {
+    throw new Error("NEXT_PUBLIC_SITE_URL must contain only an http(s) scheme and hostname, with no credentials, path, query or fragment.");
+  }
+  return url.origin;
+}
+export const siteOrigin = resolveSiteOrigin(process.env.NEXT_PUBLIC_SITE_URL);
 export function metaDescription(value: string) {
   const text = value.replace(/\s+/g, " ").trim();
   return text.length <= 165 ? text : `${text.slice(0, 162).replace(/\s+\S*$/, "")}…`;

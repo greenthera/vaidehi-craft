@@ -20,8 +20,9 @@ export function QuoteForm({ productSlug }: { productSlug?: string }) {
     window.location.assign(url.toString());
   }
   const field = "mt-2 min-h-12 w-full rounded-none border border-black/65 bg-white px-3 py-3 type-form-value text-black outline-offset-4";
-  return <form onSubmit={submit} className="space-y-5 type-form-copy text-black">
+  return <form method="post" onSubmit={submit} className="space-y-5 type-form-copy text-black">
     <h2 className="mb-7 type-form-title">Contact us</h2>
+    <noscript><p>Enable JavaScript to prepare your WhatsApp request, or <a href="tel:+919824177913" className="underline">call us directly</a>.</p></noscript>
     <label className="block">First name <span aria-hidden="true">*</span><input required name="name" autoComplete="given-name" placeholder="First name" maxLength={120} className={field} /></label>
     <label className="block">Email <span aria-hidden="true">*</span><input required type="email" name="email" autoComplete="email" placeholder="Email" maxLength={200} className={field} /></label>
     <label className="block">Phone <span aria-hidden="true">*</span><input required type="tel" inputMode="tel" name="phone" autoComplete="tel" placeholder="Phone" maxLength={30} className={field} /></label>

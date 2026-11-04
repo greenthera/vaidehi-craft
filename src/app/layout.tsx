@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main-content" className="sr-only z-[60] bg-white p-4 focus:not-sr-only focus:fixed">Skip to content</a>
         <SiteHeader />
         {children}
-        {siteUrl && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", name: "Vaidehi Craft", url: siteUrl }) }} />}
+        {siteUrl && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", name: "Vaidehi Craft", url: siteUrl }).replace(/</g, "\\u003c") }} />}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
       </body>
     </html>
