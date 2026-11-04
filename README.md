@@ -47,7 +47,7 @@ The former `src/assest/` directory has been removed. Its 14 original files were 
 
 Fresh reference coverage is recorded in `docs/reference-coverage-audit.json`: 30 chairs, 17 sofas, 32 swings and 27 tables, with no missing/extra card-image occurrences. `scripts/audit-reference-coverage.py` compares newly downloaded public collection HTML with the local inventory. It is an offline audit tool, not a runtime dependency.
 
-Missing reference specifications are not fabricated. Quote forms open a customer-reviewed WhatsApp draft; nothing is sent automatically.
+Missing reference specifications are not fabricated. Quote forms post to `/api/enquiries`, which saves each enquiry through the Google Form and its linked Google Sheet, then shows `/thank-you`. The form and field IDs are in `src/app/api/enquiries/route.ts`.
 
 ## Navigation and scrolling
 

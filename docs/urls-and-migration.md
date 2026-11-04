@@ -36,7 +36,7 @@ SEO implementation follows Google's [descriptive URL guidance](https://developer
 
 All 382 catalog images have descriptive local filenames, such as `/images/products/arches-cane-chair-01.webp`. Home images, videos, fonts and icons are local as well. User-supplied originals remain in `src/assest/` for safekeeping. Runtime catalog data has no source page paths or remote asset URLs. Source acquisition/provenance remains under `scripts/` and `docs/` for migration records; production builds and page requests do not fetch it.
 
-Quote forms preselect the product and open a draft for the verified Vaidehi Craft WhatsApp number. The customer reviews and sends the message in WhatsApp. No false submission-success message or unconfigured email backend is used. Email and telephone links are business contact channels, not dependencies on the previous website's hosting.
+Quote forms preselect the product and post to `/api/enquiries`, which saves the enquiry through the Google Form and its linked Google Sheet. The `/thank-you` page appears only after Google accepts the response; otherwise the form shows an error. Email and telephone links are business contact channels, not dependencies on the previous website's hosting.
 
 ## Checks
 

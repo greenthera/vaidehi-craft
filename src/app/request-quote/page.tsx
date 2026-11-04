@@ -10,7 +10,7 @@ export const metadata = pageMetadata("Request a Quote", "Choose handcrafted cane
 const steps = [
   { title: "Choose your design", text: "Select a collection and the furniture you have in mind." },
   { title: "Make it yours", text: "Tell us about your space, preferred finish, or quantity." },
-  { title: "Start a conversation", text: "Review your enquiry in WhatsApp and send it to our team." },
+  { title: "Start a conversation", text: "Send your enquiry and our team will get in touch with you." },
 ];
 
 export default function QuotePage() {
