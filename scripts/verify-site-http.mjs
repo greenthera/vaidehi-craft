@@ -15,6 +15,7 @@ async function checkPage(page) {
   const response = await fetch(base + page.path);
   assert.equal(response.status, 200, page.path);
   const html = await response.text();
+  assert(!html.includes('id="site-search"') && !html.includes('aria-label="Search furniture"'), `Search UI must be removed: ${page.path}`);
   assert.equal((html.match(/id="site-menu"/g) || []).length, 1, `Exactly one shared header/menu required: ${page.path}`);
   assert(!/static\.wixstatic\.com|https:\/\/www\.vaidehicraft\.com/.test(html), `Old-site dependency: ${page.path}`);
   assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, `One H1 required: ${page.path}`);

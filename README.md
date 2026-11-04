@@ -40,7 +40,7 @@ The former `src/assest/` directory has been removed. Its 14 original files were 
 ## Catalog and URLs
 
 - `src/data/products.json`: 106 product/design/finish/presentation entries with stable paths and local images.
-- `src/data/product-index.json`: compact client-side search index.
+- `src/data/product-index.json`: compact client-side product selector data for quote forms.
 - `src/data/collection-layouts.json`: all 106 reference cards, retaining repeated names as clearly named variants with unique destinations.
 - `src/data/legacy-redirects.json`: one-hop local redirects from old paths.
 
@@ -73,3 +73,9 @@ Catalog regeneration requires retained migration inputs; ordinary builds and pag
 ## Repository cleanup
 
 Unused starter graphics, superseded social icons, three unreferenced collection downloads, and completed one-time download/consolidation scripts have been removed. Supplied original uploads remain preserved, including the original video-poster image. Historical asset manifests retain provenance for earlier downloads; they are not the runtime image inventory. Catalog regeneration, reference coverage auditing, and verification scripts remain available.
+
+## Image and delivery optimization
+
+Header search and its shared product-index payload have been removed. Quote forms retain their product selector. Product cards advertise their actual responsive widths to the image optimizer. Images, fonts and videos have a one-hour browser cache policy; fingerprinted Next.js assets retain the framework's immutable caching.
+
+Run `node scripts/optimize-images.mjs` to check all local images and recompress smaller candidates while preserving dimensions. It retains uploaded originals, existing efficient AVIF/vector images, and rejects lossy candidates below a 36 dB PSNR comparison against the current file. A hash manifest prevents repeated lossy recompression. Results and byte savings are in `docs/image-optimization.json`. Sharp is supplied by Next.js. This is file-size and delivery optimization, not a measured Core Web Vitals claim.

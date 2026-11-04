@@ -3,10 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { startTransition, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { startTransition, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import logo from "../../public/images/vaidehi-craft-green-logo.avif";
 import { navigation } from "@/lib/navigation";
-import products from "@/data/product-index.json";
 
 function subscribeScroll(callback: () => void) {
   let previous = scrollSnapshot();
@@ -19,7 +18,6 @@ function subscribeScroll(callback: () => void) {
 }
 const scrollSnapshot = () => window.scrollY > 32;
 const serverScrollSnapshot = () => false;
-const searchEntries = [...navigation.map((item) => ({ name: item.label, path: item.href })), ...products.map((product) => ({ name: product.name, path: product.path }))];
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -27,14 +25,10 @@ export function SiteHeader() {
   const navigationVersion = useRef(0);
   const scrolled = useSyncExternalStore(subscribeScroll, scrollSnapshot, serverScrollSnapshot);
   const menu = useRef<HTMLDialogElement>(null);
-  const search = useRef<HTMLDialogElement>(null);
   const panel = useRef<HTMLDivElement>(null);
   const animations = useRef<Animation[]>([]);
   const transition = useRef(0);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [query, setQuery] = useState("");
-  const term = query.trim().toLowerCase();
-  const results = useMemo(() => searchEntries.filter((item) => item.name.toLowerCase().includes(term)).slice(0, 12), [term]);
 
   useEffect(() => () => { transition.current += 1; navigationVersion.current += 1; animations.current.forEach((animation) => animation.cancel()); }, []);
 
@@ -86,7 +80,6 @@ export function SiteHeader() {
     <header className={`fixed inset-x-0 top-0 z-50 flex h-20 items-center justify-between px-5 transition-[background-color,box-shadow] duration-300 sm:h-24 sm:px-[7.5%] ${scrolled || pathname !== "/" ? "bg-[#f7f4ee] shadow-sm" : "bg-transparent"}`}>
       <Link href="/" aria-label="Vaidehi Craft home" className="w-32 shrink-0 sm:w-44"><Image src={logo} alt="Vaidehi Craft" priority sizes="(max-width: 640px) 128px, 176px" className="h-auto w-full" /></Link>
       <div className="flex items-center gap-3 sm:gap-6">
-        <button type="button" aria-label="Search furniture" aria-haspopup="dialog" aria-controls="site-search" onClick={() => { setQuery(""); search.current?.showModal(); }} className="flex size-11 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-white/40"><Image src="/images/search.svg" alt="" width={26} height={26} /></button>
         <button type="button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="site-menu" aria-expanded={menuOpen} onClick={openMenu} className="flex h-11 min-w-24 cursor-pointer items-center justify-center rounded-full border border-[#244536]/60 px-6 text-xs font-bold tracking-[0.18em] text-[#244536] transition-colors hover:bg-[#244536] hover:text-white">MENU</button>
       </div>
     </header>
@@ -103,10 +96,5 @@ export function SiteHeader() {
       </div>
     </dialog>
 
-    <dialog ref={search} id="site-search" aria-labelledby="search-title" onClick={(event) => { if (event.target === event.currentTarget) search.current?.close(); }} className="fixed inset-0 m-auto max-h-[85dvh] w-[min(92vw,700px)] overflow-y-auto rounded-2xl bg-[#f7f4ee] p-6 text-[#244536] shadow-2xl backdrop:bg-black/45 sm:p-10">
-      <div className="mb-6 flex items-center justify-between"><h2 id="search-title" className="text-xl">Find your piece</h2><button type="button" aria-label="Close search" onClick={() => search.current?.close()} className="cursor-pointer p-3"><Image src="/images/close.svg" alt="" width={20} height={20} /></button></div>
-      <label className="block text-xs uppercase tracking-widest">Search furniture<input autoFocus type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try a design name, chair, sofa…" className="mb-6 mt-3 block w-full border-b border-[#c9b68f] bg-transparent py-3 text-base normal-case tracking-normal" /></label>
-      <nav aria-label="Search results" className="flex flex-col">{results.map((item) => <Link key={item.path} href={item.path} onClick={() => search.current?.close()} className="border-b border-[#d8ccbc] py-3 text-sm hover:text-[#936d36]">{item.name}</Link>)}{results.length === 0 && <p role="status">No matching designs. Try another name or collection.</p>}</nav>
-    </dialog>
   </>;
 }
