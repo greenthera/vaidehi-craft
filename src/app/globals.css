@@ -171,14 +171,14 @@ html:has(dialog[open]) { overflow: hidden; }
   font-size: max(0.5px, 1.125vw);
   font-weight: 400;
   line-height: 1.6;
-  @media (max-width: 750px) { font-size: max(0.5px, 1.3405vw); }
+  @media (max-width: 750px) { font-size: 14px; }
 }
 @utility type-footer {
   font-family: "Reference Heading", Arial, sans-serif;
   font-size: max(0.5px, 1.17188vw);
   font-weight: 400;
   line-height: 1.3;
-  @media (max-width: 750px) { font-size: max(0.5px, 2.05128vw); }
+  @media (max-width: 750px) { font-size: 14px; }
 }
 @utility type-collection-label {
   font-family: "Century Gothic", Arial, sans-serif;
