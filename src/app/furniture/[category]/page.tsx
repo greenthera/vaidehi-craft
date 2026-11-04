@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { collections, findCollection, products } from "@/lib/catalog";
-import { pageMetadata, siteOrigin } from "@/lib/seo";
+import { pageMetadata, metadataOrigin } from "@/lib/seo";
 import { Breadcrumbs, InnerPage } from "@/components/inner-page";
 import { CatalogCard } from "@/components/catalog-card";
 import { StoreVideo } from "@/components/store-video";
@@ -21,7 +21,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ cat
   if (!collection || !(category in layouts)) notFound();
   const layout = layouts[category as keyof typeof layouts];
   const items = products.filter((product) => product.category === category);
-  const schema = { "@context": "https://schema.org", "@type": "ItemList", name: collection.name, numberOfItems: items.length, itemListElement: items.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.name, ...(siteOrigin ? { url: `${siteOrigin}${product.path}` } : {}) })) };
+  const schema = { "@context": "https://schema.org", "@type": "ItemList", name: collection.name, numberOfItems: items.length, itemListElement: items.map((product, index) => ({ "@type": "ListItem", position: index + 1, name: product.name, ...(metadataOrigin ? { url: `${metadataOrigin}${product.path}` } : {}) })) };
   return <InnerPage flush>
     <section aria-label={`${collection.name} film`} className="h-[clamp(380px,50.78125vw,850px)]"><StoreVideo src={collection.video} poster={layout.poster} label={`${collection.name} by Vaidehi Craft`} /></section>
     <div className="px-[3.85%] pb-4 pt-8 sm:px-[1.95%]"><Breadcrumbs items={[{ name: collection.name }]} /><h1 className="type-collection-title">{category[0].toUpperCase() + category.slice(1)}</h1></div>

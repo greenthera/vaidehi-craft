@@ -5,6 +5,15 @@ const canonicalOrigin = process.env.CHECK_SITE_ORIGIN;
 const products = JSON.parse(fs.readFileSync('src/data/products.json', 'utf8'));
 const redirects = JSON.parse(fs.readFileSync('src/data/legacy-redirects.json', 'utf8'));
 const layouts = JSON.parse(fs.readFileSync('src/data/collection-layouts.json', 'utf8'));
+const referenceMetadata = JSON.parse(fs.readFileSync('src/data/page-metadata.json', 'utf8'));
+function decodeHtml(text) { return text.replace(/&(?:amp|quot|apos|lt|gt|#39|#x[0-9a-f]+|#\d+);/gi, entity => {
+  const named = { '&amp;': '&', '&quot;': '"', '&apos;': "'", '&lt;': '<', '&gt;': '>', '&#39;': "'" };
+  return named[entity] ?? String.fromCodePoint(entity.toLowerCase().startsWith('&#x') ? parseInt(entity.slice(3, -1), 16) : parseInt(entity.slice(2, -1), 10));
+}); }
+function metaContent(html, attribute, name) {
+  const tag = [...html.matchAll(/<meta\s[^>]*>/g)].map(match => match[0]).find(tag => tag.includes(`${attribute}="${name}"`));
+  return decodeHtml(tag?.match(/content="([^"]*)"/)?.[1] ?? '');
+}
 const titles = new Set();
 const pages = [
   { path: '/' }, { path: '/contact' }, { path: '/request-quote', quote: true },
@@ -23,6 +32,16 @@ async function checkPage(page) {
   assert(title && !titles.has(title), `Missing/duplicate title: ${page.path}`); titles.add(title);
   for (const property of ['name="description"', 'property="og:title"', 'name="twitter:card"', 'name="viewport"']) assert(html.includes(property), `${page.path} missing ${property}`);
   for (const script of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)) JSON.parse(script[1]);
+  const reference = referenceMetadata[page.path];
+  if (reference) {
+    assert.equal(decodeHtml(title), reference.title, `Reference title must be preserved: ${page.path}`);
+    for (const [attribute, name, key] of [['name', 'description', 'description'], ['property', 'og:title', 'ogTitle'], ['property', 'og:description', 'ogDescription'], ['name', 'twitter:title', 'twitterTitle'], ['name', 'twitter:description', 'twitterDescription']]) {
+      assert.equal(metaContent(html, attribute, name), reference[key], `Reference ${name} must be preserved: ${page.path}`);
+    }
+  }
+  assert(metaContent(html, 'property', 'og:image'), `Missing sharing image: ${page.path}`);
+  assert(metaContent(html, 'name', 'twitter:image'), `Missing Twitter image: ${page.path}`);
+
   if (page.product && !page.quote) assert(html.includes(`href="${page.product.quotePath}"`), `Missing detail → quote link: ${page.path}`);
   if (page.quote) {
     assert(/name="robots" content="[^"]*noindex/.test(html), `Quote must be noindex: ${page.path}`);

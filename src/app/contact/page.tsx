@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { InnerPage, Breadcrumbs } from "@/components/inner-page";
 import { SocialLinks } from "@/components/social-links";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, metadataOrigin, serializeJsonLd } from "@/lib/seo";
 import interior from "../../../public/images/curated-cane-living-space.avif";
 
 export const metadata = pageMetadata("Get in Touch", "Contact Vaidehi Craft for handcrafted cane furniture, design enquiries and tailored quotations. Connect with our team and ask about our Surat and Pune stores.", "/contact");
@@ -11,6 +11,7 @@ const stores = ["Surat", "Pune"];
 const primaryButton = "inline-flex min-h-12 items-center justify-center rounded-lg bg-[#244536] px-6 py-3 text-sm text-white transition-colors hover:bg-[#183b2e]";
 
 export default function ContactPage() {
+  const schema = metadataOrigin ? { "@context": "https://schema.org", "@type": "ContactPage", "@id": `${metadataOrigin}/contact#webpage`, url: `${metadataOrigin}/contact`, name: "Contact Vaidehi Craft", isPartOf: { "@id": `${metadataOrigin}/#website` }, mainEntity: { "@id": `${metadataOrigin}/#organization` } } : undefined;
   return <InnerPage>
     <div className="mx-auto max-w-[1600px] px-6 pb-10 pt-6 min-[1100px]:px-[7.32482vw] min-[1100px]:pb-16">
       <Breadcrumbs items={[{ name: "Get in touch" }]} />
@@ -42,5 +43,6 @@ export default function ContactPage() {
         </div>
       </section>
     </div>
+    {schema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />}
   </InnerPage>;
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { findCollection, findProduct, products } from "@/lib/catalog";
-import { pageMetadata, siteOrigin } from "@/lib/seo";
+import { pageMetadata, metadataOrigin } from "@/lib/seo";
 import { Breadcrumbs, InnerPage } from "@/components/inner-page";
 import { ProductGallery } from "@/components/product-gallery";
 
@@ -19,7 +19,7 @@ export default async function ProductPage({ params }: Props) {
   const product = findProduct(slug);
   const collection = findCollection(category);
   if (!product || product.category !== category || !collection) notFound();
-  const schema = { "@context": "https://schema.org", "@type": "Product", name: product.name, description: product.description, brand: { "@type": "Brand", name: "Vaidehi Craft" }, ...(siteOrigin ? { url: `${siteOrigin}${product.path}`, image: product.images.map((image) => `${siteOrigin}${image}`) } : {}) };
+  const schema = { "@context": "https://schema.org", "@type": "Product", name: product.name, description: product.description, brand: { "@type": "Brand", name: "Vaidehi Craft" }, ...(metadataOrigin ? { url: `${metadataOrigin}${product.path}`, image: product.images.map((image) => `${metadataOrigin}${image}`) } : {}) };
   const displayName = product.name.replace(/ Cane (Chair|Sofa|Swing|Table)$/, "");
   return <InnerPage>
     <div className="grid items-start min-[751px]:grid-cols-[1.01094fr_0.98906fr]">

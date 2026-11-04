@@ -79,3 +79,9 @@ Unused starter graphics, superseded social icons, three unreferenced collection 
 Header search and its shared product-index payload have been removed. Quote forms retain their product selector. Product cards advertise their actual responsive widths to the image optimizer. Images, fonts and videos have a one-hour browser cache policy; fingerprinted Next.js assets retain the framework's immutable caching.
 
 Run `node scripts/optimize-images.mjs` to check all local images and recompress smaller candidates while preserving dimensions. It retains uploaded originals, existing efficient AVIF/vector images, and rejects lossy candidates below a 36 dB PSNR comparison against the current file. A hash manifest prevents repeated lossy recompression. Results and byte savings are in `docs/image-optimization.json`. Sharp is supplied by Next.js. This is file-size and delivery optimization, not a measured Core Web Vitals claim.
+
+## SEO metadata
+
+`src/data/page-metadata.json` preserves the original website's home, collection and contact titles/descriptions and OG/Twitter wording, checked on 2026-11-04. The longer home description is deliberately retained verbatim. Product and quote titles stay distinct for SEO; useful descriptions remain where the original site had none. Images are local and all canonical/sitemap paths use our clean routes.
+
+Organization/WebSite identities are linked, with breadcrumbs, collection ItemList, Product and ContactPage JSON-LD where applicable. No prices, ratings or store addresses are fabricated. On Vercel, a deployment hostname can supply valid sharing/schema URLs even before `NEXT_PUBLIC_SITE_URL` is configured; indexing remains disabled and the sitemap empty until an explicit public origin is set. Robots and sitemap are generated at `/robots.txt` and `/sitemap.xml` when built.
