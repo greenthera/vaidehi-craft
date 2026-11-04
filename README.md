@@ -24,6 +24,7 @@ Open the local URL yourself. Automated browser testing remains disabled at the u
 npm run lint
 npm run check
 npm run verify:catalog
+node scripts/verify-site-origin.mjs
 npm run build
 ```
 
@@ -58,7 +59,7 @@ These are code-level optimizations, not measured FPS/Core Web Vitals results. Br
 
 ## Deployment and migration
 
-Set `NEXT_PUBLIC_SITE_URL` to the replacement site's actual origin before the production build. Unconfigured previews discourage indexing. Nothing has been published.
+Production builds automatically use the hosting platform's public domain on Vercel, Netlify and Render. Local development and recognised deployment previews discourage indexing. For an unrecognised host or a custom domain that the platform does not expose, set `NEXT_PUBLIC_SITE_URL` (or server-only `SITE_URL`) before building. Nothing has been published by the assistant.
 
 See [URL rules](docs/urls-and-migration.md), [responsive review](docs/responsive-and-seo-review.md) and [design QA](design-qa.md). The optional offline catalog regeneration sequence is:
 
@@ -84,4 +85,6 @@ Run `node scripts/optimize-images.mjs` to check all local images and recompress 
 
 `src/data/page-metadata.json` preserves the original website's home, collection and contact titles/descriptions and OG/Twitter wording, checked on 2026-11-04. The longer home description is deliberately retained verbatim. Product and quote titles stay distinct for SEO; useful descriptions remain where the original site had none. Images are local and all canonical/sitemap paths use our clean routes.
 
-Organization/WebSite identities are linked, with breadcrumbs, collection ItemList, Product and ContactPage JSON-LD where applicable. No prices, ratings or store addresses are fabricated. On Vercel, a deployment hostname can supply valid sharing/schema URLs even before `NEXT_PUBLIC_SITE_URL` is configured; indexing remains disabled and the sitemap empty until an explicit public origin is set. Robots and sitemap are generated at `/robots.txt` and `/sitemap.xml` when built.
+Organization/WebSite identities are linked, with breadcrumbs, collection ItemList, Product and ContactPage JSON-LD where applicable. No prices, ratings or store addresses are fabricated. One shared origin resolver supplies canonicals, OG/Twitter, schema, robots and sitemap. Vercel production uses its primary domain; Netlify production uses `URL`; Render uses its service URL. Production becomes indexable automatically and generates the canonical sitemap. Recognised preview/development builds stay noindex, omit canonicals and serve a blocking robots file with an empty sitemap, even if a production URL override is inherited. Quote forms stay noindex in production.
+
+A domain change supplied by the platform is picked up on the next build. Explicit `NEXT_PUBLIC_SITE_URL` or `SITE_URL` overrides take precedence and must be updated if previously set. Render's service URL does not identify an attached custom domain; set the override for that case. A static build cannot discover an arbitrary future domain on a host that exposes no public URL. GitHub Pages still requires the previously discussed static-export deployment setup; URL detection does not add that hosting support. No localhost image URLs are emitted; an unknown private/local build uses the current Vercel site for sharing only. Robots and sitemap are generated at `/robots.txt` and `/sitemap.xml` when built.
