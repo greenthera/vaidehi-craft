@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SocialLinks } from "@/components/social-links";
 import logo from "../../public/images/vaidehi-craft-green-logo.avif";
 
-const socialLinks = [
-  { label: "Instagram", href: "https://www.instagram.com/vaidehi_crafts/", image: "/images/social/instagram.svg" },
-  { label: "Facebook", href: "https://www.facebook.com/siddharthshahvaidehicrafts/", image: "/images/social/facebook.svg" },
-  { label: "WhatsApp", href: "https://wa.me/919824177913", image: "/images/social/whatsapp.svg" },
-];
+
 
 export function CollectionContact() {
   return (
@@ -21,9 +18,7 @@ export function CollectionContact() {
           <div className="flex items-baseline gap-6"><dt className="font-bold">SINCE</dt><dd>1998</dd></div>
           <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1"><dt className="font-bold">Contact No</dt><dd><a href="tel:+919824177913" className="hover:underline">+91-9824177913</a></dd></div>
         </dl>
-        <nav aria-label="Vaidehi Craft social profiles" className="mt-6 flex items-center gap-4">
-          {socialLinks.map((social) => <a key={social.label} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`${social.label} (opens in a new tab)`} className="flex size-11 shrink-0 items-center justify-center rounded-full bg-[#783b18] transition-colors hover:bg-[#5e2d13] focus-visible:outline-[#783b18] focus-visible:outline-offset-4"><Image src={social.image} alt="" width={22} height={22} className="size-[22px] object-contain" /></a>)}
-        </nav>
+        <SocialLinks className="mt-6" />
       </div>
     </section>
   );
