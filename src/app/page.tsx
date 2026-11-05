@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
+import mobileHero from "@/data/mobile-hero.json";
 import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
 import { StoreVideo } from "@/components/store-video";
@@ -9,12 +10,16 @@ import cane from "../../public/images/handwoven-cane-joinery-detail.avif";
 import founder from "../../public/images/siddharrtha-shahh-vaidehi-craft-founder.avif";
 
 export default function Home() {
+  const mobileSrcSet = mobileHero.map((image) => `${image.path} ${image.width}w`).join(", ");
+  const desktopHero = getImageProps({ src: hero, alt: "", fill: true, sizes: "100vw" }).props;
   return <>
 
 
     <main id="main-content" className="[--home-paragraph-gap:0.5rem] [--home-gutter:24px] min-[1100px]:[--home-gutter:7.32482vw]">
+      <link rel="preload" as="image" media="(max-width: 750px)" imageSrcSet={mobileSrcSet} imageSizes="100vw" fetchPriority="high" />
+      <link rel="preload" as="image" media="(min-width: 751px)" imageSrcSet={desktopHero.srcSet} imageSizes="100vw" fetchPriority="high" />
       <section aria-labelledby="home-title" className="relative min-h-[min(780px,100svh)] bg-[#c1a081] max-[750px]:min-h-[85svh]">
-        <Image src={hero} alt="Cane hanging chair in a sunlit space draped with flowing white curtains" fill priority sizes="100vw" className="object-cover object-[0%_82%] max-[750px]:object-center" />
+        <picture><source media="(max-width: 750px)" srcSet={mobileSrcSet} sizes="100vw" type="image/avif" /><Image src={hero} alt="Cane hanging chair in a sunlit space draped with flowing white curtains" fill loading="eager" fetchPriority="high" sizes="100vw" className="object-cover object-[0%_82%] max-[750px]:object-center" /></picture>
         <h1 id="home-title" className="absolute inset-x-0 bottom-10 px-[var(--home-gutter)] text-center type-hero text-white max-[750px]:bottom-8">Where every piece is a masterpiece.</h1>
       </section>
       <div aria-hidden="true" className="h-[5.45214vw] max-[750px]:h-6 bg-[#ede7df]" />
@@ -39,7 +44,7 @@ export default function Home() {
           </div>
           <p className="type-store-last min-[1100px]:ml-auto min-[1100px]:mr-[var(--home-gutter)] min-[1100px]:w-[53.9278%] min-[1100px]:text-justify">Explore a space where tradition meets innovation, and discover how the warmth and versatility of cane furniture can transform a space into a haven of comfort and style. At Canearth15, we invite you to experience the story, artistry and heart behind every creation.</p>
         </div>
-        <div className="min-h-[clamp(280px,58vw,440px)] min-[900px]:min-h-0"><StoreVideo /></div>
+        <div className="min-h-[clamp(280px,58vw,440px)] min-[900px]:min-h-0"><StoreVideo deferOnMobile /></div>
       </section>
       <div aria-hidden="true" className="hidden h-[clamp(24px,3.08979vw,60px)] bg-white min-[1100px]:block" />
 

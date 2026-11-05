@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() { return legacyRedirects; },
   async headers() {
+    const mobileHero = {
+      source: "/images/home-hero-mobile-:asset.avif",
+      headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+    };
     const assets = ["/images/:path*", "/media/:path*", "/fonts/:path*"].map((source) => ({
       source,
       headers: [{ key: "Cache-Control", value: "public, max-age=3600" }],
@@ -18,6 +22,7 @@ const nextConfig: NextConfig = {
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
       ] },
       ...assets,
+      mobileHero,
     ];
   },
 };
