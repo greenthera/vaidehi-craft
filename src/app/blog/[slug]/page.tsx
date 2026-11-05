@@ -1,3 +1,4 @@
+import { PageHeading } from "@/components/page-heading";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -30,7 +31,7 @@ export default async function ArticlePage({ params }: Props) {
     <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-6 min-[1100px]:px-[7.32482vw]">
       <Breadcrumbs items={[{ name: "Journal", href: "/blog" }, { name: article.title }]} />
       <article>
-        <header className="mx-auto mb-8 max-w-3xl"><p className="mb-4 text-xs uppercase tracking-[0.18em] text-[#783b18]">The Vaidehi Craft journal · {article.category}</p><h1 className="mb-5 text-[clamp(36px,4.5vw,68px)] leading-[1.1] text-[#244536] [font-family:var(--font-reference-heading)]">{article.title}</h1><p className="text-base leading-8 text-[#526356]">{article.description}</p><p className="mt-5 border-t border-[#d3c5af] pt-4 text-xs uppercase tracking-widest text-[#617066]">By Vaidehi Craft</p></header>
+        <div className="mx-auto max-w-3xl"><PageHeading eyebrow={`The Vaidehi Craft journal · ${article.category}`} title={article.title} description={article.description} /><p className="mb-8 border-t border-[#d3c5af] pt-4 text-xs uppercase tracking-widest text-[#617066]">By Vaidehi Craft</p></div>
         <figure className="mb-9"><div className="relative aspect-[4/3] bg-[#ede7df] sm:aspect-[16/9]"><Image src={article.image} alt={article.alt} fill priority sizes="(max-width: 1099px) calc(100vw - 48px), 86vw" className="object-cover" /></div><figcaption className="mt-3 text-xs leading-5 text-[#617066]">{article.alt}</figcaption></figure>
         <div className="grid gap-8 min-[1100px]:grid-cols-[200px_minmax(0,1fr)] min-[1100px]:gap-12">
           <aside aria-label="Article contents" className="border-b border-[#d3c5af] pb-5 min-[1100px]:border-b-0"><p className="mb-4 text-xs uppercase tracking-widest text-[#783b18]">In this story</p><ol className="space-y-3">{article.sections.map((section, index) => <li key={section.heading}><a href={`#section-${index + 1}`} className="inline-flex min-h-6 text-sm leading-6 text-[#526356] underline-offset-4 hover:underline">{section.heading}</a></li>)}</ol><Link href="/blog" className="mt-5 inline-flex min-h-11 items-center text-sm text-[#783b18]">← All stories</Link></aside>

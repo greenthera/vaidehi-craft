@@ -1,3 +1,4 @@
+import { PageHeading } from "@/components/page-heading";
 import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs, InnerPage } from "@/components/inner-page";
@@ -11,10 +12,7 @@ export default function BlogPage() {
   return <InnerPage>
     <div className="mx-auto max-w-[1600px] px-6 pb-12 pt-6 min-[1100px]:px-[7.32482vw] min-[1100px]:pb-20">
       <Breadcrumbs items={[{ name: "Journal" }]} />
-      <header className="mb-8 flex flex-col gap-5 border-b border-[#d3c5af] pb-8 min-[900px]:flex-row min-[900px]:items-end min-[900px]:justify-between">
-        <div><p className="mb-4 text-xs uppercase tracking-[0.2em] text-[#783b18]">Stories, spaces & everyday living</p><h1 className="text-[clamp(40px,5vw,76px)] leading-[1.05] text-[#244536] [font-family:var(--font-reference-heading)]">The craft of<br /><span className="text-[#617066]">feeling at home.</span></h1></div>
-        <p className="max-w-sm text-sm leading-7 text-[#526356]">Welcome to the Vaidehi Craft journal. Explore thoughtful interiors, woven textures, and ideas for a space that feels like you.</p>
-      </header>
+      <PageHeading eyebrow="Stories, spaces & everyday living" title="The Vaidehi Craft journal." description="Explore thoughtful interiors, woven textures, and ideas for a space that feels like you." />
       <section aria-labelledby="featured-title">
         <Link href={articlePath(featured.slug)} className="group grid overflow-hidden bg-[#ede7df] min-[900px]:grid-cols-[1.2fr_1fr]">
           <div className="relative aspect-[4/3] overflow-hidden min-[900px]:aspect-auto min-[900px]:min-h-[440px]"><Image src={featured.image} alt={featured.alt} fill priority sizes="(max-width: 899px) calc(100vw - 48px), 48vw" className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.03]" /></div>

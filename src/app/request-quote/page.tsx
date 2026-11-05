@@ -1,3 +1,4 @@
+import { PageHeading } from "@/components/page-heading";
 import Image from "next/image";
 import Link from "next/link";
 import { InnerPage, Breadcrumbs } from "@/components/inner-page";
@@ -17,11 +18,7 @@ export default function QuotePage() {
   return <InnerPage>
     <div className="mx-auto max-w-[1600px] px-6 pb-10 pt-6 min-[1100px]:px-[7.32482vw] min-[1100px]:pb-16">
       <Breadcrumbs items={[{ name: "Request a quote" }]} />
-      <header className="mb-8 max-w-2xl">
-        <p className="mb-4 text-xs uppercase tracking-[0.18em] text-[#783b18]">Made for your space</p>
-        <h1 className="mb-4 text-[clamp(36px,4.3vw,64px)] leading-[1.1] text-[#244536] [font-family:var(--font-reference-heading)]">Request a quote.</h1>
-        <p className="text-sm leading-7 text-[#526356]">Choose a design and share what you have in mind. We&apos;ll discuss the details with you to help find the right piece for your space.</p>
-      </header>
+      <PageHeading eyebrow="Made for your space" title="Request a quote." description="Choose a design and share what you have in mind. We'll discuss the details with you to help find the right piece for your space." />
       <div className="grid items-start gap-8 min-[1000px]:grid-cols-[0.9fr_1.1fr] min-[1000px]:gap-12">
         <section aria-label="Quote enquiry form" className="min-w-0 rounded-2xl border border-[#d3c5af] bg-[#f7f4ee] p-5 min-[640px]:p-8 min-[1000px]:col-start-2 min-[1000px]:row-start-1">
           <QuoteForm appearance="inquiry" />
