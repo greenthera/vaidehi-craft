@@ -217,3 +217,54 @@ html:has(dialog[open]) { overflow: hidden; }
   text-wrap: balance;
   overflow-wrap: anywhere;
 }
+
+/* Consent controls follow the site's square-corner, green and cream palette. */
+#cc-main {
+  --cc-font-family: "Century Gothic", Arial, sans-serif;
+  --cc-bg: #f7f4ee;
+  --cc-primary-color: #244536;
+  --cc-secondary-color: #526356;
+  --cc-btn-primary-bg: #244536;
+  --cc-btn-primary-color: #fff;
+  --cc-btn-primary-border-color: #244536;
+  --cc-btn-primary-hover-bg: #183b2e;
+  --cc-btn-primary-hover-color: #fff;
+  --cc-btn-primary-hover-border-color: #183b2e;
+  --cc-btn-secondary-bg: #ede7df;
+  --cc-btn-secondary-color: #244536;
+  --cc-btn-secondary-border-color: #d3c5af;
+  --cc-btn-secondary-hover-bg: #ded5c8;
+  --cc-btn-secondary-hover-color: #244536;
+  --cc-btn-secondary-hover-border-color: #d3c5af;
+  --cc-toggle-on-bg: #244536;
+  --cc-separator-border-color: #d3c5af;
+  --cc-modal-border-radius: 0;
+  --cc-btn-border-radius: 0;
+}
+
+/* Keep consent panels at their final size while fading between views. */
+#cc-main {
+  --cc-font-family: Arial, sans-serif;
+  --cc-modal-transition-duration: 0.2s;
+}
+#cc-main .cc--anim .cm,
+#cc-main .cc--anim .pm {
+  transition-property: opacity, visibility;
+}
+#cc-main .cm,
+.show--consent #cc-main .cc--anim .cm {
+  transform: none;
+}
+#cc-main .pm--box,
+.show--preferences #cc-main .cc--anim .pm--box {
+  transform: translateY(-50%);
+}
+@media (max-width: 640px) {
+  #cc-main .pm,
+  .show--preferences #cc-main .cc--anim .pm {
+    transform: none !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #cc-main { --cc-modal-transition-duration: 0s; }
+}

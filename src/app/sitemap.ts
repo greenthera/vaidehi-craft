@@ -7,6 +7,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   if (!siteOrigin) return [];
   return [
     { url: `${siteOrigin}/`, changeFrequency: "monthly", priority: 1 },
+    { url: `${siteOrigin}/privacy-policy`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${siteOrigin}/cookie-policy`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteOrigin}/contact`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${siteOrigin}/blog`, changeFrequency: "monthly", priority: 0.5 },
     ...journalArticles.map((article) => ({ url: `${siteOrigin}${articlePath(article.slug)}`, images: [`${siteOrigin}${article.image}`], changeFrequency: "yearly" as const, priority: 0.5 })),

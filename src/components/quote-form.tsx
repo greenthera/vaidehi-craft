@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import products from "@/data/product-index.json";
@@ -54,6 +55,6 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     <label className="flex min-h-11 cursor-pointer items-center gap-3"><input required type="checkbox" name="confirm" className="size-4 shrink-0 accent-black" /><span>{inquiry ? "I confirm my contact and product details are correct." : "Confirm"} <span aria-hidden="true">*</span>{!inquiry && <span className="sr-only"> that these contact and product details are correct.</span>}</span></label>
     {error && <p role="alert" className="text-sm leading-6 text-[#9a2c14]">{error} Please try again, or <a href="tel:+919824177913" className="underline">call us directly</a>.</p>}
     <button type="submit" disabled={sending} className={`min-h-12 w-full cursor-pointer border px-7 py-3 type-form-value text-white transition-colors disabled:cursor-wait disabled:opacity-70 ${inquiry ? "rounded-lg border-[#244536] bg-[#244536] hover:bg-[#183b2e]" : "border-black bg-black hover:bg-white hover:text-black"}`}>{sending ? "Sending…" : inquiry ? "Submit enquiry" : "Submit request"}</button>
-    <p className="text-xs leading-5 text-neutral-600">We use these details only to respond to your enquiry.</p>
+    <p className="text-xs leading-5 text-neutral-600">We use these details to respond to your enquiry and store submissions using Google Forms and its linked Google Sheet. Read our <Link href="/privacy-policy" className="underline underline-offset-4">Privacy Policy</Link>.</p>
   </form>;
 }
