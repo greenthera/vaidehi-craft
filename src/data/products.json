@@ -56,7 +56,7 @@
     ],
     "details": [
       {
-        "heading": "Material ;",
+        "heading": "Material",
         "text": [
           "Recycled Teak Wood (eco-friendly, anti-termite & anti-borer treated) Distinctive cane webbing Premium foam & plush upholstery Finished with a smooth matte PU polish."
         ]
@@ -184,13 +184,13 @@
       {
         "heading": "Material",
         "text": [
-          "100% Natural Solid Cane Wood Premium foam & meticulous upholstery for luxurious comfort ."
+          "100% Natural Solid Cane Wood Premium foam & meticulous upholstery for luxurious comfort."
         ]
       },
       {
         "heading": "Design",
         "text": [
-          "Crafted for comfort and style with precise bends for eleganceIdeal seating angle and exceptional back support for extended comfort Anti-Termite, Anti-Borer treated Double PU polish finish for enduring elegance and durability Premium foam & plush upholstery."
+          "Crafted for comfort and style with precise bends for elegance. Ideal seating angle and exceptional back support for extended comfort Anti-Termite, Anti-Borer treated Double PU polish finish for enduring elegance and durability Premium foam & plush upholstery."
         ]
       },
       {
@@ -212,7 +212,7 @@
         ]
       }
     ],
-    "description": "Canary Cane Chair by Vaidehi Craft. 100% Natural Solid Cane Wood Premium foam & meticulous upholstery for luxurious comfort .",
+    "description": "Canary Cane Chair by Vaidehi Craft. 100% Natural Solid Cane Wood Premium foam & meticulous upholstery for luxurious comfort.",
     "canonicalPath": "/furniture/chairs/canary-cane-chair",
     "includeInSitemap": true,
     "variantGroup": null
@@ -248,7 +248,7 @@
       {
         "heading": "Ideal For",
         "text": [
-          "Indoor & Semi-Outdoor use .Ideal for reading corners, lounging zones, or statement seating"
+          "Indoor & Semi-Outdoor use. Ideal for reading corners, lounging zones, or statement seating"
         ]
       }
     ],
@@ -671,12 +671,12 @@
     "variantGroup": null
   },
   {
-    "name": "kingstorn Cane Sofa",
-    "model": "kingstorn",
+    "name": "Kingston Cane Sofa",
+    "model": "Kingston",
     "category": "sofas",
-    "slug": "kingstorn-cane-sofa",
-    "path": "/furniture/sofas/kingstorn-cane-sofa",
-    "quotePath": "/request-quote/kingstorn-cane-sofa",
+    "slug": "kingston-cane-sofa",
+    "path": "/furniture/sofas/kingston-cane-sofa",
+    "quotePath": "/request-quote/kingston-cane-sofa",
     "images": [
       "/images/products/kingstorn-cane-sofa-01.webp",
       "/images/products/kingstorn-cane-sofa-02.webp",
@@ -720,8 +720,8 @@
         ]
       }
     ],
-    "description": "kingstorn Cane Sofa by Vaidehi Craft. 100% Natural Solid Cane Wood Premium, eco-conscious materials",
-    "canonicalPath": "/furniture/sofas/kingstorn-cane-sofa",
+    "description": "Kingston Cane Sofa by Vaidehi Craft. 100% Natural Solid Cane Wood Premium, eco-conscious materials",
+    "canonicalPath": "/furniture/sofas/kingston-cane-sofa",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -807,7 +807,7 @@
         "heading": "Materials",
         "text": [
           "Crafted from 100% natural materials",
-          "Solid Teak Wood frame with double-sided Cane Webbing Premium foam and high- quality upholstery for exceptional comfort"
+          "Solid Teak Wood frame with double-sided Cane Webbing Premium foam and high-quality upholstery for exceptional comfort"
         ]
       },
       {
@@ -838,7 +838,7 @@
         ]
       }
     ],
-    "description": "Aspire Cane Sofa by Vaidehi Craft. Crafted from 100% natural materials Solid Teak Wood frame with double-sided Cane Webbing Premium foam and high- quality upholstery for exceptional comfort",
+    "description": "Aspire Cane Sofa by Vaidehi Craft. Crafted from 100% natural materials Solid Teak Wood frame with double-sided Cane Webbing Premium foam and high-quality upholstery for exceptional comfort",
     "canonicalPath": "/furniture/sofas/aspire-cane-sofa",
     "includeInSitemap": true,
     "variantGroup": null
@@ -1021,12 +1021,12 @@
     "variantGroup": null
   },
   {
-    "name": "Ibizza Cane Sofa",
-    "model": "Ibizza",
+    "name": "Ibiza Cane Sofa",
+    "model": "Ibiza",
     "category": "sofas",
-    "slug": "ibizza-cane-sofa",
-    "path": "/furniture/sofas/ibizza-cane-sofa",
-    "quotePath": "/request-quote/ibizza-cane-sofa",
+    "slug": "ibiza-cane-sofa",
+    "path": "/furniture/sofas/ibiza-cane-sofa",
+    "quotePath": "/request-quote/ibiza-cane-sofa",
     "images": [
       "/images/products/ibizza-cane-sofa-01.webp",
       "/images/products/ibizza-cane-sofa-02.webp",
@@ -1060,8 +1060,8 @@
         ]
       }
     ],
-    "description": "Ibizza Cane Sofa by Vaidehi Craft. Expertly crafted from 100% natural materials, including a Cane Wood inner frame and elegant Teakwood legs and handrest",
-    "canonicalPath": "/furniture/sofas/ibizza-cane-sofa",
+    "description": "Ibiza Cane Sofa by Vaidehi Craft. Expertly crafted from 100% natural materials, including a Cane Wood inner frame and elegant Teakwood legs and handrest",
+    "canonicalPath": "/furniture/sofas/ibiza-cane-sofa",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -1174,12 +1174,12 @@
     "variantGroup": null
   },
   {
-    "name": "Milose Cane Sofa",
-    "model": "Milose",
+    "name": "Mileos Cane Sofa",
+    "model": "Mileos",
     "category": "sofas",
-    "slug": "milose-cane-sofa",
-    "path": "/furniture/sofas/milose-cane-sofa",
-    "quotePath": "/request-quote/milose-cane-sofa",
+    "slug": "mileos-cane-sofa",
+    "path": "/furniture/sofas/mileos-cane-sofa",
+    "quotePath": "/request-quote/mileos-cane-sofa",
     "images": [
       "/images/products/milose-cane-sofa-01.webp",
       "/images/products/milose-cane-sofa-02.webp",
@@ -1220,8 +1220,8 @@
         ]
       }
     ],
-    "description": "Milose Cane Sofa by Vaidehi Craft. 100% natural cane, premium foam, and plush upholstery",
-    "canonicalPath": "/furniture/sofas/milose-cane-sofa",
+    "description": "Mileos Cane Sofa by Vaidehi Craft. 100% natural cane, premium foam, and plush upholstery",
+    "canonicalPath": "/furniture/sofas/mileos-cane-sofa",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -1243,7 +1243,7 @@
       {
         "heading": "Materials",
         "text": [
-          "100% natural cane woodPremium foam and plush upholstery"
+          "100% natural cane wood. Premium foam and plush upholstery"
         ]
       },
       {
@@ -1272,7 +1272,7 @@
         ]
       }
     ],
-    "description": "Pythos Cane Sofa by Vaidehi Craft. 100% natural cane woodPremium foam and plush upholstery",
+    "description": "Pythos Cane Sofa by Vaidehi Craft. 100% natural cane wood. Premium foam and plush upholstery",
     "canonicalPath": "/furniture/sofas/pythos-cane-sofa",
     "includeInSitemap": true,
     "variantGroup": null
@@ -1598,7 +1598,7 @@
         "heading": "Design",
         "text": [
           "Double Seater for maximum comfort Ergonomic design with excellent back support.",
-          "Intricate knitting and durable cane wood Anti-termite & anti-borer treated ,Double PU polish for a refined, polished appearance"
+          "Intricate knitting and durable cane wood Anti-termite & anti-borer treated. Double PU polish for a refined, polished appearance"
         ]
       },
       {
@@ -1661,7 +1661,7 @@
       {
         "heading": "Utility",
         "text": [
-          "Versatile and modern, perfect for various indoor spaces ,Ideal for creating a relaxed and rejuvenating atmosphere."
+          "Versatile and modern, perfect for various indoor spaces. Ideal for creating a relaxed and rejuvenating atmosphere."
         ]
       },
       {
@@ -2441,7 +2441,7 @@
       {
         "heading": "Design",
         "text": [
-          "Minimalistic 'A-frame' design Double Seater Zinc Phosphate Primer & Metal Coat Paint Anti-Termite & Anti-Borer Treatment ,Double PU Polish."
+          "Minimalistic 'A-frame' design Double Seater Zinc Phosphate Primer & Metal Coat Paint Anti-Termite & Anti-Borer Treatment,Double PU Polish."
         ]
       },
       {
@@ -2495,7 +2495,7 @@
       {
         "heading": "Durability",
         "text": [
-          "Crafted with high-quality materials for long-lasting performance Built to withstan regular use."
+          "Crafted with high-quality materials for long-lasting performance Built to withstand regular use."
         ]
       },
       {
@@ -2547,7 +2547,7 @@
       {
         "heading": "Compact Design",
         "text": [
-          "Ideal for limited spaces ,Perfect for outdoor settings"
+          "Ideal for limited spaces. Perfect for outdoor settings"
         ]
       },
       {
@@ -2588,7 +2588,7 @@
       {
         "heading": "Design",
         "text": [
-          "Double Seater, Intricate Cane Knitting, Wooden Effect Stand, Anti-Termite & Anti- Borer Treatment.",
+          "Double Seater, Intricate Cane Knitting, Wooden Effect Stand, Anti-Termite & Anti-Borer Treatment.",
           "Eco-friendly materials for lasting strength, Sustainable and durable construction."
         ]
       },
@@ -2700,7 +2700,7 @@
       {
         "heading": "Utility",
         "text": [
-          "Perfect for patios,gardens, and terraces Combines style with functionality."
+          "Perfect for patios, gardens, and terraces Combines style with functionality."
         ]
       },
       {
@@ -2750,7 +2750,7 @@
       {
         "heading": "Durability",
         "text": [
-          "Sturdy frame and high- quality materials ensure long-lasting durability."
+          "Sturdy frame and high-quality materials ensure long-lasting durability."
         ]
       },
       {
@@ -2949,7 +2949,7 @@
     ],
     "details": [
       {
-        "heading": "Materials ;",
+        "heading": "Materials",
         "text": [
           "100% Natural Solid Cane Wood for durability and natural aesthetic Eco-conscious, premium quality materials."
         ]
@@ -3116,9 +3116,9 @@
         ]
       },
       {
-        "heading": "Utility ;",
+        "heading": "Utility",
         "text": [
-          "Versatile for various settings, from kitchens to boardrooms Pairs with Milos collection for a cohesive look."
+          "Versatile for various settings, from kitchens to boardrooms Pairs with Mileos collection for a cohesive look."
         ]
       },
       {
@@ -3135,8 +3135,8 @@
     "variantGroup": "mileos-cane-table"
   },
   {
-    "name": "SunFlower Olive Cane Table",
-    "model": "SunFlower Olive",
+    "name": "Sunflower Olive Cane Table",
+    "model": "Sunflower Olive",
     "category": "tables",
     "slug": "sunflower-olive-cane-table",
     "path": "/furniture/tables/sunflower-olive-cane-table",
@@ -3148,14 +3148,14 @@
       "/images/products/cane-tables-collection-10.webp"
     ],
     "details": [],
-    "description": "SunFlower Olive Cane Table by Vaidehi Craft. View the product gallery and request dimensions, finishes and a tailored quotation.",
+    "description": "Sunflower Olive Cane Table by Vaidehi Craft. View the product gallery and request dimensions, finishes and a tailored quotation.",
     "canonicalPath": "/furniture/tables/sunflower-olive-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
   },
   {
-    "name": "SunFlower Yellow Cane Table",
-    "model": "SunFlower Yellow",
+    "name": "Sunflower Yellow Cane Table",
+    "model": "Sunflower Yellow",
     "category": "tables",
     "slug": "sunflower-yellow-cane-table",
     "path": "/furniture/tables/sunflower-yellow-cane-table",
@@ -3166,7 +3166,7 @@
       "/images/products/sunflower-yellow-cane-table-03.webp"
     ],
     "details": [],
-    "description": "SunFlower Yellow Cane Table by Vaidehi Craft. View the product gallery and request dimensions, finishes and a tailored quotation.",
+    "description": "Sunflower Yellow Cane Table by Vaidehi Craft. View the product gallery and request dimensions, finishes and a tailored quotation.",
     "canonicalPath": "/furniture/tables/sunflower-yellow-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
@@ -3205,7 +3205,7 @@
       {
         "heading": "Utility",
         "text": [
-          "A versatile piece ideal for both indoor .and outdoor settings Complements Tahiti Chairs to create a refined and cohesive space"
+          "A versatile piece ideal for both indoor and outdoor settings Complements Tahiti Chairs to create a refined and cohesive space"
         ]
       },
       {
@@ -3273,12 +3273,12 @@
     "variantGroup": null
   },
   {
-    "name": "Byrons Cane Table",
-    "model": "Byrons",
+    "name": "Byron Cane Table",
+    "model": "Byron",
     "category": "tables",
-    "slug": "byrons-cane-table",
-    "path": "/furniture/tables/byrons-cane-table",
-    "quotePath": "/request-quote/byrons-cane-table",
+    "slug": "byron-cane-table",
+    "path": "/furniture/tables/byron-cane-table",
+    "quotePath": "/request-quote/byron-cane-table",
     "images": [
       "/images/products/byrons-cane-table-01.webp",
       "/images/products/byrons-cane-table-02.webp",
@@ -3307,7 +3307,7 @@
       {
         "heading": "Utility",
         "text": [
-          "Ideal as a dining table or a statement centerpiece .Pairs beautifully with Byron Chairs to complete the look"
+          "Ideal as a dining table or a statement centerpiece.Pairs beautifully with Byron Chairs to complete the look"
         ]
       },
       {
@@ -3318,8 +3318,8 @@
         ]
       }
     ],
-    "description": "Byrons Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood Eco-conscious recycled Teak Wood for added strength and sustainability.",
-    "canonicalPath": "/furniture/tables/byrons-cane-table",
+    "description": "Byron Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood Eco-conscious recycled Teak Wood for added strength and sustainability.",
+    "canonicalPath": "/furniture/tables/byron-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -3344,7 +3344,7 @@
         ]
       },
       {
-        "heading": "Design ;",
+        "heading": "Design",
         "text": [
           "Unique frame design with intricate craftsmanship Anti-Termite, Anti-Borer treated Double PU Polish for durability and sophistication."
         ]
@@ -3476,12 +3476,12 @@
     "variantGroup": null
   },
   {
-    "name": "Ibizaa Cane Table",
-    "model": "Ibizaa",
+    "name": "Ibiza Cane Table",
+    "model": "Ibiza",
     "category": "tables",
-    "slug": "ibizaa-cane-table",
-    "path": "/furniture/tables/ibizaa-cane-table",
-    "quotePath": "/request-quote/ibizaa-cane-table",
+    "slug": "ibiza-cane-table",
+    "path": "/furniture/tables/ibiza-cane-table",
+    "quotePath": "/request-quote/ibiza-cane-table",
     "images": [
       "/images/products/ibizaa-cane-table-01.webp",
       "/images/products/ibizaa-cane-table-02.webp",
@@ -3510,7 +3510,7 @@
       {
         "heading": "Utility",
         "text": [
-          "Versatile and functional, ideal for contemporary settings Pairs beautifully with the Ibizza Sofa and Chairs as a sophisticated centerpiece."
+          "Versatile and functional, ideal for contemporary settings Pairs beautifully with the Ibiza Sofa and Chairs as a sophisticated centerpiece."
         ]
       },
       {
@@ -3520,8 +3520,8 @@
         ]
       }
     ],
-    "description": "Ibizaa Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood inner frame complemented by elegant Teakwood legs Eco-conscious, premium quality materials.",
-    "canonicalPath": "/furniture/tables/ibizaa-cane-table",
+    "description": "Ibiza Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood inner frame complemented by elegant Teakwood legs Eco-conscious, premium quality materials.",
+    "canonicalPath": "/furniture/tables/ibiza-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -3564,12 +3564,12 @@
     "variantGroup": null
   },
   {
-    "name": "Malaga  Reactngle Cane Table",
-    "model": "Malaga  Reactngle",
+    "name": "Malaga Rectangle Cane Table",
+    "model": "Malaga Rectangle",
     "category": "tables",
-    "slug": "malaga-reactngle-cane-table",
-    "path": "/furniture/tables/malaga-reactngle-cane-table",
-    "quotePath": "/request-quote/malaga-reactngle-cane-table",
+    "slug": "malaga-rectangle-cane-table",
+    "path": "/furniture/tables/malaga-rectangle-cane-table",
+    "quotePath": "/request-quote/malaga-rectangle-cane-table",
     "images": [
       "/images/products/malaga-reactngle-cane-table-01.webp",
       "/images/products/malaga-reactngle-cane-table-02.webp",
@@ -3586,7 +3586,7 @@
       {
         "heading": "Design",
         "text": [
-          "Meticulously designed for comfort and style 8mm toughened glass for ease of use and maintenance ntricate loop design through PE pattern on the top Anti-Termite, Anti-Borer treated Double PU Polish for an impeccable finish."
+          "Meticulously designed for comfort and style 8mm toughened glass for ease of use and maintenance intricate loop design through PE pattern on the top Anti-Termite, Anti-Borer treated Double PU Polish for an impeccable finish."
         ]
       },
       {
@@ -3609,8 +3609,8 @@
         ]
       }
     ],
-    "description": "Malaga  Reactngle Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood for durability and a natural aesthetic Eco-conscious, premium quality materials.",
-    "canonicalPath": "/furniture/tables/malaga-reactngle-cane-table",
+    "description": "Malaga Rectangle Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood for durability and a natural aesthetic Eco-conscious, premium quality materials.",
+    "canonicalPath": "/furniture/tables/malaga-rectangle-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -3788,7 +3788,7 @@
       {
         "heading": "Design",
         "text": [
-          "Sleek and sturdy modern silhouette ntricate craftsmanship with a contemporary flair Anti-Termite and Anti-Borer treated Double PU Polish for long-lasting beauty and refined finish."
+          "Sleek and sturdy modern silhouette intricate craftsmanship with a contemporary flair Anti-Termite and Anti-Borer treated Double PU Polish for long-lasting beauty and refined finish."
         ]
       },
       {
@@ -3831,7 +3831,7 @@
     ],
     "details": [
       {
-        "heading": "Materials ;",
+        "heading": "Materials",
         "text": [
           "100% Natural Solid Cane Wood frame Premium foam and refined upholstery for luxurious comfort."
         ]
@@ -3883,13 +3883,13 @@
       {
         "heading": "Material",
         "text": [
-          "100% Natural Solid Cane Wood for durability and natural aesthetics ."
+          "100% Natural Solid Cane Wood for durability and natural aesthetics."
         ]
       },
       {
         "heading": "Design",
         "text": [
-          "Retro-inspired, ergonomic, and stylish Anti-Termite and Anti-Borer treated Double PU Polish for a lasting finish ."
+          "Retro-inspired, ergonomic, and stylish Anti-Termite and Anti-Borer treated Double PU Polish for a lasting finish."
         ]
       },
       {
@@ -3901,7 +3901,7 @@
       {
         "heading": "Utility",
         "text": [
-          "Versatile for outdoor spaces and workspaces deal when paired with the Streak Swing or Streak Chairs."
+          "Versatile for outdoor spaces and workspaces. Ideal when paired with the Streak Swing or Streak Chairs."
         ]
       },
       {
@@ -3912,7 +3912,7 @@
         ]
       }
     ],
-    "description": "Streak Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood for durability and natural aesthetics .",
+    "description": "Streak Cane Table by Vaidehi Craft. 100% Natural Solid Cane Wood for durability and natural aesthetics.",
     "canonicalPath": "/furniture/tables/streak-cane-table",
     "includeInSitemap": true,
     "variantGroup": null
@@ -4033,18 +4033,18 @@
     "variantGroup": null
   },
   {
-    "name": "Ibizza Cane Chair",
-    "model": "Ibizza",
+    "name": "Ibiza Cane Chair",
+    "model": "Ibiza",
     "category": "chairs",
-    "slug": "ibizza-cane-chair",
-    "path": "/furniture/chairs/ibizza-cane-chair",
-    "quotePath": "/request-quote/ibizza-cane-chair",
+    "slug": "ibiza-cane-chair",
+    "path": "/furniture/chairs/ibiza-cane-chair",
+    "quotePath": "/request-quote/ibiza-cane-chair",
     "images": [
       "/images/products/cane-chairs-collection-19.webp"
     ],
     "details": [],
-    "description": "Ibizza Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
-    "canonicalPath": "/furniture/chairs/ibizza-cane-chair",
+    "description": "Ibiza Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
+    "canonicalPath": "/furniture/chairs/ibiza-cane-chair",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -4097,18 +4097,18 @@
     "variantGroup": null
   },
   {
-    "name": "Steack Cane Chair",
-    "model": "Steack",
+    "name": "Streak Cane Chair",
+    "model": "Streak",
     "category": "chairs",
-    "slug": "steack-cane-chair",
-    "path": "/furniture/chairs/steack-cane-chair",
-    "quotePath": "/request-quote/steack-cane-chair",
+    "slug": "streak-cane-chair",
+    "path": "/furniture/chairs/streak-cane-chair",
+    "quotePath": "/request-quote/streak-cane-chair",
     "images": [
       "/images/products/cane-chairs-collection-23.webp"
     ],
     "details": [],
-    "description": "Steack Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
-    "canonicalPath": "/furniture/chairs/steack-cane-chair",
+    "description": "Streak Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
+    "canonicalPath": "/furniture/chairs/streak-cane-chair",
     "includeInSitemap": true,
     "variantGroup": null
   },
@@ -4145,8 +4145,8 @@
     "variantGroup": null
   },
   {
-    "name": "luyor With Footrest Cane Chair",
-    "model": "luyor With Footrest",
+    "name": "Luyor With Footrest Cane Chair",
+    "model": "Luyor With Footrest",
     "category": "chairs",
     "slug": "luyor-with-footrest-cane-chair",
     "path": "/furniture/chairs/luyor-with-footrest-cane-chair",
@@ -4155,7 +4155,7 @@
       "/images/products/cane-chairs-collection-26.webp"
     ],
     "details": [],
-    "description": "luyor With Footrest Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
+    "description": "Luyor With Footrest Cane Chair by Vaidehi Craft. View the design and request its dimensions, available finishes and a tailored quotation.",
     "canonicalPath": "/furniture/chairs/luyor-with-footrest-cane-chair",
     "includeInSitemap": true,
     "variantGroup": null
@@ -4347,9 +4347,9 @@
         ]
       },
       {
-        "heading": "Utility ;",
+        "heading": "Utility",
         "text": [
-          "Versatile for various settings, from kitchens to boardrooms Pairs with Milos collection for a cohesive look."
+          "Versatile for various settings, from kitchens to boardrooms Pairs with Mileos collection for a cohesive look."
         ]
       },
       {

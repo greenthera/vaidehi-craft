@@ -156,12 +156,12 @@
   },
   {
     "source": "/sofa-1/kingstorn",
-    "destination": "/furniture/sofas/kingstorn-cane-sofa",
+    "destination": "/furniture/sofas/kingston-cane-sofa",
     "permanent": true
   },
   {
     "source": "/sofa-1/kingstorn/request-quote",
-    "destination": "/request-quote/kingstorn-cane-sofa",
+    "destination": "/request-quote/kingston-cane-sofa",
     "permanent": true
   },
   {
@@ -216,12 +216,12 @@
   },
   {
     "source": "/sofa-2/ibizza",
-    "destination": "/furniture/sofas/ibizza-cane-sofa",
+    "destination": "/furniture/sofas/ibiza-cane-sofa",
     "permanent": true
   },
   {
     "source": "/sofa-2/ibizza/request-quote",
-    "destination": "/request-quote/ibizza-cane-sofa",
+    "destination": "/request-quote/ibiza-cane-sofa",
     "permanent": true
   },
   {
@@ -246,12 +246,12 @@
   },
   {
     "source": "/sofa-2/milose",
-    "destination": "/furniture/sofas/milose-cane-sofa",
+    "destination": "/furniture/sofas/mileos-cane-sofa",
     "permanent": true
   },
   {
     "source": "/sofa-2/milose/request-quote",
-    "destination": "/request-quote/milose-cane-sofa",
+    "destination": "/request-quote/mileos-cane-sofa",
     "permanent": true
   },
   {
@@ -706,12 +706,12 @@
   },
   {
     "source": "/table-2/byrons",
-    "destination": "/furniture/tables/byrons-cane-table",
+    "destination": "/furniture/tables/byron-cane-table",
     "permanent": true
   },
   {
     "source": "/table-2/byrons/request-quote",
-    "destination": "/request-quote/byrons-cane-table",
+    "destination": "/request-quote/byron-cane-table",
     "permanent": true
   },
   {
@@ -746,12 +746,12 @@
   },
   {
     "source": "/table-2/ibizaa",
-    "destination": "/furniture/tables/ibizaa-cane-table",
+    "destination": "/furniture/tables/ibiza-cane-table",
     "permanent": true
   },
   {
     "source": "/table-2/ibizaa/request-quote",
-    "destination": "/request-quote/ibizaa-cane-table",
+    "destination": "/request-quote/ibiza-cane-table",
     "permanent": true
   },
   {
@@ -776,12 +776,12 @@
   },
   {
     "source": "/table-2/malaga-reactngle",
-    "destination": "/furniture/tables/malaga-reactngle-cane-table",
+    "destination": "/furniture/tables/malaga-rectangle-cane-table",
     "permanent": true
   },
   {
     "source": "/table-2/malaga-reactngle/request-quote",
-    "destination": "/request-quote/malaga-reactngle-cane-table",
+    "destination": "/request-quote/malaga-rectangle-cane-table",
     "permanent": true
   },
   {
@@ -872,6 +872,86 @@
   {
     "source": "/contact-us",
     "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/tables/malaga-reactngle-cane-table",
+    "destination": "/furniture/tables/malaga-rectangle-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/malaga-reactngle-cane-table",
+    "destination": "/request-quote/malaga-rectangle-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/sofas/kingstorn-cane-sofa",
+    "destination": "/furniture/sofas/kingston-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/kingstorn-cane-sofa",
+    "destination": "/request-quote/kingston-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/sofas/ibizza-cane-sofa",
+    "destination": "/furniture/sofas/ibiza-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/ibizza-cane-sofa",
+    "destination": "/request-quote/ibiza-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/sofas/milose-cane-sofa",
+    "destination": "/furniture/sofas/mileos-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/milose-cane-sofa",
+    "destination": "/request-quote/mileos-cane-sofa",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/tables/byrons-cane-table",
+    "destination": "/furniture/tables/byron-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/byrons-cane-table",
+    "destination": "/request-quote/byron-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/tables/ibizaa-cane-table",
+    "destination": "/furniture/tables/ibiza-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/ibizaa-cane-table",
+    "destination": "/request-quote/ibiza-cane-table",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/chairs/ibizza-cane-chair",
+    "destination": "/furniture/chairs/ibiza-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/ibizza-cane-chair",
+    "destination": "/request-quote/ibiza-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/furniture/chairs/steack-cane-chair",
+    "destination": "/furniture/chairs/streak-cane-chair",
+    "permanent": true
+  },
+  {
+    "source": "/request-quote/steack-cane-chair",
+    "destination": "/request-quote/streak-cane-chair",
     "permanent": true
   }
 ]

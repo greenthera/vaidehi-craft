@@ -99,9 +99,9 @@
             "label": "Andros"
           },
           {
-            "slug": "ibizza-cane-chair",
+            "slug": "ibiza-cane-chair",
             "image": "/images/products/cane-chairs-collection-19.webp",
-            "label": "Ibizza"
+            "label": "Ibiza"
           },
           {
             "slug": "claire-cane-chair",
@@ -119,9 +119,9 @@
             "label": "Alpha"
           },
           {
-            "slug": "steack-cane-chair",
+            "slug": "streak-cane-chair",
             "image": "/images/products/cane-chairs-collection-23.webp",
-            "label": "Steack"
+            "label": "Streak"
           },
           {
             "slug": "tahiti-cane-chair",
@@ -141,7 +141,7 @@
           {
             "slug": "luyor-with-footrest-cane-chair",
             "image": "/images/products/cane-chairs-collection-26.webp",
-            "label": "luyor With Footrest"
+            "label": "Luyor With Footrest"
           },
           {
             "slug": "filitheyo-cane-chair",
@@ -195,9 +195,9 @@
             "label": "Arches"
           },
           {
-            "slug": "kingstorn-cane-sofa",
+            "slug": "kingston-cane-sofa",
             "image": "/images/products/cane-sofas-collection-05.webp",
-            "label": "kingstorn"
+            "label": "Kingston"
           },
           {
             "slug": "caprio-cane-sofa",
@@ -237,9 +237,9 @@
             "label": "Andros"
           },
           {
-            "slug": "milose-cane-sofa",
+            "slug": "mileos-cane-sofa",
             "image": "/images/products/cane-sofas-collection-12.webp",
-            "label": "Milose"
+            "label": "Mileos"
           },
           {
             "slug": "canary-cane-sofa",
@@ -262,9 +262,9 @@
             "label": "Aspire"
           },
           {
-            "slug": "ibizza-cane-sofa",
+            "slug": "ibiza-cane-sofa",
             "image": "/images/products/cane-sofas-collection-17.webp",
-            "label": "Ibizza"
+            "label": "Ibiza"
           },
           {
             "slug": "malaga-cane-sofa",
@@ -519,12 +519,12 @@
           {
             "slug": "sunflower-yellow-cane-table",
             "image": "/images/products/sunflower-yellow-cane-table-01.webp",
-            "label": "SunFlower Yellow"
+            "label": "Sunflower Yellow"
           },
           {
             "slug": "sunflower-olive-cane-table",
             "image": "/images/products/cane-tables-collection-10.webp",
-            "label": "SunFlower Olive"
+            "label": "Sunflower Olive"
           },
           {
             "slug": "arches-cane-table",
@@ -554,9 +554,9 @@
             "label": "Malaga Round"
           },
           {
-            "slug": "malaga-reactngle-cane-table",
+            "slug": "malaga-rectangle-cane-table",
             "image": "/images/products/malaga-reactngle-cane-table-01.webp",
-            "label": "Malaga  Reactngle"
+            "label": "Malaga Rectangle"
           },
           {
             "slug": "zero-cane-table",
@@ -589,9 +589,9 @@
             "label": "Nebula"
           },
           {
-            "slug": "byrons-cane-table",
+            "slug": "byron-cane-table",
             "image": "/images/products/byrons-cane-table-01.webp",
-            "label": "Byrons"
+            "label": "Byron"
           },
           {
             "slug": "streak-cane-table",
@@ -604,9 +604,9 @@
             "label": "Luxor"
           },
           {
-            "slug": "ibizaa-cane-table",
+            "slug": "ibiza-cane-table",
             "image": "/images/products/ibizaa-cane-table-01.webp",
-            "label": "Ibizaa"
+            "label": "Ibiza"
           },
           {
             "slug": "hawaii-cane-table",

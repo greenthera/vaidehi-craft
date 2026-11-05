@@ -98,10 +98,10 @@
     "category": "sofas"
   },
   {
-    "name": "kingstorn Cane Sofa",
-    "slug": "kingstorn-cane-sofa",
-    "path": "/furniture/sofas/kingstorn-cane-sofa",
-    "quotePath": "/request-quote/kingstorn-cane-sofa",
+    "name": "Kingston Cane Sofa",
+    "slug": "kingston-cane-sofa",
+    "path": "/furniture/sofas/kingston-cane-sofa",
+    "quotePath": "/request-quote/kingston-cane-sofa",
     "category": "sofas"
   },
   {
@@ -140,10 +140,10 @@
     "category": "sofas"
   },
   {
-    "name": "Ibizza Cane Sofa",
-    "slug": "ibizza-cane-sofa",
-    "path": "/furniture/sofas/ibizza-cane-sofa",
-    "quotePath": "/request-quote/ibizza-cane-sofa",
+    "name": "Ibiza Cane Sofa",
+    "slug": "ibiza-cane-sofa",
+    "path": "/furniture/sofas/ibiza-cane-sofa",
+    "quotePath": "/request-quote/ibiza-cane-sofa",
     "category": "sofas"
   },
   {
@@ -161,10 +161,10 @@
     "category": "sofas"
   },
   {
-    "name": "Milose Cane Sofa",
-    "slug": "milose-cane-sofa",
-    "path": "/furniture/sofas/milose-cane-sofa",
-    "quotePath": "/request-quote/milose-cane-sofa",
+    "name": "Mileos Cane Sofa",
+    "slug": "mileos-cane-sofa",
+    "path": "/furniture/sofas/mileos-cane-sofa",
+    "quotePath": "/request-quote/mileos-cane-sofa",
     "category": "sofas"
   },
   {
@@ -441,14 +441,14 @@
     "category": "tables"
   },
   {
-    "name": "SunFlower Olive Cane Table",
+    "name": "Sunflower Olive Cane Table",
     "slug": "sunflower-olive-cane-table",
     "path": "/furniture/tables/sunflower-olive-cane-table",
     "quotePath": "/request-quote/sunflower-olive-cane-table",
     "category": "tables"
   },
   {
-    "name": "SunFlower Yellow Cane Table",
+    "name": "Sunflower Yellow Cane Table",
     "slug": "sunflower-yellow-cane-table",
     "path": "/furniture/tables/sunflower-yellow-cane-table",
     "quotePath": "/request-quote/sunflower-yellow-cane-table",
@@ -469,10 +469,10 @@
     "category": "tables"
   },
   {
-    "name": "Byrons Cane Table",
-    "slug": "byrons-cane-table",
-    "path": "/furniture/tables/byrons-cane-table",
-    "quotePath": "/request-quote/byrons-cane-table",
+    "name": "Byron Cane Table",
+    "slug": "byron-cane-table",
+    "path": "/furniture/tables/byron-cane-table",
+    "quotePath": "/request-quote/byron-cane-table",
     "category": "tables"
   },
   {
@@ -497,10 +497,10 @@
     "category": "tables"
   },
   {
-    "name": "Ibizaa Cane Table",
-    "slug": "ibizaa-cane-table",
-    "path": "/furniture/tables/ibizaa-cane-table",
-    "quotePath": "/request-quote/ibizaa-cane-table",
+    "name": "Ibiza Cane Table",
+    "slug": "ibiza-cane-table",
+    "path": "/furniture/tables/ibiza-cane-table",
+    "quotePath": "/request-quote/ibiza-cane-table",
     "category": "tables"
   },
   {
@@ -518,10 +518,10 @@
     "category": "tables"
   },
   {
-    "name": "Malaga  Reactngle Cane Table",
-    "slug": "malaga-reactngle-cane-table",
-    "path": "/furniture/tables/malaga-reactngle-cane-table",
-    "quotePath": "/request-quote/malaga-reactngle-cane-table",
+    "name": "Malaga Rectangle Cane Table",
+    "slug": "malaga-rectangle-cane-table",
+    "path": "/furniture/tables/malaga-rectangle-cane-table",
+    "quotePath": "/request-quote/malaga-rectangle-cane-table",
     "category": "tables"
   },
   {
@@ -602,10 +602,10 @@
     "category": "chairs"
   },
   {
-    "name": "Ibizza Cane Chair",
-    "slug": "ibizza-cane-chair",
-    "path": "/furniture/chairs/ibizza-cane-chair",
-    "quotePath": "/request-quote/ibizza-cane-chair",
+    "name": "Ibiza Cane Chair",
+    "slug": "ibiza-cane-chair",
+    "path": "/furniture/chairs/ibiza-cane-chair",
+    "quotePath": "/request-quote/ibiza-cane-chair",
     "category": "chairs"
   },
   {
@@ -630,10 +630,10 @@
     "category": "chairs"
   },
   {
-    "name": "Steack Cane Chair",
-    "slug": "steack-cane-chair",
-    "path": "/furniture/chairs/steack-cane-chair",
-    "quotePath": "/request-quote/steack-cane-chair",
+    "name": "Streak Cane Chair",
+    "slug": "streak-cane-chair",
+    "path": "/furniture/chairs/streak-cane-chair",
+    "quotePath": "/request-quote/streak-cane-chair",
     "category": "chairs"
   },
   {
@@ -651,7 +651,7 @@
     "category": "chairs"
   },
   {
-    "name": "luyor With Footrest Cane Chair",
+    "name": "Luyor With Footrest Cane Chair",
     "slug": "luyor-with-footrest-cane-chair",
     "path": "/furniture/chairs/luyor-with-footrest-cane-chair",
     "quotePath": "/request-quote/luyor-with-footrest-cane-chair",
