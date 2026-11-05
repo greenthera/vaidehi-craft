@@ -1,6 +1,6 @@
 # Vaidehi Craft cookie configuration
 
-Adapted from `public/coockie.md` to the services in this project; the original document is a reference, not runtime configuration.
+The runtime configuration is in `src/lib/cookie-consent.ts` and matches the services used by this project.
 
 - Necessary: `cc_cookie`, 182 days, consent revision 2.
 - Analytics: off by default; loads the existing GTM container only after permission. Google Analytics cookie cleanup rules apply if those cookies exist.
