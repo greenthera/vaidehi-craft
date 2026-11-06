@@ -32,7 +32,7 @@ export default async function ProductPage({ params }: Props) {
         <div className={`space-y-7 max-[639px]:space-y-3 type-product-copy ${product.slug === "oldan-cane-swing" ? "type-oldan-copy" : ""}`}>{product.details.map((section, index) => <section key={`${section.heading}-${index}`}><h2 className="mb-2 font-normal">{section.heading} :</h2><ul className="list-disc space-y-2 max-[639px]:space-y-1 pl-5">{section.text.map((text, i) => <li key={i}>{text}</li>)}</ul></section>)}</div>
         {!product.details.length && <p className="type-product-copy">Contact us for this design&apos;s dimensions, materials and available finishes.</p>}
         {product.variantGroup && <nav aria-label="Related designs and finishes" className="mt-8 border-t border-black/15 pt-5"><h2 className="mb-3 text-sm">Designs &amp; finishes</h2><div className="flex flex-wrap gap-2">{products.filter((item) => item.variantGroup === product.variantGroup).map((item) => <Link key={item.slug} href={item.path} aria-current={item.slug === product.slug ? "page" : undefined} className="min-h-11 button-outline px-3 py-2 text-xs leading-6 aria-[current=page]:bg-[#244536] aria-[current=page]:text-white">{productDisplayName(item.name)}</Link>)}</div></nav>}
-        <Link href={product.quotePath} className="mt-12 inline-flex min-h-11 min-w-[220px] items-center justify-center button-secondary px-6 py-3 type-product-button">REQUEST QUOTE</Link>
+        <Link href={product.quotePath} className="mt-12 inline-flex min-h-11 min-w-[220px] items-center justify-center button-secondary px-6 py-3 type-product-button">VIEW DETAILS</Link>
       </section>
     </div>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />

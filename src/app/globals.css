@@ -343,3 +343,14 @@ button.normal-case {
   &:hover { background-color: var(--brand-orange-dark); border-color: var(--brand-orange-dark); }
   &:focus-visible { outline: 2px solid var(--brand-orange-dark); outline-offset: 4px; }
 }
+
+@utility button-secondary-outline {
+  border: 1px solid var(--brand-orange);
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--brand-orange-dark);
+  text-transform: uppercase;
+  transition: background-color 150ms, border-color 150ms, color 150ms;
+  &:hover { background-color: var(--brand-orange-dark); border-color: var(--brand-orange-dark); color: #fff; }
+  &:focus-visible { outline: 2px solid var(--brand-orange-dark); outline-offset: 4px; }
+}
