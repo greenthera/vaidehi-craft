@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://greenthera.github.io/vaidehi-craft/sitemap.xml
+Sitemap: https://greenthera.shivantra.com/vaidehicraft.com/sitemap.xml

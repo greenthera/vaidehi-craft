@@ -1,6 +1,6 @@
-:HL["/vaidehi-craft/_next/static/css/da08c19366f8e3ba.css","style"]
-:HL["/vaidehi-craft/_next/static/css/8ae18525bfc1d713.css","style"]
+:HL["/vaidehicraft.com/_next/static/css/e0925cb34b13a46e.css","style"]
+:HL["/vaidehicraft.com/_next/static/css/8ae18525bfc1d713.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"santorini-cane-table","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"request-quote","h":131136,"c":"$Q2"}]]
-0:{"b":"BPVt9ge_jK-u3VVFeudET","t":{"t":{"s":"","h":131092,"c":"$Q1"}}}
+0:{"b":"MApHoCbe5BuOROIwtjgyV","t":{"t":{"s":"","h":131092,"c":"$Q1"}}}
