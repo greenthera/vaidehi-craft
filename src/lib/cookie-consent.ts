@@ -61,15 +61,15 @@ export function initCookieConsent() {
     language: { default: "en", translations: { en: {
       consentModal: {
         title: "Your privacy, your choice",
-        description: 'We remember your cookie choices and display Google Maps on our contact page. With your permission, we use analytics through Google Tag Manager. Read our <a href="/privacy-policy" class="cc__link">Privacy Policy</a> and <a href="/cookie-policy" class="cc__link">Cookie Policy</a>.',
+        description: 'We remember your cookie choices and display embedded maps on our contact page. With your permission, we use analytics to understand website usage. Read our <a href="/privacy-policy" class="cc__link">Privacy Policy</a> and <a href="/cookie-policy" class="cc__link">Cookie Policy</a>.',
         acceptAllBtn: "Accept all", acceptNecessaryBtn: "Reject all", showPreferencesBtn: "Manage preferences",
       },
       preferencesModal: {
         title: "Cookie preferences", acceptAllBtn: "Accept all", acceptNecessaryBtn: "Reject all", savePreferencesBtn: "Save preferences", closeIconLabel: "Close preferences",
         sections: [
           { title: "You are in control", description: "Optional categories are off until you allow them. Change or withdraw your choices at any time using Cookie settings in the footer." },
-          { title: "Strictly necessary", description: "Always enabled: remembers your cookie preferences for 182 days and includes contact-page Google Maps. Maps connect to Google, which may use its own cookies.", linkedCategory: "necessary" },
-          { title: "Analytics", description: "Allows website usage measurement through our Google Tag Manager container. Your enquiry details are not included in our consent events.", linkedCategory: "analytics" },
+          { title: "Strictly necessary", description: "Always enabled: remembers your cookie preferences for 182 days and includes contact-page maps. Embedded maps connect to an external provider, which may use its own cookies.", linkedCategory: "necessary" },
+          { title: "Analytics", description: "Helps us understand how visitors use our website so we can improve their experience.", linkedCategory: "analytics" },
           { title: "More information", description: 'Read our <a href="/cookie-policy" class="cc__link">Cookie Policy</a> or email <a href="mailto:connect@vaidehicraft.com" class="cc__link">connect@vaidehicraft.com</a>.' },
         ],
       },
