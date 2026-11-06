@@ -16,7 +16,7 @@ export default function ThankYouPage() {
             <div aria-hidden="true" className="mb-6 flex size-14 items-center justify-center rounded-none border border-[#24453630] bg-[#e7ede3]">
               <svg viewBox="0 0 24 24" fill="none" className="size-7" stroke="currentColor" strokeWidth="1.5"><path d="m5 12 4 4L19 6" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </div>
-            <PageHeading id="thank-you-title" eyebrow="Enquiry received" title="Thank you." description="Your enquiry is with the Vaidehi Craft team. We look forward to learning about your space and helping you find a piece that feels at home." />
+            <PageHeading id="thank-you-title" eyebrow="Enquiry received" title="Thank you" description="Your enquiry is with the Vaidehi Craft team. We look forward to learning about your space and helping you find a piece that feels at home." />
             <div className="my-7 border-y border-[#d3c5af] py-5">
               <h2 className="mb-4 text-base font-bold">What happens next?</h2>
               <ol className="space-y-4">

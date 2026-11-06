@@ -18,7 +18,7 @@ export default function NotFound() {
     <section aria-labelledby="not-found-title" className="mx-auto max-w-[1600px] px-6 pb-12 pt-8 text-[#244536] min-[1100px]:px-[7.32482vw] min-[1100px]:py-12">
       <div className="grid border border-[#ded5c8] bg-[#f7f4ee] min-[900px]:grid-cols-[1.1fr_0.9fr]">
         <div className="min-w-0 p-6 sm:p-10 min-[1100px]:p-12">
-          <PageHeading id="not-found-title" eyebrow="404 · Page not found" title="A little off the beaten path." description="We couldn’t find the page you’re looking for. It may have moved, or the link may be incorrect. Let’s help you find your way back." />
+          <PageHeading id="not-found-title" eyebrow="404 · Page not found" title="A little off the beaten path" description="We couldn’t find the page you’re looking for. It may have moved, or the link may be incorrect. Let’s help you find your way back." />
           <div className="flex flex-wrap gap-3">
             <Link href="/" className="inline-flex min-h-12 items-center justify-center button-primary px-6 py-3 text-sm">Back to home <span aria-hidden="true" className="ml-3">→</span></Link>
             <Link href="/contact" className="inline-flex min-h-12 items-center justify-center button-outline px-6 py-3 text-sm">Get in touch</Link>

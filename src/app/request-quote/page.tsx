@@ -18,7 +18,7 @@ export default function QuotePage() {
   return <InnerPage>
     <div className="mx-auto max-w-[1600px] px-6 pb-10 pt-6 min-[1100px]:px-[7.32482vw] min-[1100px]:pb-16">
       <Breadcrumbs items={[{ name: "Request a quote" }]} />
-      <PageHeading eyebrow="Made for your space" title="Request a quote." description="Choose your designs and share what you have in mind. We'll discuss the details with you to help find the right piece for your space." />
+      <PageHeading eyebrow="Made for your space" title="Request a quote" description="Choose your designs and share what you have in mind. We'll discuss the details with you to help find the right piece for your space." />
       <div className="grid items-start gap-8 min-[1000px]:grid-cols-[0.9fr_1.1fr] min-[1000px]:gap-12">
         <section aria-label="Quote enquiry form" className="min-w-0 rounded-none border border-[#d3c5af] bg-[#f7f4ee] p-5 min-[640px]:p-8 min-[1000px]:col-start-2 min-[1000px]:row-start-1">
           <QuoteForm appearance="inquiry" />

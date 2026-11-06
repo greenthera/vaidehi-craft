@@ -23,7 +23,7 @@ export default function ContactPage() {
       <Breadcrumbs items={[{ name: "Get in touch" }]} />
       <section aria-labelledby="contact-title" className="grid items-center gap-8 min-[1000px]:grid-cols-2 min-[1000px]:gap-12">
         <div className="min-w-0">
-          <PageHeading id="contact-title" eyebrow="Handcrafted since 1998" title="Get in touch." description="A favourite design, a new space, or a piece made just for you. Get in touch with Vaidehi Craft to discuss our cane furniture and the possibilities for your home." />
+          <PageHeading id="contact-title" eyebrow="Handcrafted since 1998" title="Get in touch" description="A favourite design, a new space, or a piece made just for you. Get in touch with Vaidehi Craft to discuss our cane furniture and the possibilities for your home." />
           <dl className="my-7 divide-y divide-[#d3c5af] border-y border-[#d3c5af]">
             <div className="py-4"><dt className="mb-1 text-xs uppercase tracking-widest text-[#526356]">Email us</dt><dd><a href="mailto:connect@vaidehicraft.com" className="inline-flex min-h-11 max-w-full items-center break-all py-1 text-base text-[#244536] underline-offset-4 hover:underline">connect@vaidehicraft.com</a></dd></div>
             <div className="py-4"><dt className="mb-1 text-xs uppercase tracking-widest text-[#526356]">Call us</dt><dd><a href="tel:+919824177913" className="inline-flex min-h-11 items-center py-1 text-base text-[#244536] underline-offset-4 hover:underline">+91 98241 77913</a></dd></div>

@@ -20,7 +20,7 @@ export default function Home() {
       <link rel="preload" as="image" media="(min-width: 751px)" imageSrcSet={desktopHero.srcSet} imageSizes="100vw" fetchPriority="high" />
       <section aria-labelledby="home-title" className="relative min-h-[min(780px,100svh)] bg-[#c1a081] max-[750px]:min-h-[85svh]">
         <picture><source media="(max-width: 750px)" srcSet={mobileSrcSet} sizes="100vw" type="image/avif" /><Image src={hero} alt="Cane hanging chair in a sunlit space draped with flowing white curtains" fill loading="eager" fetchPriority="high" sizes="100vw" className="object-cover object-[0%_82%] max-[750px]:object-center" /></picture>
-        <h1 id="home-title" className="absolute inset-x-0 bottom-10 px-[var(--home-gutter)] text-center type-hero text-white max-[750px]:bottom-8">Where every piece is a masterpiece.</h1>
+        <h1 id="home-title" className="absolute inset-x-0 bottom-10 px-[var(--home-gutter)] text-center type-hero text-white max-[750px]:bottom-8">Where every piece is a masterpiece</h1>
       </section>
       <div aria-hidden="true" className="h-[5.45214vw] max-[750px]:h-6 bg-[#ede7df]" />
       <CollectionGallery />
@@ -29,7 +29,7 @@ export default function Home() {
       <section aria-labelledby="spaces-title" className="relative min-h-[600px] text-white min-[1000px]:min-h-[45.52557vw]">
         <Image src={spaces} alt="A curated living space with cane furniture, woven wall art and warm lighting" fill sizes="100vw" className="object-cover object-[0%_5%]" />
         <p className="relative mx-[var(--home-gutter)] pt-8 type-spaces-copy [text-shadow:0_1px_4px_#0009] md:pt-[3vw] min-[1100px]:ml-auto min-[1100px]:w-[min(290px,32%)]">We don&apos;t just create furniture; we craft environments. From home to offices and commercial spaces, our expertise lies in enhancing entire spaces with thoughtfully curated designs that seamlessly blend functionality and artistry, bringing your vision to life.</p>
-        <h2 id="spaces-title" className="absolute bottom-[9%] left-[var(--home-gutter)] right-[var(--home-gutter)] type-spaces-title [text-shadow:0_1px_4px_#0009]">Beyond Furniture:<br />Transforming Spaces.</h2>
+        <h2 id="spaces-title" className="absolute bottom-[9%] left-[var(--home-gutter)] right-[var(--home-gutter)] type-spaces-title [text-shadow:0_1px_4px_#0009]">Beyond Furniture:<br />Transforming Spaces</h2>
       </section>
       <div className="flex min-h-24 items-center justify-center bg-white px-[var(--home-gutter)] py-5">
         <Link href="/furniture/sofas" className="flex min-h-11 min-w-[142px] items-center justify-center border border-black px-5 text-sm transition-colors hover:border-[#244536] hover:bg-[#244536] hover:text-white">EXPLORE</Link>
