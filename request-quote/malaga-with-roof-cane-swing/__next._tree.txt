@@ -1,6 +1,6 @@
-:HL["/vaidehicraft.com/_next/static/css/30d9ccb38e4255f4.css","style"]
+:HL["/vaidehicraft.com/_next/static/css/a16a158b2e53248a.css","style"]
 :HL["/vaidehicraft.com/_next/static/css/8ae18525bfc1d713.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"malaga-with-roof-cane-swing","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"request-quote","h":131136,"c":"$Q2"}]]
-0:{"b":"Gan_fr_Ow7X7UsddOBtFf","t":{"t":{"s":"","h":131092,"c":"$Q1"}}}
+0:{"b":"pBMEmwAPS70JwaIzEUHlZ","t":{"t":{"s":"","h":131092,"c":"$Q1"}}}
