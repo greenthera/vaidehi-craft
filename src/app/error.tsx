@@ -7,8 +7,8 @@ export default function ErrorPage({ reset }: { error: Error & { digest?: string 
     <h1 className="mb-5 text-3xl">Something went wrong</h1>
     <p className="mb-8">Please try again, or return to the home page.</p>
     <div className="flex flex-wrap justify-center gap-4">
-      <button type="button" onClick={reset} className="min-h-11 cursor-pointer rounded-lg bg-[#244536] px-6 py-3 text-white">Try again</button>
-      <Link href="/" className="inline-flex min-h-11 items-center rounded-lg border border-[#244536] px-6 py-3">Back to home</Link>
+      <button type="button" onClick={reset} className="min-h-11 cursor-pointer rounded-none button-primary px-6 py-3">Try again</button>
+      <Link href="/" className="inline-flex min-h-11 items-center rounded-none button-outline px-6 py-3">Back to home</Link>
     </div>
   </main>;
 }

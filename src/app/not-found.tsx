@@ -20,8 +20,8 @@ export default function NotFound() {
         <div className="min-w-0 p-6 sm:p-10 min-[1100px]:p-12">
           <PageHeading id="not-found-title" eyebrow="404 · Page not found" title="A little off the beaten path." description="We couldn’t find the page you’re looking for. It may have moved, or the link may be incorrect. Let’s help you find your way back." />
           <div className="flex flex-wrap gap-3">
-            <Link href="/" className="inline-flex min-h-12 items-center justify-center bg-[#244536] px-6 py-3 text-sm text-white transition-colors hover:bg-[#183b2e]">Back to home <span aria-hidden="true" className="ml-3">→</span></Link>
-            <Link href="/contact" className="inline-flex min-h-12 items-center justify-center border border-[#244536] px-6 py-3 text-sm transition-colors hover:bg-[#ede7df]">Get in touch</Link>
+            <Link href="/" className="inline-flex min-h-12 items-center justify-center button-primary px-6 py-3 text-sm">Back to home <span aria-hidden="true" className="ml-3">→</span></Link>
+            <Link href="/contact" className="inline-flex min-h-12 items-center justify-center button-outline px-6 py-3 text-sm">Get in touch</Link>
           </div>
           <nav aria-label="Explore furniture collections" className="mt-8 border-t border-[#d3c5af] pt-6">
             <h2 className="mb-3 text-base font-bold">Find your next favourite piece</h2>

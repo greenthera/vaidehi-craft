@@ -13,7 +13,7 @@ const stores = [
   { city: "Surat", address: "2nd Fl, STALWART INSIGNIA Bldg, Piplod, Surat, Gujarat 395007" },
   { city: "Pune", address: "CREATICITY MALL, 2F-005 & 006, Ishanya Mall Rd, Shastrinagar, Yerawada, Pune, Maharashtra 411006" },
 ];
-const primaryButton = "inline-flex min-h-12 items-center justify-center rounded-lg bg-[#244536] px-6 py-3 text-sm text-white transition-colors hover:bg-[#183b2e]";
+const primaryButton = "inline-flex min-h-12 items-center justify-center rounded-none button-primary px-6 py-3 text-sm";
 
 export default function ContactPage() {
   const schema = metadataOrigin ? { "@context": "https://schema.org", "@type": "ContactPage", "@id": `${metadataOrigin}/contact#webpage`, url: `${metadataOrigin}/contact`, name: "Contact Vaidehi Craft", isPartOf: { "@id": `${metadataOrigin}/#website` }, mainEntity: { "@id": `${metadataOrigin}/#organization` } } : undefined;
@@ -29,7 +29,7 @@ export default function ContactPage() {
           </dl>
           <div className="flex flex-wrap gap-3">
             <a href="https://wa.me/919824177913" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp (opens in a new tab)" className={primaryButton}>Chat on WhatsApp</a>
-            <Link href="/request-quote" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#244536] px-6 py-3 text-sm text-[#244536] transition-colors hover:bg-[#ede7df]">Request a quote</Link>
+            <Link href="/request-quote" className="inline-flex min-h-12 items-center justify-center rounded-none button-outline px-6 py-3 text-sm">Request a quote</Link>
           </div>
           <SocialLinks className="mt-6" />
         </div>

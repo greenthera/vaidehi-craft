@@ -27,8 +27,8 @@ export default function ThankYouPage() {
               </ol>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Link href="/furniture/chairs" className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#244536] px-6 py-3 text-sm text-white transition-colors hover:bg-[#183b2e]">Explore our furniture <span aria-hidden="true" className="ml-3">→</span></Link>
-              <Link href="/" className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#24453640] px-6 py-3 text-sm transition-colors hover:bg-[#ede7df]">Back to home</Link>
+              <Link href="/furniture/chairs" className="inline-flex min-h-12 items-center justify-center rounded-none button-primary px-6 py-3 text-sm">Explore our furniture <span aria-hidden="true" className="ml-3">→</span></Link>
+              <Link href="/" className="inline-flex min-h-12 items-center justify-center rounded-none button-outline px-6 py-3 text-sm">Back to home</Link>
             </div>
           </div>
           <figure className="relative min-h-72 overflow-hidden min-[1000px]:min-h-full">

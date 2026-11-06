@@ -32,7 +32,7 @@ export default function Home() {
         <h2 id="spaces-title" className="absolute bottom-[9%] left-[var(--home-gutter)] right-[var(--home-gutter)] type-spaces-title [text-shadow:0_1px_4px_#0009]">Beyond Furniture:<br />Transforming Spaces.</h2>
       </section>
       <div className="flex min-h-24 items-center justify-center bg-white px-[var(--home-gutter)] py-5">
-        <Link href="/furniture/sofas" className="flex min-h-11 min-w-[142px] items-center justify-center border border-black px-5 text-sm transition-colors hover:bg-black hover:text-white">EXPLORE</Link>
+        <Link href="/furniture/sofas" className="flex min-h-11 min-w-[142px] items-center justify-center border border-black px-5 text-sm transition-colors hover:border-[#244536] hover:bg-[#244536] hover:text-white">EXPLORE</Link>
       </div>
 
       <section aria-labelledby="store-title" className="grid bg-white min-[900px]:grid-cols-2 min-[1100px]:min-h-[55.66723vw]">
