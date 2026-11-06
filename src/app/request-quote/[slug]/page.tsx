@@ -1,3 +1,4 @@
+import { productDisplayName } from "@/lib/product-display-name";
 import { PageHeading } from "@/components/page-heading";
 import Image from "@/components/site-image";
 import { notFound } from "next/navigation";
@@ -17,7 +18,7 @@ export default async function ProductQuotePage({ params }: { params: Promise<{ s
   const product = findProduct((await params).slug);
   if (!product) notFound();
   return <InnerPage><section className="mx-auto max-w-[1400px] px-6 pb-16 pt-7 sm:px-[5%]">
-    <Breadcrumbs items={[{ name: product.name, href: product.path }, { name: "Request a quote" }]} />
+    <Breadcrumbs items={[{ name: productDisplayName(product.name), href: product.path }, { name: "Request a quote" }]} />
     <PageHeading eyebrow="Made for your space" title="Request a quote" description={`Tell us about your requirements for ${product.name}. Our team will get in touch to discuss the details.`} />
     <div className="grid items-start gap-12 min-[751px]:grid-cols-[1.4fr_1fr] min-[751px]:gap-[10%]">
       <div className="min-w-0"><QuoteForm key={product.slug} productSlug={product.slug} /></div>

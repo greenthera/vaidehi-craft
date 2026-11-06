@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { productDisplayName } from "@/lib/product-display-name";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import products from "@/data/product-index.json";
@@ -77,14 +78,14 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
         setError("");
       }} className="size-4 shrink-0 accent-[#244536]" />{item.label}</label>)}</div>
     </fieldset>
-    {productSlug ? <label className="block">Product name <span aria-hidden="true">*</span><input name="product" readOnly value={product?.name ?? ""} className={field} /></label> : <fieldset>
+    {productSlug ? <label className="block">Product name <span aria-hidden="true">*</span><input name="product" readOnly value={product ? productDisplayName(product.name) : ""} className={field} /></label> : <fieldset>
       <legend className="mb-2">Products <span aria-hidden="true">*</span></legend>
       <p aria-live="polite" className="mb-3 text-sm leading-6 text-[#526356]">{selectedCategories.length ? `${selected.length} product${selected.length === 1 ? "" : "s"} selected. Select as many as you need.` : "Select a category to see its products."}</p>
       {selectedCategories.length > 0 && <div className="max-h-80 space-y-5 overflow-y-auto overscroll-contain rounded-none border border-[#b8b9ab] bg-white p-4">{categories.filter((category) => selectedCategories.includes(category.value)).map((category) => <fieldset key={category.value}><legend className="mb-2 text-sm font-bold text-[#244536]">{category.label}</legend><div className="space-y-1">{products.filter((item) => item.category === category.value).map((item) => <label key={item.slug} className="flex min-h-11 cursor-pointer items-start gap-3 py-2 text-sm leading-6"><input type="checkbox" name="products" value={item.slug} checked={selected.includes(item.slug)} onChange={(event) => {
         const checked = event.target.checked;
         setSelected((current) => checked ? [...current, item.slug] : current.filter((slug) => slug !== item.slug));
         setError("");
-      }} className="mt-1 size-4 shrink-0 accent-[#244536]" /><span>{item.name}</span></label>)}</div></fieldset>)}</div>}
+      }} className="mt-1 size-4 shrink-0 accent-[#244536]" /><span>{productDisplayName(item.name)}</span></label>)}</div></fieldset>)}</div>}
     </fieldset>}
     {inquiry && <label className="block">Tell us about your space <span className="text-[#526356]">(optional)</span><textarea name="message" maxLength={1000} rows={4} placeholder="Preferred size, finish, quantity, or anything you would like us to know." className={`${field} resize-y leading-6`} /></label>}
     <label className="flex min-h-11 cursor-pointer items-center gap-3"><input required type="checkbox" name="confirm" className="size-4 shrink-0 accent-black" /><span>{productSlug ? "I confirm my details are correct." : "I agree to Vaidehi Craft using my contact details for marketing and calls."} <span aria-hidden="true">*</span></span></label>
