@@ -6,7 +6,7 @@ import Link from "next/link";
 import { InnerPage, Breadcrumbs } from "@/components/inner-page";
 import { SocialLinks } from "@/components/social-links";
 import { pageMetadata, metadataOrigin, serializeJsonLd } from "@/lib/seo";
-import interior from "../../../public/images/curated-cane-living-space.avif";
+import storefront from "../../../public/images/vaidehi-craft-storefront.webp";
 
 export const metadata = pageMetadata("Get in Touch", "Contact Vaidehi Craft for handcrafted cane furniture, design enquiries and tailored quotations. Connect with our team and ask about our Surat and Pune stores.", "/contact");
 
@@ -35,8 +35,8 @@ export default function ContactPage() {
           <SocialLinks className="mt-6" />
         </div>
         <figure className="min-w-0 overflow-hidden rounded-none bg-[#ede7df]">
-          <div className="relative aspect-[4/3] min-[1000px]:aspect-[4/5]"><Image src={interior} alt="A warm living space furnished with handcrafted cane furniture and woven details" fill sizes="(max-width: 999px) calc(100vw - 48px), (max-width: 1600px) 42vw, 600px" className="object-cover" /></div>
-          <figcaption className="px-5 py-4 text-sm leading-6 text-[#244536]">Natural materials. Thoughtful design. Furniture with a story.</figcaption>
+          <div className="relative aspect-[1360/907]"><Image src={storefront} unoptimized alt="Vaidehi Craft storefront with cane chairs, a woven pendant light and furniture displays behind glass doors" fill sizes="(max-width: 999px) calc(100vw - 48px), (max-width: 1600px) 42vw, 600px" className="object-cover" /></div>
+          <figcaption className="px-5 py-4 text-sm leading-6 text-[#244536]">Visit Vaidehi Craft and explore our handcrafted cane furniture.</figcaption>
         </figure>
       </section>
 
