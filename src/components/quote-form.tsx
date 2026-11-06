@@ -29,7 +29,7 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
       const response = await fetch("/api/enquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: data.get("name"), email: data.get("email"), phone: data.get("phone"), message: data.get("message"), website: data.get("website"), products: selected, categories: selectedCategories, path: window.location.pathname }),
+        body: JSON.stringify({ name: data.get("name"), email: data.get("email"), phone: data.get("phone"), message: data.get("message"), website: data.get("website"), contactConsent: !productSlug && data.get("confirm") === "on", detailsConfirmed: Boolean(productSlug) && data.get("confirm") === "on", products: selected, categories: selectedCategories, path: window.location.pathname }),
       });
       if (response.ok) {
         router.push("/thank-you");
@@ -72,9 +72,9 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
       }} className="mt-1 size-4 shrink-0 accent-[#244536]" /><span>{item.name}</span></label>)}</div></fieldset>)}</div>}
     </fieldset>}
     {inquiry && <label className="block">Tell us about your space <span className="text-[#526356]">(optional)</span><textarea name="message" maxLength={1000} rows={4} placeholder="Preferred size, finish, quantity, or anything you would like us to know." className={`${field} resize-y leading-6`} /></label>}
-    <label className="flex min-h-11 cursor-pointer items-center gap-3"><input required type="checkbox" name="confirm" className="size-4 shrink-0 accent-black" /><span>I confirm my contact and product details are correct. <span aria-hidden="true">*</span></span></label>
+    <label className="flex min-h-11 cursor-pointer items-center gap-3"><input required type="checkbox" name="confirm" className="size-4 shrink-0 accent-black" /><span>{productSlug ? "I confirm my details are correct." : "I agree to Vaidehi Craft using my contact details for marketing and calls."} <span aria-hidden="true">*</span></span></label>
     {error && <p role="alert" className="text-sm leading-6 text-[#9a2c14]">{error} Please try again, or <a href="tel:+919824177913" className="underline">call us directly</a>.</p>}
     <button type="submit" disabled={sending} className={`min-h-12 w-full cursor-pointer border px-7 py-3 type-form-value text-white transition-colors disabled:cursor-wait disabled:opacity-70 ${inquiry ? "rounded-lg border-[#244536] bg-[#244536] hover:bg-[#183b2e]" : "border-black bg-black hover:bg-white hover:text-black"}`}>{sending ? "Sending…" : inquiry ? "Submit enquiry" : "Submit request"}</button>
-    <p className="text-xs leading-5 text-neutral-600">We use these details to respond to your enquiry and store submissions using Google Forms and its linked Google Sheet. Read our <Link href="/privacy-policy" className="underline underline-offset-4">Privacy Policy</Link>.</p>
+    <p className="text-xs leading-5 text-neutral-600">{productSlug ? "We use your details to respond to your enquiry." : "You can contact us to withdraw your permission for marketing and calls."} See our <Link href="/privacy-policy" className="underline underline-offset-4">Privacy Policy</Link>.</p>
   </form>;
 }

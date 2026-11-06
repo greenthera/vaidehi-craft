@@ -50,6 +50,10 @@ export async function POST(request: Request) {
   const path = body.path;
   if (path !== "/request-quote" && (chosen.length !== 1 || path !== chosen[0].quotePath)) return reply(400, "This request could not be accepted.");
 
+  const generalQuote = path === "/request-quote";
+  if (generalQuote && body.contactConsent !== true) return reply(400, "Please confirm your consent to marketing contact and calls.");
+  if (!generalQuote && body.detailsConfirmed !== true) return reply(400, "Please confirm your details are correct.");
+
   const name = text(body.name, 120);
   const email = text(body.email, 200);
   const phone = typeof body.phone === "string" ? body.phone.trim().slice(0, 30) : "";
@@ -66,8 +70,8 @@ export async function POST(request: Request) {
     [entries.phone]: phone,
     [entries.category]: chosenCategories.map((category) => category.label).join(", "),
     [entries.product]: chosen.map((product) => product.name).join("; "),
-    // Only the general quote form has a message box, so this stays blank for product quotes.
-    [entries.message]: text(body.message, 1000),
+    // Record only the confirmation actually shown on this form.
+    [entries.message]: [text(body.message, 1000), `${generalQuote ? "Contact consent: I agree to Vaidehi Craft using my contact details for marketing and calls." : "Details confirmed as correct."} Recorded at ${new Date().toISOString()}.`].filter(Boolean).join("\n\n"),
   });
 
   try {
