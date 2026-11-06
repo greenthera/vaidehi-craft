@@ -1,3 +1,4 @@
+import { suratStore } from "@/lib/stores";
 import Image from "@/components/site-image";
 import Link from "next/link";
 import { SocialLinks } from "@/components/social-links";
@@ -14,9 +15,9 @@ export function CollectionContact() {
       <div className="flex min-w-0 flex-col justify-center min-[751px]:border-l-[5px] min-[751px]:border-[#f7f7f3] min-[751px]:py-2 min-[1100px]:py-7 min-[751px]:pl-[2.6vw] min-[751px]:pr-6">
         <dl className="grid grid-cols-[max-content_minmax(0,1fr)] items-baseline gap-x-6 gap-y-2 type-contact-details min-[751px]:gap-y-2 min-[1100px]:gap-y-5">
           <div className="contents"><dt className="font-bold">EMAIL</dt><dd className="min-w-0"><a href="mailto:connect@vaidehicraft.com" className="break-all hover:underline">connect@vaidehicraft.com</a></dd></div>
-          <div className="contents"><dt className="font-bold">STORE</dt><dd>Surat | Pune</dd></div>
+          <div className="contents"><dt className="font-bold">STORE</dt><dd className="flex flex-wrap gap-x-2"><Link href="/contact#surat" className="hover:underline">Surat</Link><span aria-hidden="true">|</span><Link href="/contact#pune" className="hover:underline">Pune</Link></dd></div>
           <div className="contents"><dt className="font-bold">SINCE</dt><dd>1998</dd></div>
-          <div className="contents"><dt className="font-bold">Contact No</dt><dd><a href="tel:+919824177913" className="hover:underline">+91-9824177913</a></dd></div>
+          <div className="contents"><dt className="font-bold">Contact No</dt><dd><a href={`tel:${suratStore.phone}`} className="hover:underline">{suratStore.phoneLabel}</a></dd></div>
         </dl>
         <SocialLinks className="mt-6" earthy />
       </div>

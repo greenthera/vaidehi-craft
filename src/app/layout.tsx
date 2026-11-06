@@ -23,7 +23,7 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const schema = { "@context": "https://schema.org", "@graph": [
-    { "@type": "Organization", name: "Vaidehi Craft", foundingDate: "1998", email: "connect@vaidehicraft.com", telephone: "+919824177913", sameAs: ["https://www.instagram.com/vaidehi_crafts/", "https://www.facebook.com/siddharthshahvaidehicrafts/"], ...(metadataOrigin ? { "@id": `${metadataOrigin}/#organization`, url: metadataOrigin, logo: `${metadataOrigin}/images/vaidehi-craft-green-logo.avif` } : {}) },
+    { "@type": "Organization", name: "Vaidehi Craft", foundingDate: "1998", email: "connect@vaidehicraft.com", telephone: "+919824177913", sameAs: ["https://www.instagram.com/vaidehi_craft_surat/", "https://www.facebook.com/siddharthshahvaidehicrafts/"], ...(metadataOrigin ? { "@id": `${metadataOrigin}/#organization`, url: metadataOrigin, logo: `${metadataOrigin}/images/vaidehi-craft-green-logo.avif` } : {}) },
     ...(metadataOrigin ? [{ "@type": "WebSite", "@id": `${metadataOrigin}/#website`, name: "Vaidehi Craft", url: metadataOrigin, inLanguage: "en-IN", publisher: { "@id": `${metadataOrigin}/#organization` } }] : []),
   ] };
 
