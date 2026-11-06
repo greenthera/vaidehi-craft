@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/site-image";
 import { IntentLink } from "@/components/intent-link";
 import { findProduct } from "@/lib/catalog";
 

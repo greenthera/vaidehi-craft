@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/site-image";
 import Link from "next/link";
 import { SocialLinks } from "@/components/social-links";
 import logo from "../../public/images/vaidehi-craft-green-logo.avif";

@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 import type { MetadataRoute } from "next";
 import { articlePath, journalArticles } from "@/lib/journal";
 import { collections, products } from "@/lib/catalog";

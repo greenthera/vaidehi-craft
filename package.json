@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "check": "tsc --noEmit",
-    "verify:catalog": "node scripts/verify-catalog.mjs"
+    "verify:catalog": "node scripts/verify-catalog.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "predeploy": "npm run build:pages && npm run verify:pages",
+    "deploy": "gh-pages -d out -r https://github.com/greenthera/vaidehi-craft.git -b gh-pages --dotfiles",
+    "verify:pages": "node scripts/verify-pages.mjs"
   },
   "dependencies": {
     "next": "16.4.4",
@@ -23,6 +27,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.4",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

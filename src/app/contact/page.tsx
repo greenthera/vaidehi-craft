@@ -1,7 +1,7 @@
 import { whatsappUrl } from "@/lib/whatsapp";
 import { ConsentMap } from "@/components/consent-map";
 import { PageHeading } from "@/components/page-heading";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import Link from "next/link";
 import { InnerPage, Breadcrumbs } from "@/components/inner-page";
 import { SocialLinks } from "@/components/social-links";

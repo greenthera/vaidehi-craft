@@ -8,8 +8,9 @@ export const socialImage = "/images/vaidehi-craft-cane-furniture-social.jpg";
 
 export { resolveSiteOrigin } from "@/lib/site-origin";
 const siteConfiguration = resolveSiteConfiguration(process.env);
-export const siteOrigin = siteConfiguration.siteOrigin;
-export const metadataOrigin = siteConfiguration.metadataOrigin;
+const exportBase = process.env.NEXT_PUBLIC_BASE_PATH || "";
+export const siteOrigin = siteConfiguration.siteOrigin ? `${siteConfiguration.siteOrigin}${exportBase}` : undefined;
+export const metadataOrigin = `${siteConfiguration.metadataOrigin}${exportBase}`;
 
 export function metaDescription(value: string) {
   const text = value.replace(/\s+/g, " ").trim();
@@ -21,7 +22,7 @@ export function pageMetadata(title: string, description: string, path: string, i
   // Preserve published descriptions verbatim, including the longer home copy.
   const summary = reference?.description ?? metaDescription(description);
   const pageTitle = reference?.title ?? `${title} | Vaidehi Craft`;
-  const imageUrl = new URL(image, metadataOrigin).href;
+  const imageUrl = `${metadataOrigin}${image}`;
   const shareImage = { url: imageUrl, alt: title || pageTitle, ...(image === socialImage ? { width: 1200, height: 630 } : {}) };
   return {
     title: pageTitle, description: summary,

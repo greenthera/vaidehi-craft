@@ -26,7 +26,7 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     setSending(true);
     setError("");
     try {
-      const response = await fetch("/api/enquiries", {
+      const response = await fetch(process.env.NEXT_PUBLIC_ENQUIRY_API_URL || "/api/enquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: data.get("name"), email: data.get("email"), phone: data.get("phone"), message: data.get("message"), website: data.get("website"), contactConsent: !productSlug && data.get("confirm") === "on", detailsConfirmed: Boolean(productSlug) && data.get("confirm") === "on", products: selected, categories: selectedCategories, path: window.location.pathname }),

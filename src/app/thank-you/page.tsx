@@ -1,6 +1,6 @@
 import { PageHeading } from "@/components/page-heading";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import { InnerPage } from "@/components/inner-page";
 import { pageMetadata } from "@/lib/seo";
 import interior from "../../../public/images/curated-cane-living-space.avif";

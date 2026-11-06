@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/site-image";
 import Link from "next/link";
 import chair from "../../public/images/cane-rocking-chair-living-room.avif";
 import sofa from "../../public/images/blue-cushion-cane-sofa-set.avif";

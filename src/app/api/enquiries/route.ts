@@ -16,7 +16,22 @@ const entries = {
 };
 
 const maxBodyBytes = 16_000;
-const reply = (status: number, error?: string) => Response.json(error ? { error } : { ok: true }, { status });
+const pagesOrigin = "https://greenthera.github.io";
+const pagesBasePath = "/vaidehi-craft";
+const reply = (status: number, error?: string) => Response.json(error ? { error } : { ok: true }, {
+  status,
+  headers: { "Access-Control-Allow-Origin": pagesOrigin, "Vary": "Origin", "Cache-Control": "no-store" },
+});
+
+export async function OPTIONS(request: Request) {
+  if (request.headers.get("origin") !== pagesOrigin) return reply(403, "This request could not be accepted.");
+  return new Response(null, { status: 204, headers: {
+    "Access-Control-Allow-Origin": pagesOrigin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Vary": "Origin",
+  } });
+}
 
 // Strips leading characters that a spreadsheet would run as a formula if opened in Excel.
 function text(value: unknown, maxLength: number) {
@@ -26,7 +41,9 @@ function text(value: unknown, maxLength: number) {
 export async function POST(request: Request) {
   const origin = request.headers.get("origin");
   const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
-  if (!origin || !host || new URL(origin).host !== host) return reply(403, "This request could not be accepted.");
+  let sameHost = false;
+  try { sameHost = Boolean(origin && host && new URL(origin).host === host); } catch { /* Invalid origins are rejected below. */ }
+  if (!origin || (!sameHost && origin !== pagesOrigin)) return reply(403, "This request could not be accepted.");
   if (Number(request.headers.get("content-length") ?? 0) > maxBodyBytes) return reply(413, "Your enquiry is too long.");
 
   let body: Record<string, unknown>;
@@ -47,7 +64,10 @@ export async function POST(request: Request) {
   const chosen = selected.filter((item): item is typeof products[number] => Boolean(item));
   const chosenCategories = productCategories.filter((category) => chosen.some((item) => item.category === category.value));
   if (body.categories !== undefined && (!Array.isArray(body.categories) || body.categories.length !== chosenCategories.length || !chosenCategories.every((category) => (body.categories as unknown[]).includes(category.value)))) return reply(400, "Please select at least one product in each chosen category.");
-  const path = body.path;
+  const sourcePath = body.path;
+  const path = origin === pagesOrigin && typeof sourcePath === "string" && sourcePath.startsWith(`${pagesBasePath}/`)
+    ? sourcePath.slice(pagesBasePath.length).replace(/\/$/, "")
+    : typeof sourcePath === "string" ? sourcePath.replace(/\/$/, "") : sourcePath;
   if (path !== "/request-quote" && (chosen.length !== 1 || path !== chosen[0].quotePath)) return reply(400, "This request could not be accepted.");
 
   const generalQuote = path === "/request-quote";
@@ -64,7 +84,7 @@ export async function POST(request: Request) {
 
   const fields = new URLSearchParams({
     [entries.source]: path === "/request-quote" ? "Request a Quote Page" : "Product Quote Page",
-    [entries.pageUrl]: `${origin}${path}`,
+    [entries.pageUrl]: `${origin}${sourcePath}`,
     [entries.name]: name,
     [entries.email]: email,
     [entries.phone]: phone,

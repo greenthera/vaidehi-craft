@@ -1,4 +1,6 @@
-import Image, { getImageProps } from "next/image";
+import { assetPath } from "@/lib/site-path";
+import Image from "@/components/site-image";
+import { getImageProps } from "next/image";
 import mobileHero from "@/data/mobile-hero.json";
 import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
@@ -10,14 +12,14 @@ import cane from "../../public/images/handwoven-cane-joinery-detail.avif";
 import founder from "../../public/images/siddharrtha-shahh-vaidehi-craft-founder.avif";
 
 export default function Home() {
-  const mobileSrcSet = mobileHero.map((image) => `${image.path} ${image.width}w`).join(", ");
+  const mobileSrcSet = mobileHero.map((image) => `${assetPath(image.path)} ${image.width}w`).join(", ");
   const desktopHero = getImageProps({ src: hero, alt: "", fill: true, sizes: "100vw" }).props;
   return <>
 
 
     <main id="main-content" className="[--home-paragraph-gap:0.5rem] [--home-gutter:24px] min-[1100px]:[--home-gutter:7.32482vw]">
       <link rel="preload" as="image" media="(max-width: 750px)" imageSrcSet={mobileSrcSet} imageSizes="100vw" fetchPriority="high" />
-      <link rel="preload" as="image" media="(min-width: 751px)" imageSrcSet={desktopHero.srcSet} imageSizes="100vw" fetchPriority="high" />
+      <link rel="preload" as="image" media="(min-width: 751px)" href={desktopHero.src} imageSrcSet={desktopHero.srcSet} imageSizes="100vw" fetchPriority="high" />
       <section aria-labelledby="home-title" className="relative min-h-[min(780px,100svh)] bg-[#c1a081] max-[750px]:min-h-[85svh]">
         <picture><source media="(max-width: 750px)" srcSet={mobileSrcSet} sizes="100vw" type="image/avif" /><Image src={hero} alt="Cane hanging chair in a sunlit space draped with flowing white curtains" fill loading="eager" fetchPriority="high" sizes="100vw" className="object-cover object-[0%_82%] max-[750px]:object-center" /></picture>
         <h1 id="home-title" className="absolute inset-x-0 bottom-10 px-[var(--home-gutter)] text-center type-hero text-white max-[750px]:bottom-8">Where every piece is a masterpiece</h1>

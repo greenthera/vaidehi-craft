@@ -1,10 +1,12 @@
 import { PageHeading } from "@/components/page-heading";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, InnerPage } from "@/components/inner-page";
 import { articlePath, journalArticles } from "@/lib/journal";
 import { metadataOrigin, pageMetadata, serializeJsonLd } from "@/lib/seo";
+
+export const dynamicParams = false;
 
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() { return journalArticles.map(({ slug }) => ({ slug })); }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import { InnerPage } from "@/components/inner-page";
 import { PageHeading } from "@/components/page-heading";
 import { collections } from "@/lib/catalog";

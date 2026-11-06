@@ -1,5 +1,5 @@
 import { PageHeading } from "@/components/page-heading";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import Link from "next/link";
 import { InnerPage, Breadcrumbs } from "@/components/inner-page";
 import { QuoteForm } from "@/components/quote-form";

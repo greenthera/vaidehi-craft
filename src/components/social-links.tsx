@@ -1,5 +1,5 @@
 import { whatsappUrl } from "@/lib/whatsapp";
-import Image from "next/image";
+import Image from "@/components/site-image";
 
 const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/vaidehi_crafts/", image: "/images/social/instagram.svg" },

@@ -88,3 +88,10 @@ Run `node scripts/optimize-images.mjs` to check all local images and recompress 
 Organization/WebSite identities are linked, with breadcrumbs, collection ItemList, Product and ContactPage JSON-LD where applicable. No prices, ratings or store addresses are fabricated. One shared origin resolver supplies canonicals, OG/Twitter, schema, robots and sitemap. Vercel production uses its primary domain; Netlify production uses `URL`; Render uses its service URL. Production becomes indexable automatically and generates the canonical sitemap. Recognised preview/development builds stay noindex, omit canonicals and serve a blocking robots file with an empty sitemap, even if a production URL override is inherited. Quote forms stay noindex in production.
 
 A domain change supplied by the platform is picked up on the next build. Explicit `NEXT_PUBLIC_SITE_URL` or `SITE_URL` overrides take precedence and must be updated if previously set. Render's service URL does not identify an attached custom domain; set the override for that case. A static build cannot discover an arbitrary future domain on a host that exposes no public URL. GitHub Pages still requires the previously discussed static-export deployment setup; URL detection does not add that hosting support. No localhost image URLs are emitted; an unknown private/local build uses the current Vercel site for sharing only. Robots and sitemap are generated at `/robots.txt` and `/sitemap.xml` when built.
+
+
+## GitHub Pages
+
+Run `npm run deploy` to build and verify a static HTML export, then publish it to the `gh-pages` branch of `greenthera/vaidehi-craft`. Run `npm run build:pages` to export without publishing. Existing `npm run build` and Vercel hosting are preserved.
+
+Deploy the updated enquiry API to Vercel first: GitHub Pages cannot run server endpoints. See [GitHub Pages deployment](docs/github-pages.md) for paths, forms, custom-domain settings and hosting limitations.

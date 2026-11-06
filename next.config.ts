@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 import legacyRedirects from "./src/data/legacy-redirects.json";
 
+const staticExport = process.env.STATIC_EXPORT === "true";
 const nextConfig: NextConfig = {
-  trailingSlash: false,
+  ...(staticExport ? { output: "export", basePath: process.env.NEXT_PUBLIC_BASE_PATH || "", images: { unoptimized: true }, outputFileTracingRoot: process.cwd() } : {}),
+  trailingSlash: staticExport,
   poweredByHeader: false,
-  async redirects() { return legacyRedirects; },
+  ...(staticExport ? {} : {
+  async redirects() { return staticExport ? [] : legacyRedirects; },
   async headers() {
+    if (staticExport) return [];
     const mobileHero = {
       source: "/images/home-hero-mobile-:asset.avif",
       headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
@@ -25,6 +29,7 @@ const nextConfig: NextConfig = {
       mobileHero,
     ];
   },
+  }),
 };
 
 export default nextConfig;

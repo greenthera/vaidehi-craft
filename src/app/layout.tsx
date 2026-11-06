@@ -1,3 +1,4 @@
+import { assetPath } from "@/lib/site-path";
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "vanilla-cookieconsent/dist/cookieconsent.css";
@@ -13,7 +14,7 @@ const description = "Discover handcrafted cane chairs, sofas, swings and tables 
 
 export const metadata: Metadata = {
   ...pageMetadata("Designer & Luxury Cane Furniture", description, "/"),
-  icons: { icon: "/images/vaidehi-craft-app-icon.png", apple: "/images/vaidehi-craft-app-icon.png" },
+  icons: { icon: assetPath("/images/vaidehi-craft-app-icon.png"), apple: assetPath("/images/vaidehi-craft-app-icon.png") },
   metadataBase: new URL(metadataOrigin),
   robots: { index: Boolean(siteUrl), follow: Boolean(siteUrl) },
 };

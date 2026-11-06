@@ -1,5 +1,5 @@
 import { PageHeading } from "@/components/page-heading";
-import Image from "next/image";
+import Image from "@/components/site-image";
 import { notFound } from "next/navigation";
 import { findProduct, products } from "@/lib/catalog";
 import { pageMetadata } from "@/lib/seo";

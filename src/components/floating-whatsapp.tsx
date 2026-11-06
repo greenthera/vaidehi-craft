@@ -1,5 +1,5 @@
 import { whatsappUrl } from "@/lib/whatsapp";
-import Image from "next/image";
+import Image from "@/components/site-image";
 
 export function FloatingWhatsApp() {
   return <a
