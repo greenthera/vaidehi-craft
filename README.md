@@ -47,7 +47,7 @@ The former `src/assest/` directory has been removed. Its 14 original files were 
 
 Fresh reference coverage is recorded in `docs/reference-coverage-audit.json`: 30 chairs, 17 sofas, 32 swings and 27 tables, with no missing/extra card-image occurrences. `scripts/audit-reference-coverage.py` compares newly downloaded public collection HTML with the local inventory. It is an offline audit tool, not a runtime dependency.
 
-Missing reference specifications are not fabricated. Quote forms post to `/api/enquiries`, which saves each enquiry through the Google Form and its linked Google Sheet, then shows `/thank-you`. The form and field IDs are in `src/app/api/enquiries/route.ts`.
+Missing reference specifications are not fabricated. Quote forms save each enquiry through the Google Form and its linked Google Sheet, then show `/thank-you`. The form and field IDs are in `src/lib/enquiry.ts`.
 
 ## Navigation and scrolling
 
@@ -92,6 +92,6 @@ A domain change supplied by the platform is picked up on the next build. Explici
 
 ## GitHub Pages
 
-Run `npm run deploy` to build and verify a static HTML export, then publish it to the `gh-pages` branch of `greenthera/vaidehi-craft`. Run `npm run build:pages` to export without publishing. Existing `npm run build` and Vercel hosting are preserved.
+Run `npm run deploy` to build and verify a static HTML export, then publish it to the `gh-pages` branch of `greenthera/vaidehicraft.com`. Run `npm run build:pages` to export without publishing. Existing `npm run build` and Vercel hosting are preserved.
 
-Deploy the updated enquiry API to Vercel first: GitHub Pages cannot run server endpoints. See [GitHub Pages deployment](docs/github-pages.md) for paths, forms, custom-domain settings and hosting limitations.
+GitHub Pages cannot run server endpoints, so its forms post directly from the browser to the Google Form. See [GitHub Pages deployment](docs/github-pages.md) for paths, forms, custom-domain settings and hosting limitations.

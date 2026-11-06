@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import products from "@/data/product-index.json";
+import { buildEnquiry, formResponseUrl } from "@/lib/enquiry";
 import { productCategories as categories } from "@/lib/product-categories";
 
 export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug?: string; appearance?: "classic" | "inquiry" }) {
@@ -26,10 +27,24 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     setSending(true);
     setError("");
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_ENQUIRY_API_URL || "/api/enquiries", {
+      const payload = { name: data.get("name"), email: data.get("email"), phone: data.get("phone"), message: data.get("message"), website: data.get("website"), contactConsent: !productSlug && data.get("confirm") === "on", detailsConfirmed: Boolean(productSlug) && data.get("confirm") === "on", products: selected, categories: selectedCategories, path: window.location.pathname };
+      if (process.env.NEXT_PUBLIC_ENQUIRY_DIRECT === "true") {
+        // GitHub Pages has no server, so the browser posts to Google. Google hides its reply from
+        // cross-site pages: this catches validation and network failures, not a closed form.
+        const enquiry = buildEnquiry(payload, window.location.origin);
+        if ("error" in enquiry) {
+          setError(enquiry.error);
+          setSending(false);
+          return;
+        }
+        if (!payload.website) await fetch(formResponseUrl, { method: "POST", mode: "no-cors", credentials: "omit", body: enquiry.fields, signal: AbortSignal.timeout(15_000) });
+        router.push("/thank-you");
+        return;
+      }
+      const response = await fetch("/api/enquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: data.get("name"), email: data.get("email"), phone: data.get("phone"), message: data.get("message"), website: data.get("website"), contactConsent: !productSlug && data.get("confirm") === "on", detailsConfirmed: Boolean(productSlug) && data.get("confirm") === "on", products: selected, categories: selectedCategories, path: window.location.pathname }),
+        body: JSON.stringify(payload),
       });
       if (response.ok) {
         router.push("/thank-you");

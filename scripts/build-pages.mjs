@@ -6,13 +6,11 @@ import { spawnSync } from 'node:child_process';
 const root = process.cwd();
 const stage = path.join(root, '.pages-build');
 const output = path.join(root, 'out');
-const basePath = process.env.PAGES_BASE_PATH ?? '/vaidehi-craft';
-if (basePath && !/^\/[a-zA-Z0-9_-]+$/.test(basePath)) throw new Error('PAGES_BASE_PATH must be empty or one repository path.');
-const origin = process.env.PAGES_ORIGIN || 'https://greenthera.github.io';
+const basePath = process.env.PAGES_BASE_PATH ?? '/vaidehicraft.com';
+if (basePath && !/^\/[a-zA-Z0-9._-]+$/.test(basePath)) throw new Error('PAGES_BASE_PATH must be empty or one repository path.');
+const origin = process.env.PAGES_ORIGIN || 'https://greenthera.shivantra.com';
 const url = new URL(origin);
 if (url.protocol !== 'https:' || url.pathname !== '/' || url.search || url.hash) throw new Error('PAGES_ORIGIN must be an HTTPS origin.');
-const backend = process.env.PAGES_ENQUIRY_API_URL || 'https://vaidehicraft.vercel.app/api/enquiries';
-if (!backend.startsWith('https://')) throw new Error('The enquiry backend must use HTTPS.');
 await fs.rm(stage, { recursive: true, force: true });
 await fs.mkdir(stage, { recursive: true });
 try {
@@ -25,7 +23,7 @@ try {
   const css = path.join(stage, 'src/app/globals.css');
   await fs.writeFile(css, (await fs.readFile(css, 'utf8')).replaceAll('url("/fonts/', `url("${basePath}/fonts/`));
   const env = { ...process.env, STATIC_EXPORT: 'true', NEXT_PUBLIC_BASE_PATH: basePath,
-    NEXT_PUBLIC_SITE_URL: origin, NEXT_PUBLIC_ENQUIRY_API_URL: backend,
+    NEXT_PUBLIC_SITE_URL: origin, NEXT_PUBLIC_ENQUIRY_DIRECT: 'true',
     NODE_ENV: 'production', VERCEL: '', VERCEL_ENV: '', NEXT_PUBLIC_VERCEL_ENV: '',
     VERCEL_URL: '', NEXT_PUBLIC_VERCEL_URL: '', NETLIFY: '', RENDER: '' };
   const result = spawnSync(process.execPath, [path.join(root, 'node_modules/next/dist/bin/next'), 'build', '--webpack'], { cwd: stage, env, stdio: 'inherit' });
@@ -43,5 +41,5 @@ try {
     await fs.writeFile(path.join(dir, 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${origin}${target}"><meta http-equiv="refresh" content="0;url=${target}"><title>Page moved | Vaidehi Craft</title></head><body><a href="${target}">Continue to Vaidehi Craft</a></body></html>`);
   }
   console.log(`\nStatic site ready in out/ for ${origin}${basePath}/`);
-  console.log(`Enquiries use ${backend}. Deploy the updated backend first so CORS is enabled.`);
+  console.log('Enquiries post directly from the browser to the Google Form.');
 } finally { await fs.rm(stage, { recursive: true, force: true }); }

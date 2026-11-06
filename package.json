@@ -11,7 +11,7 @@
     "verify:catalog": "node scripts/verify-catalog.mjs",
     "build:pages": "node scripts/build-pages.mjs",
     "predeploy": "npm run build:pages && npm run verify:pages",
-    "deploy": "gh-pages -d out -r https://github.com/greenthera/vaidehi-craft.git -b gh-pages --dotfiles",
+    "deploy": "gh-pages -d out -r https://github.com/greenthera/vaidehicraft.com.git -b gh-pages --dotfiles",
     "verify:pages": "node scripts/verify-pages.mjs"
   },
   "dependencies": {
