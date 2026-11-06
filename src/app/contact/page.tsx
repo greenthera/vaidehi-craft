@@ -33,16 +33,16 @@ export default function ContactPage() {
           </div>
           <SocialLinks className="mt-6" />
         </div>
-        <figure className="min-w-0 overflow-hidden rounded-2xl bg-[#ede7df]">
+        <figure className="min-w-0 overflow-hidden rounded-none bg-[#ede7df]">
           <div className="relative aspect-[4/3] min-[1000px]:aspect-[4/5]"><Image src={interior} alt="A warm living space furnished with handcrafted cane furniture and woven details" fill sizes="(max-width: 999px) calc(100vw - 48px), (max-width: 1600px) 42vw, 600px" className="object-cover" /></div>
           <figcaption className="px-5 py-4 text-sm leading-6 text-[#244536]">Natural materials. Thoughtful design. Furniture with a story.</figcaption>
         </figure>
       </section>
 
-      <section aria-labelledby="stores-title" className="mt-10 rounded-2xl bg-[#ede7df] p-6 min-[1000px]:mt-14 min-[1000px]:p-8">
+      <section aria-labelledby="stores-title" className="mt-10 rounded-none bg-[#ede7df] p-6 min-[1000px]:mt-14 min-[1000px]:p-8">
         <div className="mb-6 max-w-xl"><h2 id="stores-title" className="mb-2 text-2xl text-[#244536]">Visit Vaidehi Craft</h2><p className="text-sm leading-6 text-[#526356]">Visit our stores in Surat and Pune to explore handcrafted cane furniture. Call our team for visiting details.</p></div>
         <div className="grid gap-4 min-[640px]:grid-cols-2">
-          {stores.map(({ city, address }) => <article key={city} className="min-w-0 rounded-xl border border-[#d3c5af] bg-white p-5"><h3 className="mb-3 text-xl text-[#244536]">{city}</h3><address className="mb-2 text-sm not-italic leading-6 text-[#526356]">{address}</address><a href="tel:+919824177913" className="mb-2 inline-flex min-h-11 items-center text-sm text-[#244536] underline underline-offset-4">+91 98241 77913</a><p><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`Vaidehi Craft, ${address}`)}`} target="_blank" rel="noopener noreferrer" aria-label={`View ${city} store on Google Maps (opens in a new tab)`} className="inline-flex min-h-11 items-center text-sm text-[#783b18] underline underline-offset-4 hover:text-[#244536]">View on Google Maps</a></p><ConsentMap city={city} address={address} /></article>)}
+          {stores.map(({ city, address }) => <article key={city} className="min-w-0 rounded-none border border-[#d3c5af] bg-white p-5"><h3 className="mb-3 text-xl text-[#244536]">{city}</h3><address className="mb-2 text-sm not-italic leading-6 text-[#526356]">{address}</address><a href="tel:+919824177913" className="mb-2 inline-flex min-h-11 items-center text-sm text-[#244536] underline underline-offset-4">+91 98241 77913</a><p><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`Vaidehi Craft, ${address}`)}`} target="_blank" rel="noopener noreferrer" aria-label={`View ${city} store on Google Maps (opens in a new tab)`} className="inline-flex min-h-11 items-center text-sm text-[#783b18] underline underline-offset-4 hover:text-[#244536]">View on Google Maps</a></p><ConsentMap city={city} address={address} /></article>)}
         </div>
       </section>
     </div>

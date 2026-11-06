@@ -243,6 +243,7 @@ html:has(dialog[open]) { overflow: hidden; }
   --cc-separator-border-color: #d3c5af;
   --cc-modal-border-radius: 0;
   --cc-btn-border-radius: 0;
+  --cc-pm-toggle-border-radius: 0;
 }
 
 /* Keep consent panels at their final size while fading between views. */
@@ -309,4 +310,17 @@ button,
 .button-inverse,
 #cc-main button {
   text-transform: uppercase;
+}
+
+/* Square cookie controls, including the library's toggle knobs. */
+#cc-main .toggle__icon-circle,
+#cc-main .pm__badge,
+#cc-main .pm__section,
+#cc-main .pm__section-title {
+  border-radius: 0;
+}
+input:not([type="radio"]),
+select,
+textarea {
+  border-radius: 0;
 }

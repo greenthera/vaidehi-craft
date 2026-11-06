@@ -42,7 +42,7 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     }
     setSending(false);
   }
-  const field = `mt-2 min-h-12 w-full border bg-white px-3 py-3 type-form-value outline-offset-4 ${inquiry ? "rounded-lg border-[#b8b9ab] text-[#244536] placeholder:text-[#68726a] focus:border-[#244536]" : "rounded-none border-black/65 text-black"}`;
+  const field = `mt-2 min-h-12 w-full border bg-white px-3 py-3 type-form-value outline-offset-4 ${inquiry ? "rounded-none border-[#b8b9ab] text-[#244536] placeholder:text-[#68726a] focus:border-[#244536]" : "rounded-none border-black/65 text-black"}`;
   return <form method="post" onSubmit={submit} className={`space-y-5 type-form-copy ${inquiry ? "text-[#244536]" : "text-black"}`}>
     <h2 className={inquiry ? "text-2xl leading-snug [font-family:var(--font-reference-heading)]" : "mb-7 type-form-title"}>{inquiry ? "Your enquiry" : "Contact us"}</h2>
     {inquiry && <p className="text-sm leading-6 text-[#526356]">Fields marked * are required.</p>}
@@ -55,7 +55,7 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     </div>
     <fieldset><legend className="mb-2">Product categories <span aria-hidden="true">*</span></legend>
       {!productSlug && <p className="mb-3 text-sm leading-6 text-[#526356]">Choose one or more categories, then select the products you are interested in.</p>}
-      <div className="flex flex-wrap gap-x-5 gap-y-2">{categories.map((item) => <label key={item.value} className={inquiry ? "flex min-h-12 cursor-pointer items-center gap-2 rounded-lg border border-[#b8b9ab] bg-white px-3 has-checked:border-[#244536] has-checked:bg-[#e8ede5]" : "flex min-h-11 cursor-pointer items-center gap-2"}><input type="checkbox" name="category" value={item.value} checked={selectedCategories.includes(item.value)} disabled={Boolean(productSlug)} onChange={(event) => {
+      <div className="flex flex-wrap gap-x-5 gap-y-2">{categories.map((item) => <label key={item.value} className={inquiry ? "flex min-h-12 cursor-pointer items-center gap-2 rounded-none border border-[#b8b9ab] bg-white px-3 has-checked:border-[#244536] has-checked:bg-[#e8ede5]" : "flex min-h-11 cursor-pointer items-center gap-2"}><input type="checkbox" name="category" value={item.value} checked={selectedCategories.includes(item.value)} disabled={Boolean(productSlug)} onChange={(event) => {
         const checked = event.target.checked;
         setSelectedCategories((current) => checked ? [...current, item.value] : current.filter((value) => value !== item.value));
         if (!checked) setSelected((current) => current.filter((slug) => products.find((product) => product.slug === slug)?.category !== item.value));
@@ -65,7 +65,7 @@ export function QuoteForm({ productSlug, appearance = "classic" }: { productSlug
     {productSlug ? <label className="block">Product name <span aria-hidden="true">*</span><input name="product" readOnly value={product?.name ?? ""} className={field} /></label> : <fieldset>
       <legend className="mb-2">Products <span aria-hidden="true">*</span></legend>
       <p aria-live="polite" className="mb-3 text-sm leading-6 text-[#526356]">{selectedCategories.length ? `${selected.length} product${selected.length === 1 ? "" : "s"} selected. Select as many as you need.` : "Select a category to see its products."}</p>
-      {selectedCategories.length > 0 && <div className="max-h-80 space-y-5 overflow-y-auto overscroll-contain rounded-lg border border-[#b8b9ab] bg-white p-4">{categories.filter((category) => selectedCategories.includes(category.value)).map((category) => <fieldset key={category.value}><legend className="mb-2 text-sm font-bold text-[#244536]">{category.label}</legend><div className="space-y-1">{products.filter((item) => item.category === category.value).map((item) => <label key={item.slug} className="flex min-h-11 cursor-pointer items-start gap-3 py-2 text-sm leading-6"><input type="checkbox" name="products" value={item.slug} checked={selected.includes(item.slug)} onChange={(event) => {
+      {selectedCategories.length > 0 && <div className="max-h-80 space-y-5 overflow-y-auto overscroll-contain rounded-none border border-[#b8b9ab] bg-white p-4">{categories.filter((category) => selectedCategories.includes(category.value)).map((category) => <fieldset key={category.value}><legend className="mb-2 text-sm font-bold text-[#244536]">{category.label}</legend><div className="space-y-1">{products.filter((item) => item.category === category.value).map((item) => <label key={item.slug} className="flex min-h-11 cursor-pointer items-start gap-3 py-2 text-sm leading-6"><input type="checkbox" name="products" value={item.slug} checked={selected.includes(item.slug)} onChange={(event) => {
         const checked = event.target.checked;
         setSelected((current) => checked ? [...current, item.slug] : current.filter((slug) => slug !== item.slug));
         setError("");
