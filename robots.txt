@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://greenthera.github.io/vaidehi-craft/sitemap.xml
