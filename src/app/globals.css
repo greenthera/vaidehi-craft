@@ -324,3 +324,8 @@ select,
 textarea {
   border-radius: 0;
 }
+
+/* Cookie preferences are a text link, rather than an uppercase action CTA. */
+button.normal-case {
+  text-transform: none;
+}
