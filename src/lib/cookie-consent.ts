@@ -42,7 +42,7 @@ export function initCookieConsent() {
     root: document.getElementById("cookie-consent-root"),
     // Tracking is managed explicitly below, not by scanning React-owned scripts.
     manageScriptTags: false,
-    revision: 2,
+    revision: 3,
     cookie: { name: "cc_cookie", expiresAfterDays: 182 },
     guiOptions: {
       consentModal: { layout: "box inline", position: "bottom right", equalWeightButtons: true },
@@ -51,7 +51,6 @@ export function initCookieConsent() {
     categories: {
       necessary: { enabled: true, readOnly: true },
       analytics: { autoClear: { cookies: [{ name: /^_ga/ }, { name: "_gid" }, { name: /^_gat/ }] } },
-      maps: {},
     },
     onConsent: syncConsent,
     onChange: ({ changedCategories }) => {
@@ -62,16 +61,15 @@ export function initCookieConsent() {
     language: { default: "en", translations: { en: {
       consentModal: {
         title: "Your privacy, your choice",
-        description: 'We use necessary cookies to remember your choices. With your permission, we can use analytics through Google Tag Manager and embedded Google Maps. Read our <a href="/privacy-policy" class="cc__link">Privacy Policy</a> and <a href="/cookie-policy" class="cc__link">Cookie Policy</a>.',
+        description: 'We remember your cookie choices and display Google Maps on our contact page. With your permission, we use analytics through Google Tag Manager. Read our <a href="/privacy-policy" class="cc__link">Privacy Policy</a> and <a href="/cookie-policy" class="cc__link">Cookie Policy</a>.',
         acceptAllBtn: "Accept all", acceptNecessaryBtn: "Reject all", showPreferencesBtn: "Manage preferences",
       },
       preferencesModal: {
         title: "Cookie preferences", acceptAllBtn: "Accept all", acceptNecessaryBtn: "Reject all", savePreferencesBtn: "Save preferences", closeIconLabel: "Close preferences",
         sections: [
           { title: "You are in control", description: "Optional categories are off until you allow them. Change or withdraw your choices at any time using Cookie settings in the footer." },
-          { title: "Strictly necessary", description: "Remembers your cookie preferences for 182 days. This category is always enabled.", linkedCategory: "necessary" },
+          { title: "Strictly necessary", description: "Always enabled: remembers your cookie preferences for 182 days and includes contact-page Google Maps. Maps connect to Google, which may use its own cookies.", linkedCategory: "necessary" },
           { title: "Analytics", description: "Allows website usage measurement through our Google Tag Manager container. Your enquiry details are not included in our consent events.", linkedCategory: "analytics" },
-          { title: "Google Maps", description: "Allows embedded Google Maps on the contact page. Loading a map shares connection information with Google, which may use its own cookies.", linkedCategory: "maps" },
           { title: "More information", description: 'Read our <a href="/cookie-policy" class="cc__link">Cookie Policy</a> or email <a href="mailto:connect@vaidehicraft.com" class="cc__link">connect@vaidehicraft.com</a>.' },
         ],
       },
