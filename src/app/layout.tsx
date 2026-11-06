@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en" className="antialiased">
-      <body>
+      <head>
         <Script id="consent-defaults" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];
           window.gtag = function(){window.dataLayer.push(arguments);};
@@ -38,12 +38,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             wait_for_update: 500
           });
         `}</Script>
-        <CookieConsentBanner />
+      </head>
+      <body>
         <ScrollToTop />
         <a href="#main-content" className="sr-only z-[60] bg-white p-4 focus:not-sr-only focus:fixed">Skip to content</a>
         <SiteHeader />
         {children}
         <FloatingWhatsApp />
+        <CookieConsentBanner />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />
       </body>
     </html>

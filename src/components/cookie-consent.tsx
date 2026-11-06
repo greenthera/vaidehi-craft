@@ -5,7 +5,7 @@ import { initCookieConsent, showCookiePreferences } from "@/lib/cookie-consent";
 
 export function CookieConsentBanner() {
   useEffect(() => { void initCookieConsent(); }, []);
-  return null;
+  return <div id="cookie-consent-root" />;
 }
 
 export function CookieSettings() {

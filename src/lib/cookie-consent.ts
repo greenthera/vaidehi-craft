@@ -39,6 +39,9 @@ export function syncConsent() {
 
 export function initCookieConsent() {
   if (!initialization) initialization = CookieConsent.run({
+    root: document.getElementById("cookie-consent-root"),
+    // Tracking is managed explicitly below, not by scanning React-owned scripts.
+    manageScriptTags: false,
     revision: 2,
     cookie: { name: "cc_cookie", expiresAfterDays: 182 },
     guiOptions: {

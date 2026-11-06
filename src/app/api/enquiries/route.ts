@@ -39,11 +39,16 @@ export async function POST(request: Request) {
   // Hidden field that people never see: report success to the bot but save nothing.
   if (body.website) return reply(200);
 
-  const product = products.find((item) => item.slug === body.product);
-  if (!product) return reply(400, "Please select a design.");
-
+  // Keep accepting single-product requests from previously loaded pages.
+  const slugs: unknown = body.products ?? (typeof body.product === "string" ? [body.product] : undefined);
+  if (!Array.isArray(slugs) || !slugs.length || slugs.length > products.length || slugs.some((slug) => typeof slug !== "string")) return reply(400, "Please select a design.");
+  const selected = [...new Set(slugs as string[])].map((slug) => products.find((item) => item.slug === slug));
+  if (selected.some((item) => !item)) return reply(400, "Please select valid designs.");
+  const chosen = selected.filter((item): item is typeof products[number] => Boolean(item));
+  const chosenCategories = productCategories.filter((category) => chosen.some((item) => item.category === category.value));
+  if (body.categories !== undefined && (!Array.isArray(body.categories) || body.categories.length !== chosenCategories.length || !chosenCategories.every((category) => (body.categories as unknown[]).includes(category.value)))) return reply(400, "Please select at least one product in each chosen category.");
   const path = body.path;
-  if (path !== "/request-quote" && path !== product.quotePath) return reply(400, "This request could not be accepted.");
+  if (path !== "/request-quote" && (chosen.length !== 1 || path !== chosen[0].quotePath)) return reply(400, "This request could not be accepted.");
 
   const name = text(body.name, 120);
   const email = text(body.email, 200);
@@ -59,8 +64,8 @@ export async function POST(request: Request) {
     [entries.name]: name,
     [entries.email]: email,
     [entries.phone]: phone,
-    [entries.category]: productCategories.find((item) => item.value === product.category)?.label ?? product.category,
-    [entries.product]: product.name,
+    [entries.category]: chosenCategories.map((category) => category.label).join(", "),
+    [entries.product]: chosen.map((product) => product.name).join("; "),
     // Only the general quote form has a message box, so this stays blank for product quotes.
     [entries.message]: text(body.message, 1000),
   });
