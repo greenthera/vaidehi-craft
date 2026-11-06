@@ -34,6 +34,8 @@
 }
 :root {
   --brand-green: #244536;
+  --brand-orange: #c06144;
+  --brand-orange-dark: #a74e36;
   --brand-green-dark: #183b2e;
   --brand-cream: #ede7df;
   --background: #fff;
@@ -306,6 +308,7 @@ html:has(dialog[open]) { overflow: hidden; }
 /* Keep action labels consistent across native buttons and link-based CTAs. */
 button,
 .button-primary,
+.button-secondary,
 .button-outline,
 .button-inverse,
 #cc-main button {
@@ -328,4 +331,15 @@ textarea {
 /* Cookie preferences are a text link, rather than an uppercase action CTA. */
 button.normal-case {
   text-transform: none;
+}
+
+@utility button-secondary {
+  border: 1px solid var(--brand-orange);
+  border-radius: 0;
+  background-color: var(--brand-orange);
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 150ms, border-color 150ms, color 150ms;
+  &:hover { background-color: var(--brand-orange-dark); border-color: var(--brand-orange-dark); }
+  &:focus-visible { outline: 2px solid var(--brand-orange-dark); outline-offset: 4px; }
 }

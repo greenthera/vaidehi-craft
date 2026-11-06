@@ -18,7 +18,7 @@ export function CollectionContact() {
           <div className="contents"><dt className="font-bold">SINCE</dt><dd>1998</dd></div>
           <div className="contents"><dt className="font-bold">Contact No</dt><dd><a href="tel:+919824177913" className="hover:underline">+91-9824177913</a></dd></div>
         </dl>
-        <SocialLinks className="mt-6" />
+        <SocialLinks className="mt-6" earthy />
       </div>
     </section>
   );
