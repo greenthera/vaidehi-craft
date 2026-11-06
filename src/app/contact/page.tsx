@@ -1,3 +1,4 @@
+import { whatsappUrl } from "@/lib/whatsapp";
 import { ConsentMap } from "@/components/consent-map";
 import { PageHeading } from "@/components/page-heading";
 import Image from "next/image";
@@ -28,7 +29,7 @@ export default function ContactPage() {
             <div className="py-4"><dt className="mb-1 text-xs uppercase tracking-widest text-[#526356]">Call us</dt><dd><a href="tel:+919824177913" className="inline-flex min-h-11 items-center py-1 text-base text-[#244536] underline-offset-4 hover:underline">+91 98241 77913</a></dd></div>
           </dl>
           <div className="flex flex-wrap gap-3">
-            <a href="https://wa.me/919824177913" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp (opens in a new tab)" className={primaryButton}>Chat on WhatsApp</a>
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp (opens in a new tab)" className={primaryButton}>Chat on WhatsApp</a>
             <Link href="/request-quote" className="inline-flex min-h-12 items-center justify-center rounded-none button-outline px-6 py-3 text-sm">Request a quote</Link>
           </div>
           <SocialLinks className="mt-6" />

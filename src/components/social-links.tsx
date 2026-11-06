@@ -1,9 +1,10 @@
+import { whatsappUrl } from "@/lib/whatsapp";
 import Image from "next/image";
 
 const socialLinks = [
   { label: "Instagram", href: "https://www.instagram.com/vaidehi_crafts/", image: "/images/social/instagram.svg" },
   { label: "Facebook", href: "https://www.facebook.com/siddharthshahvaidehicrafts/", image: "/images/social/facebook.svg" },
-  { label: "WhatsApp", href: "https://wa.me/919824177913", image: "/images/social/whatsapp.svg" },
+  { label: "WhatsApp", href: whatsappUrl, image: "/images/social/whatsapp.svg" },
 ];
 
 export function SocialLinks({ className = "" }: { className?: string }) {

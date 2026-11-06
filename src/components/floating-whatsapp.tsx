@@ -1,8 +1,9 @@
+import { whatsappUrl } from "@/lib/whatsapp";
 import Image from "next/image";
 
 export function FloatingWhatsApp() {
   return <a
-    href="https://wa.me/919824177913"
+    href={whatsappUrl}
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Chat with Vaidehi Craft on WhatsApp (opens in a new tab)"
